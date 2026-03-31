@@ -76,6 +76,10 @@ body {
   background-clip: text;
 }
 
+/* ── HELLO CURSIVE ANIMATION ── */
+
+/* Hello cursive handled by framer motion */
+
 .float { animation: float 6s ease-in-out infinite; }
 .fade-in-up { animation: fadeInUp 0.8s ease forwards; }
 .fade-in-up-delay-1 { animation: fadeInUp 0.8s ease 0.2s forwards; opacity: 0; }

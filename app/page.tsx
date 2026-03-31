@@ -1,4 +1,5 @@
 import Link from "next/link";
+import HelloCursive from "./components/HelloCursive";
 
 export default function Home() {
   return (
@@ -61,10 +62,8 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Title */}
-          <h1 className="fade-in-up text-6xl sm:text-8xl font-black tracking-tight mb-4">
-            <span className="prism-text">Prysm</span>
-          </h1>
+          {/* Title - cursive draw-on animation */}
+          <HelloCursive />
 
           {/* Tagline */}
           <p className="fade-in-up-delay-1 text-xl sm:text-2xl text-[var(--prysm-muted)] font-medium mb-8">

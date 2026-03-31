@@ -1,0 +1,399 @@
+{
+  "category": "future",
+  "language": "japanese",
+  "languageCode": "ja",
+  "seriesTitle": "未来 — Mirai — The Future",
+  "chapters": [
+    {
+      "id": 1,
+      "title": {
+        "native": "未来のテクノロジー",
+        "romaji": "Mirai no Tekunorojī",
+        "english": "The Future of Technology"
+      },
+      "introduction": {
+        "native": "2050年の世界へようこそ！ここでは、ロボットが友だちで、空飛ぶ車が街を走っています。スマートフォンはもう古い！新しいテクノロジーが毎日生まれています。未来の世界を一緒に見てみましょう！",
+        "romaji": "Nisen-gojū-nen no sekai e yōkoso! Koko de wa, robotto ga tomodachi de, soratobu kuruma ga machi wo hashitte imasu. Sumātofon wa mō furui! Atarashii tekunorojī ga mainichi umarete imasu. Mirai no sekai wo issho ni mite mimashō!",
+        "english": "Welcome to the world of 2050! Here, robots are your friends and flying cars zoom through the city. Smartphones are old news! New technology is born every day. Let's explore the world of the future together!"
+      },
+      "vocabulary": [
+        { "word": "未来（みらい）", "romaji": "mirai", "translation": "future" },
+        { "word": "テクノロジー", "romaji": "tekunorojī", "translation": "technology" },
+        { "word": "ロボット", "romaji": "robotto", "translation": "robot" },
+        { "word": "コンピューター", "romaji": "konpyūtā", "translation": "computer" },
+        { "word": "発明（はつめい）", "romaji": "hatsumei", "translation": "invention" },
+        { "word": "科学（かがく）", "romaji": "kagaku", "translation": "science" },
+        { "word": "機械（きかい）", "romaji": "kikai", "translation": "machine" },
+        { "word": "電気（でんき）", "romaji": "denki", "translation": "electricity" },
+        { "word": "インターネット", "romaji": "intānetto", "translation": "internet" },
+        { "word": "プログラム", "romaji": "puroguramu", "translation": "program" },
+        { "word": "データ", "romaji": "dēta", "translation": "data" },
+        { "word": "画面（がめん）", "romaji": "gamen", "translation": "screen" },
+        { "word": "便利（べんり）", "romaji": "benri", "translation": "convenient" },
+        { "word": "すごい", "romaji": "sugoi", "translation": "amazing" },
+        { "word": "速い（はやい）", "romaji": "hayai", "translation": "fast" },
+        { "word": "新しい（あたらしい）", "romaji": "atarashii", "translation": "new" },
+        { "word": "使う（つかう）", "romaji": "tsukau", "translation": "to use" },
+        { "word": "作る（つくる）", "romaji": "tsukuru", "translation": "to make/create" }
+      ],
+      "sentences": [
+        {
+          "native": "未来のロボットはとても便利です。",
+          "romaji": "Mirai no robotto wa totemo benri desu.",
+          "english": "Robots of the future are very convenient."
+        },
+        {
+          "native": "新しいテクノロジーを使って、すごい機械を作りましょう！",
+          "romaji": "Atarashii tekunorojī wo tsukatte, sugoi kikai wo tsukurimashō!",
+          "english": "Let's use new technology to make amazing machines!"
+        },
+        {
+          "native": "このコンピューターはとても速いです。",
+          "romaji": "Kono konpyūtā wa totemo hayai desu.",
+          "english": "This computer is very fast."
+        }
+      ],
+      "culturalNote": "Japan is famous for its love of robots! The country has created some of the world's most advanced robots, like ASIMO by Honda and Pepper by SoftBank. In Japanese culture, robots are often seen as helpful friends rather than scary machines — just think of Doraemon, the beloved robot cat from the future! Many Japanese companies are building robots to help elderly people and work in hospitals.",
+      "exercises": [
+        {
+          "type": "fill-blank",
+          "question": "＿＿＿のロボットはとても便利です。(future)",
+          "answer": "未来",
+          "answerRomaji": "mirai"
+        },
+        {
+          "type": "fill-blank",
+          "question": "新しい＿＿＿を使います。(technology)",
+          "answer": "テクノロジー",
+          "answerRomaji": "tekunorojī"
+        },
+        {
+          "type": "fill-blank",
+          "question": "このコンピューターはとても＿＿＿です。(fast)",
+          "answer": "速い",
+          "answerRomaji": "hayai"
+        },
+        {
+          "type": "fill-blank",
+          "question": "すごい機械を＿＿＿ましょう！(let's make)",
+          "answer": "作り",
+          "answerRomaji": "tsukuri"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": {
+        "native": "宇宙旅行",
+        "romaji": "Uchū Ryokō",
+        "english": "Space Travel"
+      },
+      "introduction": {
+        "native": "三、二、一…発射！ロケットに乗って、宇宙へ出発しましょう！星がキラキラ光っています。月や火星にも行けるかもしれません。宇宙飛行士になる夢を持っていますか？さあ、宇宙の旅を始めましょう！",
+        "romaji": "San, ni, ichi… hassha! Roketto ni notte, uchū e shuppatsu shimashō! Hoshi ga kirakira hikatte imasu. Tsuki ya kasei ni mo ikeru kamo shiremasen. Uchū hikōshi ni naru yume wo motte imasu ka? Sā, uchū no tabi wo hajimemashō!",
+        "english": "Three, two, one… liftoff! Let's hop on a rocket and head to space! The stars are sparkling brightly. We might even be able to go to the Moon or Mars. Do you have a dream of becoming an astronaut? Come on, let's begin our space journey!"
+      },
+      "vocabulary": [
+        { "word": "宇宙（うちゅう）", "romaji": "uchū", "translation": "space/universe" },
+        { "word": "旅行（りょこう）", "romaji": "ryokō", "translation": "travel/trip" },
+        { "word": "ロケット", "romaji": "roketto", "translation": "rocket" },
+        { "word": "星（ほし）", "romaji": "hoshi", "translation": "star" },
+        { "word": "月（つき）", "romaji": "tsuki", "translation": "moon" },
+        { "word": "太陽（たいよう）", "romaji": "taiyō", "translation": "sun" },
+        { "word": "地球（ちきゅう）", "romaji": "chikyū", "translation": "Earth" },
+        { "word": "火星（かせい）", "romaji": "kasei", "translation": "Mars" },
+        { "word": "宇宙飛行士（うちゅうひこうし）", "romaji": "uchū hikōshi", "translation": "astronaut" },
+        { "word": "宇宙船（うちゅうせん）", "romaji": "uchūsen", "translation": "spaceship" },
+        { "word": "惑星（わくせい）", "romaji": "wakusei", "translation": "planet" },
+        { "word": "空（そら）", "romaji": "sora", "translation": "sky" },
+        { "word": "飛ぶ（とぶ）", "romaji": "tobu", "translation": "to fly" },
+        { "word": "光る（ひかる）", "romaji": "hikaru", "translation": "to shine/glow" },
+        { "word": "発射（はっしゃ）", "romaji": "hassha", "translation": "launch/liftoff" },
+        { "word": "夢（ゆめ）", "romaji": "yume", "translation": "dream" },
+        { "word": "遠い（とおい）", "romaji": "tōi", "translation": "far" },
+        { "word": "美しい（うつくしい）", "romaji": "utsukushii", "translation": "beautiful" }
+      ],
+      "sentences": [
+        {
+          "native": "宇宙飛行士は宇宙船に乗って、月へ行きます。",
+          "romaji": "Uchū hikōshi wa uchūsen ni notte, tsuki e ikimasu.",
+          "english": "The astronaut rides a spaceship and goes to the Moon."
+        },
+        {
+          "native": "夜の空には美しい星がたくさんあります。",
+          "romaji": "Yoru no sora ni wa utsukushii hoshi ga takusan arimasu.",
+          "english": "There are many beautiful stars in the night sky."
+        },
+        {
+          "native": "火星はとても遠い惑星です。",
+          "romaji": "Kasei wa totemo tōi wakusei desu.",
+          "english": "Mars is a very far planet."
+        }
+      ],
+      "culturalNote": "Japan's space agency, JAXA, is one of the most active in the world! In 2020, the Hayabusa2 spacecraft brought back samples from an asteroid — a mission that took six years. Japan also sent the first wooden satellite into space in 2024. The word 'Hayabusa' means 'peregrine falcon' in Japanese. Many Japanese anime like 'Space Battleship Yamato' and 'Planetes' explore space travel themes.",
+      "exercises": [
+        {
+          "type": "fill-blank",
+          "question": "＿＿＿飛行士になりたいです。(space)",
+          "answer": "宇宙",
+          "answerRomaji": "uchū"
+        },
+        {
+          "type": "fill-blank",
+          "question": "夜の空に＿＿＿が光っています。(stars)",
+          "answer": "星",
+          "answerRomaji": "hoshi"
+        },
+        {
+          "type": "fill-blank",
+          "question": "ロケットが＿＿＿します！(launch)",
+          "answer": "発射",
+          "answerRomaji": "hassha"
+        },
+        {
+          "type": "fill-blank",
+          "question": "＿＿＿は私たちの惑星です。(Earth)",
+          "answer": "地球",
+          "answerRomaji": "chikyū"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": {
+        "native": "人工知能",
+        "romaji": "Jinkō Chinō",
+        "english": "Artificial Intelligence"
+      },
+      "introduction": {
+        "native": "「おはよう、AI！今日の天気は？」未来の朝は、人工知能との会話から始まります。AIは勉強を手伝ったり、音楽を作ったり、絵を描いたりできます。でも、AIは人間の友だちになれるでしょうか？一緒に考えてみましょう！",
+        "romaji": "\"Ohayō, AI! Kyō no tenki wa?\" Mirai no asa wa, jinkō chinō to no kaiwa kara hajimarimasu. AI wa benkyō wo tetsudattari, ongaku wo tsukuttari, e wo kaitari dekimasu. Demo, AI wa ningen no tomodachi ni nareru deshō ka? Issho ni kangaete mimashō!",
+        "english": "\"Good morning, AI! What's the weather today?\" Mornings of the future start with conversations with artificial intelligence. AI can help with studying, create music, and draw pictures. But can AI become a human's friend? Let's think about it together!"
+      },
+      "vocabulary": [
+        { "word": "人工知能（じんこうちのう）", "romaji": "jinkō chinō", "translation": "artificial intelligence" },
+        { "word": "知能（ちのう）", "romaji": "chinō", "translation": "intelligence" },
+        { "word": "人間（にんげん）", "romaji": "ningen", "translation": "human" },
+        { "word": "会話（かいわ）", "romaji": "kaiwa", "translation": "conversation" },
+        { "word": "言葉（ことば）", "romaji": "kotoba", "translation": "words/language" },
+        { "word": "考える（かんがえる）", "romaji": "kangaeru", "translation": "to think" },
+        { "word": "学ぶ（まなぶ）", "romaji": "manabu", "translation": "to learn" },
+        { "word": "教える（おしえる）", "romaji": "oshieru", "translation": "to teach" },
+        { "word": "質問（しつもん）", "romaji": "shitsumon", "translation": "question" },
+        { "word": "答え（こたえ）", "romaji": "kotae", "translation": "answer" },
+        { "word": "声（こえ）", "romaji": "koe", "translation": "voice" },
+        { "word": "気持ち（きもち）", "romaji": "kimochi", "translation": "feelings" },
+        { "word": "手伝う（てつだう）", "romaji": "tetsudau", "translation": "to help" },
+        { "word": "賢い（かしこい）", "romaji": "kashikoi", "translation": "smart/clever" },
+        { "word": "正しい（ただしい）", "romaji": "tadashii", "translation": "correct" },
+        { "word": "難しい（むずかしい）", "romaji": "muzukashii", "translation": "difficult" },
+        { "word": "分かる（わかる）", "romaji": "wakaru", "translation": "to understand" },
+        { "word": "話す（はなす）", "romaji": "hanasu", "translation": "to speak/talk" }
+      ],
+      "sentences": [
+        {
+          "native": "人工知能はたくさんの言葉を学ぶことができます。",
+          "romaji": "Jinkō chinō wa takusan no kotoba wo manabu koto ga dekimasu.",
+          "english": "Artificial intelligence can learn many languages."
+        },
+        {
+          "native": "このAIはとても賢くて、難しい質問にも答えます。",
+          "romaji": "Kono AI wa totemo kashikokute, muzukashii shitsumon ni mo kotaemasu.",
+          "english": "This AI is very smart and answers even difficult questions."
+        },
+        {
+          "native": "AIは人間の気持ちを分かることができるでしょうか？",
+          "romaji": "AI wa ningen no kimochi wo wakaru koto ga dekiru deshō ka?",
+          "english": "Will AI be able to understand human feelings?"
+        }
+      ],
+      "culturalNote": "Japan has a unique relationship with AI and technology. While some countries worry about AI, many Japanese people welcome it warmly. This might be connected to Shinto beliefs, where spirits (kami) can live in all things — even machines! Japan is also home to virtual idol Hatsune Miku, a computer-generated pop star who performs concerts as a hologram and has millions of fans worldwide.",
+      "exercises": [
+        {
+          "type": "fill-blank",
+          "question": "AIはたくさんの言葉を＿＿＿ことができます。(to learn)",
+          "answer": "学ぶ",
+          "answerRomaji": "manabu"
+        },
+        {
+          "type": "fill-blank",
+          "question": "この＿＿＿はとても難しいです。(question)",
+          "answer": "質問",
+          "answerRomaji": "shitsumon"
+        },
+        {
+          "type": "fill-blank",
+          "question": "AIは＿＿＿の気持ちを分かりますか？(human)",
+          "answer": "人間",
+          "answerRomaji": "ningen"
+        },
+        {
+          "type": "fill-blank",
+          "question": "宿題を＿＿＿てください。(help)",
+          "answer": "手伝っ",
+          "answerRomaji": "tetsudatte"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": {
+        "native": "明日の都市",
+        "romaji": "Ashita no Toshi",
+        "english": "Cities of Tomorrow"
+      },
+      "introduction": {
+        "native": "未来の都市を想像してみてください！ビルの上には緑の庭があり、道路の下には電車が走っています。エネルギーは太陽と風から作られます。ゴミはゼロ！みんなが安全で幸せに暮らせる街、それが明日の都市です。",
+        "romaji": "Mirai no toshi wo sōzō shite mite kudasai! Biru no ue ni wa midori no niwa ga ari, dōro no shita ni wa densha ga hashitte imasu. Enerugī wa taiyō to kaze kara tsukuraremasu. Gomi wa zero! Minna ga anzen de shiawase ni kuraseru machi, sore ga ashita no toshi desu.",
+        "english": "Imagine the city of the future! On top of buildings there are green gardens, and trains run beneath the roads. Energy is made from the sun and wind. Zero garbage! A city where everyone can live safely and happily — that's the city of tomorrow."
+      },
+      "vocabulary": [
+        { "word": "都市（とし）", "romaji": "toshi", "translation": "city" },
+        { "word": "街（まち）", "romaji": "machi", "translation": "town/city" },
+        { "word": "建物（たてもの）", "romaji": "tatemono", "translation": "building" },
+        { "word": "ビル", "romaji": "biru", "translation": "tall building" },
+        { "word": "道路（どうろ）", "romaji": "dōro", "translation": "road" },
+        { "word": "電車（でんしゃ）", "romaji": "densha", "translation": "train" },
+        { "word": "エネルギー", "romaji": "enerugī", "translation": "energy" },
+        { "word": "太陽（たいよう）", "romaji": "taiyō", "translation": "sun" },
+        { "word": "風（かぜ）", "romaji": "kaze", "translation": "wind" },
+        { "word": "自然（しぜん）", "romaji": "shizen", "translation": "nature" },
+        { "word": "庭（にわ）", "romaji": "niwa", "translation": "garden" },
+        { "word": "緑（みどり）", "romaji": "midori", "translation": "green/greenery" },
+        { "word": "安全（あんぜん）", "romaji": "anzen", "translation": "safe/safety" },
+        { "word": "環境（かんきょう）", "romaji": "kankyō", "translation": "environment" },
+        { "word": "暮らす（くらす）", "romaji": "kurasu", "translation": "to live/reside" },
+        { "word": "守る（まもる）", "romaji": "mamoru", "translation": "to protect" },
+        { "word": "きれい", "romaji": "kirei", "translation": "clean/beautiful" },
+        { "word": "幸せ（しあわせ）", "romaji": "shiawase", "translation": "happy/happiness" }
+      ],
+      "sentences": [
+        {
+          "native": "明日の都市はきれいで安全です。",
+          "romaji": "Ashita no toshi wa kirei de anzen desu.",
+          "english": "The city of tomorrow is clean and safe."
+        },
+        {
+          "native": "ビルの上に緑の庭があります。",
+          "romaji": "Biru no ue ni midori no niwa ga arimasu.",
+          "english": "There is a green garden on top of the building."
+        },
+        {
+          "native": "私たちは環境を守らなければなりません。",
+          "romaji": "Watashitachi wa kankyō wo mamoranakereba narimasen.",
+          "english": "We must protect the environment."
+        }
+      ],
+      "culturalNote": "Tokyo is already one of the most futuristic cities in the world! Japan's 'Shinkansen' (bullet train) can travel at 320 km/h and is famous for being almost never late — the average delay is less than one minute per year! Japan is also building eco-cities called 'Smart Cities' that use solar power, recycling systems, and AI to manage everything. The city of Fujisawa near Tokyo is one example, designed to produce zero carbon emissions.",
+      "exercises": [
+        {
+          "type": "fill-blank",
+          "question": "未来の＿＿＿はとてもきれいです。(city)",
+          "answer": "都市",
+          "answerRomaji": "toshi"
+        },
+        {
+          "type": "fill-blank",
+          "question": "＿＿＿は太陽から作られます。(energy)",
+          "answer": "エネルギー",
+          "answerRomaji": "enerugī"
+        },
+        {
+          "type": "fill-blank",
+          "question": "私たちは＿＿＿を守りましょう。(environment)",
+          "answer": "環境",
+          "answerRomaji": "kankyō"
+        },
+        {
+          "type": "fill-blank",
+          "question": "この街はとても＿＿＿です。(safe)",
+          "answer": "安全",
+          "answerRomaji": "anzen"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": {
+        "native": "新しい世界",
+        "romaji": "Atarashii Sekai",
+        "english": "A New World"
+      },
+      "introduction": {
+        "native": "未来の世界では、国と国がもっとつながります。違う言葉を話す人たちと、簡単に友だちになれます。テクノロジーのおかげで、世界中の人と協力できます。平和で優しい世界を一緒に作りましょう。新しい世界は、あなたの手の中にあります！",
+        "romaji": "Mirai no sekai de wa, kuni to kuni ga motto tsunagarimasu. Chigau kotoba wo hanasu hitotachi to, kantan ni tomodachi ni naremasu. Tekunorojī no okage de, sekaijū no hito to kyōryoku dekimasu. Heiwa de yasashii sekai wo issho ni tsukurimashō. Atarashii sekai wa, anata no te no naka ni arimasu!",
+        "english": "In the world of the future, countries will be more connected. You can easily become friends with people who speak different languages. Thanks to technology, we can cooperate with people all around the world. Let's build a peaceful and kind world together. The new world is in your hands!"
+      },
+      "vocabulary": [
+        { "word": "世界（せかい）", "romaji": "sekai", "translation": "world" },
+        { "word": "国（くに）", "romaji": "kuni", "translation": "country" },
+        { "word": "平和（へいわ）", "romaji": "heiwa", "translation": "peace" },
+        { "word": "自由（じゆう）", "romaji": "jiyū", "translation": "freedom" },
+        { "word": "希望（きぼう）", "romaji": "kibō", "translation": "hope" },
+        { "word": "協力（きょうりょく）", "romaji": "kyōryoku", "translation": "cooperation" },
+        { "word": "文化（ぶんか）", "romaji": "bunka", "translation": "culture" },
+        { "word": "友だち（ともだち）", "romaji": "tomodachi", "translation": "friend" },
+        { "word": "家族（かぞく）", "romaji": "kazoku", "translation": "family" },
+        { "word": "地球（ちきゅう）", "romaji": "chikyū", "translation": "Earth" },
+        { "word": "未来（みらい）", "romaji": "mirai", "translation": "future" },
+        { "word": "変わる（かわる）", "romaji": "kawaru", "translation": "to change" },
+        { "word": "つながる", "romaji": "tsunagaru", "translation": "to connect" },
+        { "word": "信じる（しんじる）", "romaji": "shinjiru", "translation": "to believe" },
+        { "word": "優しい（やさしい）", "romaji": "yasashii", "translation": "kind/gentle" },
+        { "word": "大切（たいせつ）", "romaji": "taisetsu", "translation": "important/precious" },
+        { "word": "一緒に（いっしょに）", "romaji": "issho ni", "translation": "together" },
+        { "word": "頑張る（がんばる）", "romaji": "ganbaru", "translation": "to do one's best" }
+      ],
+      "sentences": [
+        {
+          "native": "平和な世界は私たちにとって大切です。",
+          "romaji": "Heiwa na sekai wa watashitachi ni totte taisetsu desu.",
+          "english": "A peaceful world is important to us."
+        },
+        {
+          "native": "一緒に頑張れば、未来は変わります。",
+          "romaji": "Issho ni ganbareba, mirai wa kawarimasu.",
+          "english": "If we do our best together, the future will change."
+        },
+        {
+          "native": "世界中の友だちとつながることができます。",
+          "romaji": "Sekaijū no tomodachi to tsunagaru koto ga dekimasu.",
+          "english": "We can connect with friends all around the world."
+        }
+      ],
+      "culturalNote": "The Japanese concept of 'おもてなし' (omotenashi) means wholehearted hospitality — treating others with deep care and respect. This spirit is a big part of how Japan thinks about the future: building a world where everyone is welcomed and cared for. Another beautiful concept is '一期一会' (ichigo ichie), meaning 'one time, one meeting' — treasuring every encounter because it may never happen again. These ideas remind us that the future isn't just about technology, but about how we treat each other.",
+      "exercises": [
+        {
+          "type": "fill-blank",
+          "question": "＿＿＿な世界を作りましょう。(peaceful)",
+          "answer": "平和",
+          "answerRomaji": "heiwa"
+        },
+        {
+          "type": "fill-blank",
+          "question": "世界中の人と＿＿＿できます。(cooperate)",
+          "answer": "協力",
+          "answerRomaji": "kyōryoku"
+        },
+        {
+          "type": "fill-blank",
+          "question": "一緒に＿＿＿ましょう！(let's do our best)",
+          "answer": "頑張り",
+          "answerRomaji": "ganbari"
+        },
+        {
+          "type": "fill-blank",
+          "question": "友だちは＿＿＿です。(important)",
+          "answer": "大切",
+          "answerRomaji": "taisetsu"
+        },
+        {
+          "type": "fill-blank",
+          "question": "未来を＿＿＿てください。(believe)",
+          "answer": "信じ",
+          "answerRomaji": "shinji"
+        }
+      ]
+    }
+  ]
+}

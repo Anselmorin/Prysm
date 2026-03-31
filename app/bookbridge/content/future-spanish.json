@@ -1,0 +1,275 @@
+{
+  "category": "future",
+  "language": "spanish",
+  "languageCode": "es",
+  "seriesTitle": "El Futuro — The Future",
+  "chapters": [
+    {
+      "id": 1,
+      "title": {
+        "native": "El Futuro de la Tecnología",
+        "english": "The Future of Technology"
+      },
+      "introduction": {
+        "native": "Imagina un mundo donde tu mochila es un robot que te sigue a la escuela, donde las pantallas flotan en el aire y puedes hablar con tu casa para pedirle que prepare tu desayuno. La tecnología del futuro cambiará todo lo que conocemos. En este capítulo, vamos a explorar las palabras que necesitas para hablar sobre inventos increíbles, dispositivos asombrosos y un mañana lleno de posibilidades.",
+        "english": "Imagine a world where your backpack is a robot that follows you to school, where screens float in the air and you can talk to your house to ask it to make your breakfast. The technology of the future will change everything we know. In this chapter, we're going to explore the words you need to talk about incredible inventions, amazing devices, and a tomorrow full of possibilities."
+      },
+      "vocabulary": [
+        { "word": "la tecnología", "pronunciation": "lah tek-noh-loh-HEE-ah", "translation": "technology" },
+        { "word": "el invento", "pronunciation": "el een-BEN-toh", "translation": "invention" },
+        { "word": "el dispositivo", "pronunciation": "el dees-poh-see-TEE-boh", "translation": "device" },
+        { "word": "la pantalla", "pronunciation": "lah pahn-TAH-yah", "translation": "screen" },
+        { "word": "el robot", "pronunciation": "el roh-BOT", "translation": "robot" },
+        { "word": "programar", "pronunciation": "proh-grah-MAR", "translation": "to program" },
+        { "word": "descargar", "pronunciation": "des-kar-GAR", "translation": "to download" },
+        { "word": "la red", "pronunciation": "lah RED", "translation": "network / the web" },
+        { "word": "inalámbrico", "pronunciation": "ee-nah-LAHM-bree-koh", "translation": "wireless" },
+        { "word": "el holograma", "pronunciation": "el oh-loh-GRAH-mah", "translation": "hologram" },
+        { "word": "la realidad virtual", "pronunciation": "lah reh-ah-lee-DAHD beer-TWAHL", "translation": "virtual reality" },
+        { "word": "el código", "pronunciation": "el KOH-dee-goh", "translation": "code" },
+        { "word": "la nube", "pronunciation": "lah NOO-beh", "translation": "the cloud (computing)" },
+        { "word": "innovar", "pronunciation": "ee-noh-BAR", "translation": "to innovate" },
+        { "word": "el futuro", "pronunciation": "el foo-TOO-roh", "translation": "the future" },
+        { "word": "avanzado", "pronunciation": "ah-bahn-SAH-doh", "translation": "advanced" },
+        { "word": "la energía solar", "pronunciation": "lah eh-nehr-HEE-ah soh-LAR", "translation": "solar energy" },
+        { "word": "el dron", "pronunciation": "el DRON", "translation": "drone" }
+      ],
+      "sentences": [
+        {
+          "native": "En el futuro, los robots inalámbricos van a limpiar nuestras casas mientras nosotros jugamos con hologramas.",
+          "english": "In the future, wireless robots will clean our houses while we play with holograms."
+        },
+        {
+          "native": "Mi hermana quiere programar un dispositivo avanzado que funcione con energía solar.",
+          "english": "My sister wants to program an advanced device that runs on solar energy."
+        },
+        {
+          "native": "Puedes descargar la aplicación de realidad virtual desde la nube en solo tres segundos.",
+          "english": "You can download the virtual reality app from the cloud in just three seconds."
+        }
+      ],
+      "culturalNote": "¿Sabías que muchas palabras tecnológicas en español vienen directamente del inglés? Palabras como 'internet', 'software', 'wifi' y 'blog' se usan igual en español. Esto se llama un 'anglicismo'. Sin embargo, los hispanohablantes también crean sus propias palabras: 'ordenador' (computadora en España), 'ratón' (mouse), y 'contraseña' (password). ¡En Latinoamérica, la industria tecnológica está creciendo rapidísimo, con ciudades como Ciudad de México, Bogotá y Buenos Aires convirtiéndose en centros de innovación!",
+      "exercises": [
+        { "type": "fill-blank", "question": "En el futuro, vamos a usar _____ para ver imágenes en 3D. (hologramas / mochilas)", "answer": "hologramas" },
+        { "type": "fill-blank", "question": "Mi papá quiere _____ una aplicación nueva para su teléfono. (descargar / cocinar)", "answer": "descargar" },
+        { "type": "fill-blank", "question": "La casa del futuro usará _____ _____ para tener electricidad. (energía solar / energía chocolate)", "answer": "energía solar" },
+        { "type": "translate", "question": "Translate: 'The advanced robot can program the code.'", "answer": "El robot avanzado puede programar el código." },
+        { "type": "fill-blank", "question": "Los drones son dispositivos _____; no necesitan cables. (inalámbricos / deliciosos)", "answer": "inalámbricos" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": {
+        "native": "Viaje Espacial",
+        "english": "Space Travel"
+      },
+      "introduction": {
+        "native": "¡Tres, dos, uno... despegue! Tu nave espacial sale de la Tierra a toda velocidad. Por la ventana puedes ver las estrellas brillando como diamantes y planetas de colores que nunca has visto. El espacio es enorme, misterioso y lleno de aventuras esperándote. ¿Estás listo para aprender las palabras que necesitas para explorar el universo en español?",
+        "english": "Three, two, one... liftoff! Your spaceship leaves Earth at full speed. Through the window you can see the stars shining like diamonds and colorful planets you've never seen before. Space is enormous, mysterious, and full of adventures waiting for you. Are you ready to learn the words you need to explore the universe in Spanish?"
+      },
+      "vocabulary": [
+        { "word": "el espacio", "pronunciation": "el es-PAH-see-oh", "translation": "space" },
+        { "word": "la nave espacial", "pronunciation": "lah NAH-beh es-pah-see-AHL", "translation": "spaceship" },
+        { "word": "el astronauta", "pronunciation": "el as-troh-NOW-tah", "translation": "astronaut" },
+        { "word": "la estrella", "pronunciation": "lah es-TREH-yah", "translation": "star" },
+        { "word": "el planeta", "pronunciation": "el plah-NEH-tah", "translation": "planet" },
+        { "word": "la luna", "pronunciation": "lah LOO-nah", "translation": "moon" },
+        { "word": "el sol", "pronunciation": "el SOHL", "translation": "sun" },
+        { "word": "la órbita", "pronunciation": "lah OR-bee-tah", "translation": "orbit" },
+        { "word": "la gravedad", "pronunciation": "lah grah-beh-DAHD", "translation": "gravity" },
+        { "word": "flotar", "pronunciation": "floh-TAR", "translation": "to float" },
+        { "word": "despegar", "pronunciation": "des-peh-GAR", "translation": "to take off / to launch" },
+        { "word": "aterrizar", "pronunciation": "ah-teh-rree-SAR", "translation": "to land" },
+        { "word": "el cohete", "pronunciation": "el koh-EH-teh", "translation": "rocket" },
+        { "word": "la galaxia", "pronunciation": "lah gah-LAK-see-ah", "translation": "galaxy" },
+        { "word": "el universo", "pronunciation": "el oo-nee-BEHR-soh", "translation": "universe" },
+        { "word": "el traje espacial", "pronunciation": "el TRAH-heh es-pah-see-AHL", "translation": "spacesuit" },
+        { "word": "la estación espacial", "pronunciation": "lah es-tah-see-OHN es-pah-see-AHL", "translation": "space station" },
+        { "word": "descubrir", "pronunciation": "des-koo-BREER", "translation": "to discover" },
+        { "word": "el asteroide", "pronunciation": "el as-teh-ROY-deh", "translation": "asteroid" }
+      ],
+      "sentences": [
+        {
+          "native": "Los astronautas flotan dentro de la estación espacial porque no hay gravedad.",
+          "english": "The astronauts float inside the space station because there is no gravity."
+        },
+        {
+          "native": "El cohete va a despegar en diez segundos y viajará a una galaxia lejana.",
+          "english": "The rocket will take off in ten seconds and will travel to a distant galaxy."
+        },
+        {
+          "native": "Queremos descubrir nuevos planetas donde las personas puedan vivir en el futuro.",
+          "english": "We want to discover new planets where people can live in the future."
+        }
+      ],
+      "culturalNote": "Los países hispanohablantes tienen una historia fascinante con el espacio. El astronauta costarricense Franklin Chang-Díaz viajó al espacio siete veces con la NASA — ¡un récord! También inventó un motor de plasma que podría llevar naves a Marte más rápido. México y Argentina tienen sus propias agencias espaciales, y Colombia lanzó su primer satélite en 2007. La palabra 'astronauta' viene del griego: 'astron' (estrella) y 'nautes' (navegante) — ¡un navegante de estrellas!",
+      "exercises": [
+        { "type": "fill-blank", "question": "El _____ necesita un traje espacial para caminar en la luna. (astronauta / profesor)", "answer": "astronauta" },
+        { "type": "fill-blank", "question": "Sin _____, los objetos flotan en el espacio. (gravedad / chocolate)", "answer": "gravedad" },
+        { "type": "translate", "question": "Translate: 'The spaceship will land on the planet.'", "answer": "La nave espacial va a aterrizar en el planeta." },
+        { "type": "fill-blank", "question": "Nuestra _____ se llama la Vía Láctea. (galaxia / cocina)", "answer": "galaxia" },
+        { "type": "fill-blank", "question": "El cohete va a _____ en tres, dos, uno... (despegar / dormir)", "answer": "despegar" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": {
+        "native": "Inteligencia Artificial",
+        "english": "Artificial Intelligence"
+      },
+      "introduction": {
+        "native": "Tu mejor amigo del futuro podría ser... ¡una inteligencia artificial! Imagina un asistente digital que entiende tus emociones, te ayuda con la tarea, compone música contigo y hasta te cuenta chistes. Pero también hay preguntas importantes: ¿Puede una máquina realmente pensar? ¿Puede sentir? En este capítulo aprenderás a hablar sobre el fascinante mundo de la inteligencia artificial.",
+        "english": "Your best friend of the future could be... an artificial intelligence! Imagine a digital assistant that understands your emotions, helps you with homework, composes music with you, and even tells you jokes. But there are also important questions: Can a machine really think? Can it feel? In this chapter you'll learn to talk about the fascinating world of artificial intelligence."
+      },
+      "vocabulary": [
+        { "word": "la inteligencia artificial", "pronunciation": "lah een-teh-lee-HEN-see-ah ar-tee-fee-see-AHL", "translation": "artificial intelligence" },
+        { "word": "el algoritmo", "pronunciation": "el al-goh-REET-moh", "translation": "algorithm" },
+        { "word": "aprender", "pronunciation": "ah-pren-DEHR", "translation": "to learn" },
+        { "word": "los datos", "pronunciation": "lohs DAH-tohs", "translation": "data" },
+        { "word": "la máquina", "pronunciation": "lah MAH-kee-nah", "translation": "machine" },
+        { "word": "el cerebro", "pronunciation": "el seh-REH-broh", "translation": "brain" },
+        { "word": "el asistente virtual", "pronunciation": "el ah-sees-TEN-teh beer-TWAHL", "translation": "virtual assistant" },
+        { "word": "reconocer", "pronunciation": "reh-koh-noh-SEHR", "translation": "to recognize" },
+        { "word": "la voz", "pronunciation": "lah BOHS", "translation": "voice" },
+        { "word": "predecir", "pronunciation": "preh-deh-SEER", "translation": "to predict" },
+        { "word": "automático", "pronunciation": "ow-toh-MAH-tee-koh", "translation": "automatic" },
+        { "word": "el lenguaje", "pronunciation": "el len-GWAH-heh", "translation": "language" },
+        { "word": "la decisión", "pronunciation": "lah deh-see-see-OHN", "translation": "decision" },
+        { "word": "entrenar", "pronunciation": "en-treh-NAR", "translation": "to train (a model)" },
+        { "word": "inteligente", "pronunciation": "een-teh-lee-HEN-teh", "translation": "intelligent / smart" },
+        { "word": "el patrón", "pronunciation": "el pah-TROHN", "translation": "pattern" },
+        { "word": "la ética", "pronunciation": "lah EH-tee-kah", "translation": "ethics" },
+        { "word": "crear", "pronunciation": "kreh-AR", "translation": "to create" }
+      ],
+      "sentences": [
+        {
+          "native": "La inteligencia artificial puede reconocer tu voz y aprender tus patrones favoritos.",
+          "english": "Artificial intelligence can recognize your voice and learn your favorite patterns."
+        },
+        {
+          "native": "Los científicos entrenan algoritmos con millones de datos para que la máquina pueda predecir el clima.",
+          "english": "Scientists train algorithms with millions of data points so the machine can predict the weather."
+        },
+        {
+          "native": "Es importante hablar de ética cuando creamos asistentes virtuales inteligentes.",
+          "english": "It's important to talk about ethics when we create intelligent virtual assistants."
+        }
+      ],
+      "culturalNote": "En español, cuando hablamos de inteligencia artificial, usamos la abreviación 'IA' — ¡no 'AI' como en inglés! El orden es diferente porque en español el adjetivo generalmente va después del sustantivo: 'inteligencia artificial' en vez de 'artificial intelligence'. Este patrón aparece en muchas frases: 'realidad virtual' (virtual reality), 'energía solar' (solar energy). Además, Uruguay se ha convertido en un líder latinoamericano en IA, y España tiene un plan nacional de inteligencia artificial. ¡El futuro de la IA se habla en español también!",
+      "exercises": [
+        { "type": "fill-blank", "question": "La IA usa _____ para encontrar patrones en la información. (algoritmos / zapatos)", "answer": "algoritmos" },
+        { "type": "fill-blank", "question": "Mi asistente virtual puede _____ mi voz cuando le hablo. (reconocer / bailar)", "answer": "reconocer" },
+        { "type": "translate", "question": "Translate: 'The machine can learn and make automatic decisions.'", "answer": "La máquina puede aprender y tomar decisiones automáticas." },
+        { "type": "fill-blank", "question": "Necesitamos hablar de _____ antes de crear robots inteligentes. (ética / pizza)", "answer": "ética" },
+        { "type": "fill-blank", "question": "Los científicos _____ el modelo con muchos datos. (entrenan / cocinan)", "answer": "entrenan" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": {
+        "native": "Ciudades del Mañana",
+        "english": "Cities of Tomorrow"
+      },
+      "introduction": {
+        "native": "Cierra los ojos y piensa en la ciudad del mañana. Los edificios tocan las nubes, los coches vuelan entre puentes de cristal, y los parques están llenos de árboles que limpian el aire. No hay basura en las calles porque todo se recicla automáticamente. La gente se mueve en trenes magnéticos superrápidos y la energía viene del sol y del viento. ¿Suena como un sueño? ¡Tal vez no por mucho tiempo!",
+        "english": "Close your eyes and think about the city of tomorrow. Buildings touch the clouds, cars fly between glass bridges, and parks are full of trees that clean the air. There's no trash on the streets because everything is recycled automatically. People move on super-fast magnetic trains and energy comes from the sun and wind. Sounds like a dream? Maybe not for much longer!"
+      },
+      "vocabulary": [
+        { "word": "la ciudad", "pronunciation": "lah see-oo-DAHD", "translation": "city" },
+        { "word": "el edificio", "pronunciation": "el eh-dee-FEE-see-oh", "translation": "building" },
+        { "word": "el rascacielos", "pronunciation": "el ras-kah-see-EH-lohs", "translation": "skyscraper" },
+        { "word": "el transporte", "pronunciation": "el trans-POR-teh", "translation": "transportation" },
+        { "word": "sostenible", "pronunciation": "sohs-teh-NEE-bleh", "translation": "sustainable" },
+        { "word": "reciclar", "pronunciation": "reh-see-KLAR", "translation": "to recycle" },
+        { "word": "la contaminación", "pronunciation": "lah kon-tah-mee-nah-see-OHN", "translation": "pollution" },
+        { "word": "el jardín vertical", "pronunciation": "el har-DEEN behr-tee-KAHL", "translation": "vertical garden" },
+        { "word": "el coche volador", "pronunciation": "el KOH-cheh boh-lah-DOR", "translation": "flying car" },
+        { "word": "la energía renovable", "pronunciation": "lah eh-nehr-HEE-ah reh-noh-BAH-bleh", "translation": "renewable energy" },
+        { "word": "el puente", "pronunciation": "el PWEN-teh", "translation": "bridge" },
+        { "word": "el ciudadano", "pronunciation": "el see-oo-dah-DAH-noh", "translation": "citizen" },
+        { "word": "diseñar", "pronunciation": "dee-seh-NYAR", "translation": "to design" },
+        { "word": "el tren magnético", "pronunciation": "el TREN mag-NEH-tee-koh", "translation": "magnetic train (maglev)" },
+        { "word": "la basura", "pronunciation": "lah bah-SOO-rah", "translation": "trash / garbage" },
+        { "word": "el medio ambiente", "pronunciation": "el MEH-dee-oh am-bee-EN-teh", "translation": "environment" },
+        { "word": "la acera móvil", "pronunciation": "lah ah-SEH-rah MOH-beel", "translation": "moving sidewalk" },
+        { "word": "verde", "pronunciation": "BEHR-deh", "translation": "green (eco-friendly)" }
+      ],
+      "sentences": [
+        {
+          "native": "Los ciudadanos del futuro van a viajar en coches voladores y trenes magnéticos por toda la ciudad.",
+          "english": "The citizens of the future will travel in flying cars and magnetic trains throughout the city."
+        },
+        {
+          "native": "Los arquitectos quieren diseñar rascacielos sostenibles con jardines verticales en cada piso.",
+          "english": "The architects want to design sustainable skyscrapers with vertical gardens on every floor."
+        },
+        {
+          "native": "Para eliminar la contaminación, las ciudades del mañana usarán solo energía renovable.",
+          "english": "To eliminate pollution, the cities of tomorrow will use only renewable energy."
+        }
+      ],
+      "culturalNote": "¿Sabías que la palabra 'rascacielos' literalmente significa 'rasca-cielos' — algo que rasca el cielo? ¡Es una palabra compuesta súper divertida! El español tiene muchas palabras así: 'paraguas' (para + aguas = para el agua = umbrella), 'sacapuntas' (saca + puntas = sharpener), 'lavaplatos' (lava + platos = dishwasher). Además, ciudades como Medellín (Colombia) ya son famosas mundialmente por su transporte innovador — ¡tienen escaleras eléctricas públicas en las montañas y un sistema de teleférico que conecta los barrios!",
+      "exercises": [
+        { "type": "fill-blank", "question": "En la ciudad del futuro no habrá _____ porque todo se recicla. (basura / estrellas)", "answer": "basura" },
+        { "type": "fill-blank", "question": "Los _____ _____ tienen plantas en las paredes del edificio. (jardines verticales / gatos voladores)", "answer": "jardines verticales" },
+        { "type": "translate", "question": "Translate: 'The citizen wants to design a sustainable city.'", "answer": "El ciudadano quiere diseñar una ciudad sostenible." },
+        { "type": "fill-blank", "question": "El transporte del futuro incluye coches _____ y trenes _____. (voladores, magnéticos)", "answer": "voladores, magnéticos" },
+        { "type": "fill-blank", "question": "Debemos proteger el _____ _____ usando energía renovable. (medio ambiente / medio sándwich)", "answer": "medio ambiente" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": {
+        "native": "Un Nuevo Mundo",
+        "english": "A New World"
+      },
+      "introduction": {
+        "native": "Has llegado al último capítulo de tu viaje por el futuro. Ahora imagina algo aún más grande: un nuevo mundo. Tal vez sea un planeta lejano donde la humanidad empieza de cero. Tal vez sea nuestro propio planeta Tierra, transformado en un lugar mejor. En este nuevo mundo, las personas de todos los países trabajan juntas, hablan muchos idiomas, y construyen una sociedad donde todos tienen lo que necesitan. El futuro no es solo tecnología — es también esperanza, cooperación y sueños compartidos.",
+        "english": "You've reached the last chapter of your journey through the future. Now imagine something even bigger: a new world. Maybe it's a distant planet where humanity starts from zero. Maybe it's our own planet Earth, transformed into a better place. In this new world, people from all countries work together, speak many languages, and build a society where everyone has what they need. The future isn't just technology — it's also hope, cooperation, and shared dreams."
+      },
+      "vocabulary": [
+        { "word": "la humanidad", "pronunciation": "lah oo-mah-nee-DAHD", "translation": "humanity" },
+        { "word": "la esperanza", "pronunciation": "lah es-peh-RAHN-sah", "translation": "hope" },
+        { "word": "la paz", "pronunciation": "lah PAHS", "translation": "peace" },
+        { "word": "la cooperación", "pronunciation": "lah koh-oh-peh-rah-see-OHN", "translation": "cooperation" },
+        { "word": "la sociedad", "pronunciation": "lah soh-see-eh-DAHD", "translation": "society" },
+        { "word": "construir", "pronunciation": "kons-troo-EER", "translation": "to build" },
+        { "word": "el sueño", "pronunciation": "el SWEH-nyoh", "translation": "dream" },
+        { "word": "compartir", "pronunciation": "kom-par-TEER", "translation": "to share" },
+        { "word": "la igualdad", "pronunciation": "lah ee-gwahl-DAHD", "translation": "equality" },
+        { "word": "la diversidad", "pronunciation": "lah dee-behr-see-DAHD", "translation": "diversity" },
+        { "word": "el idioma", "pronunciation": "el ee-dee-OH-mah", "translation": "language" },
+        { "word": "la colonia", "pronunciation": "lah koh-LOH-nee-ah", "translation": "colony" },
+        { "word": "terraformar", "pronunciation": "teh-rah-for-MAR", "translation": "to terraform" },
+        { "word": "la utopía", "pronunciation": "lah oo-toh-PEE-ah", "translation": "utopia" },
+        { "word": "sobrevivir", "pronunciation": "soh-breh-bee-BEER", "translation": "to survive" },
+        { "word": "el recurso", "pronunciation": "el reh-KOOR-soh", "translation": "resource" },
+        { "word": "transformar", "pronunciation": "trans-for-MAR", "translation": "to transform" },
+        { "word": "juntos", "pronunciation": "HOON-tohs", "translation": "together" },
+        { "word": "el destino", "pronunciation": "el des-TEE-noh", "translation": "destiny / destination" }
+      ],
+      "sentences": [
+        {
+          "native": "La humanidad necesita cooperación y esperanza para construir un nuevo mundo juntos.",
+          "english": "Humanity needs cooperation and hope to build a new world together."
+        },
+        {
+          "native": "En la colonia espacial, personas de muchos idiomas comparten recursos con igualdad y diversidad.",
+          "english": "In the space colony, people of many languages share resources with equality and diversity."
+        },
+        {
+          "native": "Nuestro sueño es transformar un planeta desértico en una utopía donde todos puedan sobrevivir en paz.",
+          "english": "Our dream is to terraform a desert planet into a utopia where everyone can survive in peace."
+        }
+      ],
+      "culturalNote": "El español es el segundo idioma más hablado del mundo por número de hablantes nativos — ¡más de 500 millones de personas! Se habla en 20 países como lengua oficial. La palabra 'utopía' viene del griego y fue inventada por el escritor Tomás Moro en 1516. Significa literalmente 'no-lugar' (ou = no, topos = lugar). En la literatura hispana, escritores como Jorge Luis Borges (Argentina) y Gabriel García Márquez (Colombia) crearon mundos fantásticos increíbles. Aprender español es como abrir una puerta a un nuevo mundo — ¡literalmente el tema de este capítulo!",
+      "exercises": [
+        { "type": "fill-blank", "question": "La _____ necesita trabajar junta para sobrevivir en el nuevo planeta. (humanidad / biblioteca)", "answer": "humanidad" },
+        { "type": "fill-blank", "question": "Nuestro _____ es vivir en un mundo con paz e _____. (sueño, igualdad)", "answer": "sueño, igualdad" },
+        { "type": "translate", "question": "Translate: 'We need to share resources and build together.'", "answer": "Necesitamos compartir recursos y construir juntos." },
+        { "type": "fill-blank", "question": "Los científicos quieren _____ el planeta Marte para crear una colonia. (terraformar / pintar)", "answer": "terraformar" },
+        { "type": "fill-blank", "question": "La _____ y la cooperación son importantes para una sociedad mejor. (diversidad / televisión)", "answer": "diversidad" }
+      ]
+    }
+  ]
+}

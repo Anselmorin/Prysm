@@ -1,0 +1,366 @@
+{
+  "category": "future",
+  "language": "italian",
+  "languageCode": "it",
+  "seriesTitle": "Il Futuro — The Future",
+  "chapters": [
+    {
+      "id": 1,
+      "title": {
+        "native": "Il Futuro della Tecnologia",
+        "english": "The Future of Technology"
+      },
+      "introduction": {
+        "native": "Immagina di svegliarti nel 2080. Il tuo letto intelligente ti ha già preparato la colazione perfetta, il tuo robot domestico ha pulito tutta la casa, e il tuo orologio ti mostra un ologramma delle notizie del giorno. La tecnologia del futuro cambierà ogni aspetto della nostra vita quotidiana — dal modo in cui studiamo, lavoriamo e ci divertiamo. Sei pronto a scoprire questo mondo incredibile?",
+        "english": "Imagine waking up in 2080. Your smart bed has already prepared the perfect breakfast for you, your household robot has cleaned the entire house, and your watch shows you a hologram of the day's news. Future technology will change every aspect of our daily life — from the way we study, work, and have fun. Are you ready to discover this incredible world?"
+      },
+      "vocabulary": [
+        { "word": "la tecnologia", "pronunciation": "lah tek-no-lo-JEE-ah", "translation": "technology" },
+        { "word": "il futuro", "pronunciation": "eel foo-TOO-ro", "translation": "the future" },
+        { "word": "il robot", "pronunciation": "eel RO-bot", "translation": "the robot" },
+        { "word": "l'ologramma", "pronunciation": "lo-lo-GRAM-mah", "translation": "the hologram" },
+        { "word": "lo schermo", "pronunciation": "lo SKEHR-mo", "translation": "the screen" },
+        { "word": "il dispositivo", "pronunciation": "eel dee-spo-zee-TEE-vo", "translation": "the device" },
+        { "word": "la realtà virtuale", "pronunciation": "lah reh-al-TAH veer-too-AH-leh", "translation": "virtual reality" },
+        { "word": "l'invenzione", "pronunciation": "lin-ven-TSYO-neh", "translation": "the invention" },
+        { "word": "il programmatore", "pronunciation": "eel pro-gram-ma-TO-reh", "translation": "the programmer" },
+        { "word": "la connessione", "pronunciation": "lah kon-nes-SYO-neh", "translation": "the connection" },
+        { "word": "scaricare", "pronunciation": "ska-ree-KAH-reh", "translation": "to download" },
+        { "word": "inventare", "pronunciation": "in-ven-TAH-reh", "translation": "to invent" },
+        { "word": "intelligente", "pronunciation": "in-tel-lee-JEN-teh", "translation": "smart / intelligent" },
+        { "word": "digitale", "pronunciation": "dee-jee-TAH-leh", "translation": "digital" },
+        { "word": "avanzato", "pronunciation": "ah-van-TSAH-to", "translation": "advanced" },
+        { "word": "la stampante 3D", "pronunciation": "lah stam-PAN-teh treh-dee", "translation": "3D printer" },
+        { "word": "il drone", "pronunciation": "eel DRO-neh", "translation": "the drone" },
+        { "word": "il codice", "pronunciation": "eel KO-dee-cheh", "translation": "the code" }
+      ],
+      "sentences": [
+        {
+          "native": "Nel futuro, ogni studente avrà un robot intelligente che lo aiuterà a fare i compiti.",
+          "english": "In the future, every student will have a smart robot that will help them do homework."
+        },
+        {
+          "native": "Mia sorella vuole diventare una programmatrice e inventare dispositivi avanzati.",
+          "english": "My sister wants to become a programmer and invent advanced devices."
+        },
+        {
+          "native": "Con la realtà virtuale, potremo visitare qualsiasi luogo del mondo senza uscire di casa.",
+          "english": "With virtual reality, we will be able to visit any place in the world without leaving home."
+        }
+      ],
+      "culturalNote": "L'Italia ha una lunga storia di invenzioni rivoluzionarie! Leonardo da Vinci progettò macchine volanti e sottomarini già nel 1400. Oggi, l'Istituto Italiano di Tecnologia (IIT) di Genova è famoso in tutto il mondo per i suoi robot umanoidi come iCub, un robot che impara come un bambino. Gli italiani continuano a essere pionieri della tecnologia! — Italy has a long history of revolutionary inventions! Leonardo da Vinci designed flying machines and submarines back in the 1400s. Today, the Italian Institute of Technology (IIT) in Genoa is world-famous for its humanoid robots like iCub, a robot that learns like a child. Italians continue to be technology pioneers!",
+      "exercises": [
+        {
+          "type": "fill-blank",
+          "question": "Nel futuro, useremo la realtà _______ per viaggiare. (In the future, we will use _______ reality to travel.)",
+          "answer": "virtuale"
+        },
+        {
+          "type": "fill-blank",
+          "question": "Il mio _______ domestico pulisce tutta la casa. (My household _______ cleans the whole house.)",
+          "answer": "robot"
+        },
+        {
+          "type": "translate",
+          "question": "Translate to Italian: 'Technology is very advanced.'",
+          "answer": "La tecnologia è molto avanzata."
+        },
+        {
+          "type": "fill-blank",
+          "question": "Leonardo da Vinci voleva _______ una macchina volante. (Leonardo da Vinci wanted to _______ a flying machine.)",
+          "answer": "inventare"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": {
+        "native": "Il Viaggio Spaziale",
+        "english": "Space Travel"
+      },
+      "introduction": {
+        "native": "Tre, due, uno... decollo! La navicella spaziale lascia la Terra e si dirige verso Marte. Tra cinquant'anni, viaggiare nello spazio potrebbe essere normale come prendere un aereo oggi. Gli astronauti del futuro vivranno su stazioni spaziali enormi, coltiveranno piante su altri pianeti e forse incontreranno forme di vita extraterrestre. Allaccia la cintura e preparati per un'avventura tra le stelle!",
+        "english": "Three, two, one... liftoff! The spaceship leaves Earth and heads toward Mars. In fifty years, traveling through space could be as normal as taking a plane today. Astronauts of the future will live on enormous space stations, grow plants on other planets, and perhaps encounter extraterrestrial life forms. Buckle up and get ready for an adventure among the stars!"
+      },
+      "vocabulary": [
+        { "word": "lo spazio", "pronunciation": "lo SPAH-tsyo", "translation": "space" },
+        { "word": "la navicella spaziale", "pronunciation": "lah nah-vee-CHEL-lah spah-TSYAH-leh", "translation": "spaceship" },
+        { "word": "l'astronauta", "pronunciation": "la-stro-NAU-tah", "translation": "the astronaut" },
+        { "word": "il pianeta", "pronunciation": "eel pyah-NEH-tah", "translation": "the planet" },
+        { "word": "la stella", "pronunciation": "lah STEL-lah", "translation": "the star" },
+        { "word": "la Luna", "pronunciation": "lah LOO-nah", "translation": "the Moon" },
+        { "word": "il razzo", "pronunciation": "eel RAH-tso", "translation": "the rocket" },
+        { "word": "l'orbita", "pronunciation": "LOR-bee-tah", "translation": "the orbit" },
+        { "word": "la gravità", "pronunciation": "lah grah-vee-TAH", "translation": "gravity" },
+        { "word": "il telescopio", "pronunciation": "eel teh-leh-SKO-pyo", "translation": "the telescope" },
+        { "word": "la galassia", "pronunciation": "lah gah-LAS-syah", "translation": "the galaxy" },
+        { "word": "atterrare", "pronunciation": "at-ter-RAH-reh", "translation": "to land" },
+        { "word": "decollare", "pronunciation": "deh-kol-LAH-reh", "translation": "to take off / to launch" },
+        { "word": "esplorare", "pronunciation": "eh-splo-RAH-reh", "translation": "to explore" },
+        { "word": "galleggiare", "pronunciation": "gal-led-JAH-reh", "translation": "to float" },
+        { "word": "extraterrestre", "pronunciation": "ex-trah-ter-REH-streh", "translation": "extraterrestrial / alien" },
+        { "word": "la stazione spaziale", "pronunciation": "lah sta-TSYO-neh spah-TSYAH-leh", "translation": "the space station" },
+        { "word": "il satellite", "pronunciation": "eel sah-TEL-lee-teh", "translation": "the satellite" }
+      ],
+      "sentences": [
+        {
+          "native": "L'astronauta italiana ha esplorato la stazione spaziale per sei mesi.",
+          "english": "The Italian astronaut explored the space station for six months."
+        },
+        {
+          "native": "Senza gravità, gli oggetti galleggiano nell'aria come per magia!",
+          "english": "Without gravity, objects float in the air like magic!"
+        },
+        {
+          "native": "Il razzo decollerà domani mattina e atterrerà su Marte tra sette mesi.",
+          "english": "The rocket will launch tomorrow morning and will land on Mars in seven months."
+        }
+      ],
+      "culturalNote": "L'Italia è una grande protagonista dell'esplorazione spaziale! Samantha Cristoforetti è un'astronauta italiana che ha vissuto sulla Stazione Spaziale Internazionale e nel 2022 è diventata la prima donna europea comandante della ISS. L'Agenzia Spaziale Italiana (ASI) ha costruito molti moduli della Stazione Spaziale Internazionale. Inoltre, l'Italia è stata il terzo paese al mondo a lanciare un satellite nello spazio nel 1964! — Italy is a major player in space exploration! Samantha Cristoforetti is an Italian astronaut who lived on the International Space Station and in 2022 became the first European woman commander of the ISS. The Italian Space Agency (ASI) built many modules of the International Space Station. Furthermore, Italy was the third country in the world to launch a satellite into space in 1964!",
+      "exercises": [
+        {
+          "type": "fill-blank",
+          "question": "La _______ spaziale viaggerà fino a Marte. (The _______ will travel all the way to Mars.)",
+          "answer": "navicella"
+        },
+        {
+          "type": "translate",
+          "question": "Translate to Italian: 'The astronaut floats in space.'",
+          "answer": "L'astronauta galleggia nello spazio."
+        },
+        {
+          "type": "fill-blank",
+          "question": "Senza _______, tutto galleggia sulla stazione spaziale. (Without _______, everything floats on the space station.)",
+          "answer": "gravità"
+        },
+        {
+          "type": "fill-blank",
+          "question": "Voglio _______ nuovi pianeti quando sarò grande. (I want to _______ new planets when I grow up.)",
+          "answer": "esplorare"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": {
+        "native": "L'Intelligenza Artificiale",
+        "english": "Artificial Intelligence"
+      },
+      "introduction": {
+        "native": "Hai mai parlato con un assistente virtuale? Hai mai chiesto a un computer di scrivere una storia o disegnare un'immagine? Questa è l'intelligenza artificiale — macchine che possono pensare, imparare e creare quasi come gli esseri umani. Nel futuro, l'IA ci aiuterà a curare malattie, a proteggere l'ambiente e a risolvere problemi che oggi sembrano impossibili. Ma ci sono anche domande importanti: le macchine potranno mai provare emozioni? Scopriamolo insieme!",
+        "english": "Have you ever talked to a virtual assistant? Have you ever asked a computer to write a story or draw a picture? This is artificial intelligence — machines that can think, learn, and create almost like human beings. In the future, AI will help us cure diseases, protect the environment, and solve problems that seem impossible today. But there are also important questions: will machines ever be able to feel emotions? Let's find out together!"
+      },
+      "vocabulary": [
+        { "word": "l'intelligenza artificiale", "pronunciation": "lin-tel-lee-JEN-tsah ar-tee-fee-CHAH-leh", "translation": "artificial intelligence" },
+        { "word": "l'algoritmo", "pronunciation": "lal-go-REET-mo", "translation": "the algorithm" },
+        { "word": "i dati", "pronunciation": "ee DAH-tee", "translation": "data" },
+        { "word": "la rete neurale", "pronunciation": "lah REH-teh neu-RAH-leh", "translation": "neural network" },
+        { "word": "il cervello", "pronunciation": "eel cher-VEL-lo", "translation": "the brain" },
+        { "word": "l'apprendimento", "pronunciation": "lap-pren-dee-MEN-to", "translation": "learning" },
+        { "word": "il linguaggio", "pronunciation": "eel lin-GWAHJ-jo", "translation": "the language" },
+        { "word": "la macchina", "pronunciation": "lah MAK-kee-nah", "translation": "the machine" },
+        { "word": "il comando", "pronunciation": "eel ko-MAN-do", "translation": "the command" },
+        { "word": "l'errore", "pronunciation": "ler-RO-reh", "translation": "the error / mistake" },
+        { "word": "riconoscere", "pronunciation": "ree-ko-NO-sheh-reh", "translation": "to recognize" },
+        { "word": "analizzare", "pronunciation": "ah-nah-lee-DZAH-reh", "translation": "to analyze" },
+        { "word": "prevedere", "pronunciation": "preh-veh-DEH-reh", "translation": "to predict" },
+        { "word": "automatico", "pronunciation": "au-to-MAH-tee-ko", "translation": "automatic" },
+        { "word": "virtuale", "pronunciation": "veer-too-AH-leh", "translation": "virtual" },
+        { "word": "l'assistente", "pronunciation": "las-see-STEN-teh", "translation": "the assistant" },
+        { "word": "il modello", "pronunciation": "eel mo-DEL-lo", "translation": "the model" },
+        { "word": "l'etica", "pronunciation": "LEH-tee-kah", "translation": "ethics" }
+      ],
+      "sentences": [
+        {
+          "native": "L'intelligenza artificiale può analizzare milioni di dati in pochi secondi.",
+          "english": "Artificial intelligence can analyze millions of data points in a few seconds."
+        },
+        {
+          "native": "Il mio assistente virtuale riconosce la mia voce e risponde alle mie domande.",
+          "english": "My virtual assistant recognizes my voice and answers my questions."
+        },
+        {
+          "native": "Gli scienziati usano algoritmi per prevedere il tempo di domani.",
+          "english": "Scientists use algorithms to predict tomorrow's weather."
+        }
+      ],
+      "culturalNote": "Sapevi che il concetto di 'automa' — una macchina che imita gli esseri umani — ha radici antiche in Italia? Leonardo da Vinci progettò un 'cavaliere meccanico' nel 1495, considerato il primo robot della storia! Oggi, l'Università di Bologna, la più antica del mondo occidentale (fondata nel 1088), è un centro di ricerca leader nell'intelligenza artificiale. L'Italia unisce sempre tradizione e innovazione! — Did you know that the concept of 'automaton' — a machine that imitates humans — has ancient roots in Italy? Leonardo da Vinci designed a 'mechanical knight' in 1495, considered the first robot in history! Today, the University of Bologna, the oldest in the Western world (founded in 1088), is a leading research center in artificial intelligence. Italy always combines tradition and innovation!",
+      "exercises": [
+        {
+          "type": "fill-blank",
+          "question": "L'IA può _______ il risultato di una partita di calcio. (AI can _______ the result of a soccer match.)",
+          "answer": "prevedere"
+        },
+        {
+          "type": "translate",
+          "question": "Translate to Italian: 'The machine learns from its errors.'",
+          "answer": "La macchina impara dai suoi errori."
+        },
+        {
+          "type": "fill-blank",
+          "question": "L'assistente _______ risponde alle domande automaticamente. (The _______ assistant answers questions automatically.)",
+          "answer": "virtuale"
+        },
+        {
+          "type": "fill-blank",
+          "question": "Il computer può _______ le facce delle persone nelle foto. (The computer can _______ people's faces in photos.)",
+          "answer": "riconoscere"
+        },
+        {
+          "type": "translate",
+          "question": "Translate to Italian: 'The algorithm analyzes the data.'",
+          "answer": "L'algoritmo analizza i dati."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": {
+        "native": "Le Città di Domani",
+        "english": "Cities of Tomorrow"
+      },
+      "introduction": {
+        "native": "Chiudi gli occhi e immagina la città del futuro. I grattacieli sono coperti di giardini verdi, le macchine volano silenziosamente tra gli edifici, e l'energia viene tutta dal sole e dal vento. Non c'è inquinamento, non ci sono ingorghi stradali, e ogni quartiere ha parchi enormi dove i bambini giocano con robot amichevoli. Le città di domani saranno progettate per essere belle, pulite e sostenibili. Vuoi sapere come? Continua a leggere!",
+        "english": "Close your eyes and imagine the city of the future. Skyscrapers are covered with green gardens, cars fly silently between buildings, and energy all comes from the sun and wind. There is no pollution, there are no traffic jams, and every neighborhood has enormous parks where children play with friendly robots. The cities of tomorrow will be designed to be beautiful, clean, and sustainable. Want to know how? Keep reading!"
+      },
+      "vocabulary": [
+        { "word": "la città", "pronunciation": "lah chee-TAH", "translation": "the city" },
+        { "word": "il grattacielo", "pronunciation": "eel grat-tah-CHEH-lo", "translation": "the skyscraper" },
+        { "word": "l'edificio", "pronunciation": "leh-dee-FEE-chyo", "translation": "the building" },
+        { "word": "il quartiere", "pronunciation": "eel kwar-TYEH-reh", "translation": "the neighborhood" },
+        { "word": "il trasporto", "pronunciation": "eel tra-SPOR-to", "translation": "transportation" },
+        { "word": "l'energia solare", "pronunciation": "leh-ner-JEE-ah so-LAH-reh", "translation": "solar energy" },
+        { "word": "l'energia eolica", "pronunciation": "leh-ner-JEE-ah eh-O-lee-kah", "translation": "wind energy" },
+        { "word": "l'inquinamento", "pronunciation": "lin-kwee-nah-MEN-to", "translation": "pollution" },
+        { "word": "il riciclaggio", "pronunciation": "eel ree-chee-KLAHJ-jo", "translation": "recycling" },
+        { "word": "sostenibile", "pronunciation": "so-steh-NEE-bee-leh", "translation": "sustainable" },
+        { "word": "ecologico", "pronunciation": "eh-ko-LO-jee-ko", "translation": "ecological / eco-friendly" },
+        { "word": "il pannello solare", "pronunciation": "eel pan-NEL-lo so-LAH-reh", "translation": "solar panel" },
+        { "word": "il giardino verticale", "pronunciation": "eel jar-DEE-no ver-tee-KAH-leh", "translation": "vertical garden" },
+        { "word": "la bicicletta elettrica", "pronunciation": "lah bee-chee-KLET-tah eh-LET-tree-kah", "translation": "electric bicycle" },
+        { "word": "progettare", "pronunciation": "pro-jet-TAH-reh", "translation": "to design" },
+        { "word": "riciclare", "pronunciation": "ree-chee-KLAH-reh", "translation": "to recycle" },
+        { "word": "ridurre", "pronunciation": "ree-DOOR-reh", "translation": "to reduce" },
+        { "word": "il semaforo", "pronunciation": "eel seh-MAH-fo-ro", "translation": "the traffic light" },
+        { "word": "il marciapiede", "pronunciation": "eel mar-chah-PYEH-deh", "translation": "the sidewalk" }
+      ],
+      "sentences": [
+        {
+          "native": "Le città di domani useranno l'energia solare per alimentare tutti gli edifici.",
+          "english": "The cities of tomorrow will use solar energy to power all buildings."
+        },
+        {
+          "native": "Ogni grattacielo avrà un giardino verticale pieno di fiori e piante.",
+          "english": "Every skyscraper will have a vertical garden full of flowers and plants."
+        },
+        {
+          "native": "Per ridurre l'inquinamento, tutti useranno biciclette elettriche e trasporti ecologici.",
+          "english": "To reduce pollution, everyone will use electric bicycles and eco-friendly transportation."
+        }
+      ],
+      "culturalNote": "L'Italia è già all'avanguardia nelle città sostenibili! Milano ha il famoso 'Bosco Verticale' (Vertical Forest), due torri residenziali coperte da oltre 900 alberi e 20.000 piante. Questo progetto dell'architetto Stefano Boeri ha ispirato città in tutto il mondo. Inoltre, molte città italiane come Firenze e Bologna hanno centri storici quasi completamente pedonali, dimostrando che le 'città del futuro' possono anche imparare dal passato! — Italy is already at the forefront of sustainable cities! Milan has the famous 'Bosco Verticale' (Vertical Forest), two residential towers covered with over 900 trees and 20,000 plants. This project by architect Stefano Boeri has inspired cities around the world. Also, many Italian cities like Florence and Bologna have almost entirely pedestrian historic centers, showing that 'cities of the future' can also learn from the past!",
+      "exercises": [
+        {
+          "type": "fill-blank",
+          "question": "Il Bosco Verticale di Milano è un _______ coperto di alberi. (Milan's Vertical Forest is a _______ covered in trees.)",
+          "answer": "grattacielo"
+        },
+        {
+          "type": "fill-blank",
+          "question": "Dobbiamo _______ l'inquinamento per salvare il pianeta. (We must _______ pollution to save the planet.)",
+          "answer": "ridurre"
+        },
+        {
+          "type": "translate",
+          "question": "Translate to Italian: 'Solar energy is sustainable and ecological.'",
+          "answer": "L'energia solare è sostenibile ed ecologica."
+        },
+        {
+          "type": "fill-blank",
+          "question": "L'architetto vuole _______ una città del futuro. (The architect wants to _______ a city of the future.)",
+          "answer": "progettare"
+        },
+        {
+          "type": "fill-blank",
+          "question": "Ogni _______ ha parchi e giardini per i bambini. (Every _______ has parks and gardens for children.)",
+          "answer": "quartiere"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": {
+        "native": "Un Nuovo Mondo",
+        "english": "A New World"
+      },
+      "introduction": {
+        "native": "E se potessimo ricominciare da zero? Immagina un mondo nuovo dove le persone di ogni paese vivono in pace, condividono le risorse e rispettano la natura. Un mondo dove ogni bambino ha accesso all'istruzione, dove la diversità è celebrata e dove la cooperazione ha sostituito la competizione. Questo non è solo un sogno — è un obiettivo che possiamo raggiungere insieme, passo dopo passo, scelta dopo scelta. Il nuovo mondo inizia con noi!",
+        "english": "What if we could start over from scratch? Imagine a new world where people from every country live in peace, share resources, and respect nature. A world where every child has access to education, where diversity is celebrated, and where cooperation has replaced competition. This isn't just a dream — it's a goal we can achieve together, step by step, choice by choice. The new world starts with us!"
+      },
+      "vocabulary": [
+        { "word": "il mondo", "pronunciation": "eel MON-do", "translation": "the world" },
+        { "word": "la pace", "pronunciation": "lah PAH-cheh", "translation": "peace" },
+        { "word": "la speranza", "pronunciation": "lah speh-RAN-tsah", "translation": "hope" },
+        { "word": "il sogno", "pronunciation": "eel SO-nyo", "translation": "the dream" },
+        { "word": "la libertà", "pronunciation": "lah lee-ber-TAH", "translation": "freedom / liberty" },
+        { "word": "l'uguaglianza", "pronunciation": "loo-gwa-LYAN-tsah", "translation": "equality" },
+        { "word": "la diversità", "pronunciation": "lah dee-ver-see-TAH", "translation": "diversity" },
+        { "word": "la cooperazione", "pronunciation": "lah ko-o-peh-ra-TSYO-neh", "translation": "cooperation" },
+        { "word": "l'istruzione", "pronunciation": "lee-stroo-TSYO-neh", "translation": "education" },
+        { "word": "l'ambiente", "pronunciation": "lam-BYEN-teh", "translation": "the environment" },
+        { "word": "le risorse", "pronunciation": "leh ree-SOR-seh", "translation": "resources" },
+        { "word": "la comunità", "pronunciation": "lah ko-moo-nee-TAH", "translation": "the community" },
+        { "word": "condividere", "pronunciation": "kon-dee-VEE-deh-reh", "translation": "to share" },
+        { "word": "rispettare", "pronunciation": "ree-spet-TAH-reh", "translation": "to respect" },
+        { "word": "proteggere", "pronunciation": "pro-TEJ-jeh-reh", "translation": "to protect" },
+        { "word": "costruire", "pronunciation": "ko-stroo-EE-reh", "translation": "to build" },
+        { "word": "unito", "pronunciation": "oo-NEE-to", "translation": "united" },
+        { "word": "giusto", "pronunciation": "JOO-sto", "translation": "fair / just" },
+        { "word": "il cittadino", "pronunciation": "eel chee-tah-DEE-no", "translation": "the citizen" },
+        { "word": "il cambiamento", "pronunciation": "eel kam-byah-MEN-to", "translation": "the change" }
+      ],
+      "sentences": [
+        {
+          "native": "In un nuovo mondo, tutti i cittadini condivideranno le risorse in modo giusto.",
+          "english": "In a new world, all citizens will share resources in a fair way."
+        },
+        {
+          "native": "La speranza di costruire un mondo unito ci dà la forza di continuare.",
+          "english": "The hope of building a united world gives us the strength to continue."
+        },
+        {
+          "native": "Dobbiamo proteggere l'ambiente e rispettare la diversità di ogni cultura.",
+          "english": "We must protect the environment and respect the diversity of every culture."
+        }
+      ],
+      "culturalNote": "L'Italia è uno dei paesi fondatori dell'Unione Europea, un progetto nato dal sogno di unire i popoli europei dopo la Seconda Guerra Mondiale. Alcide De Gasperi, Altiero Spinelli e altri pensatori italiani furono tra i 'padri fondatori' di questa idea rivoluzionaria. Oggi, l'articolo 11 della Costituzione Italiana dice che 'L'Italia ripudia la guerra come strumento di offesa alla libertà degli altri popoli' — un messaggio potente che mostra come l'Italia creda in un mondo di pace e cooperazione. — Italy is one of the founding countries of the European Union, a project born from the dream of uniting European peoples after World War II. Alcide De Gasperi, Altiero Spinelli, and other Italian thinkers were among the 'founding fathers' of this revolutionary idea. Today, Article 11 of the Italian Constitution states that 'Italy rejects war as an instrument of offense against the freedom of other peoples' — a powerful message showing how Italy believes in a world of peace and cooperation.",
+      "exercises": [
+        {
+          "type": "fill-blank",
+          "question": "La _______ è importante per un mondo migliore. (_______ is important for a better world.)",
+          "answer": "cooperazione"
+        },
+        {
+          "type": "translate",
+          "question": "Translate to Italian: 'We must protect the environment.'",
+          "answer": "Dobbiamo proteggere l'ambiente."
+        },
+        {
+          "type": "fill-blank",
+          "question": "Ogni bambino ha diritto all'_______ gratuita. (Every child has the right to free _______.)",
+          "answer": "istruzione"
+        },
+        {
+          "type": "fill-blank",
+          "question": "Il mio _______ è vivere in un mondo di pace. (My _______ is to live in a world of peace.)",
+          "answer": "sogno"
+        },
+        {
+          "type": "translate",
+          "question": "Translate to Italian: 'The citizens are united and share resources.'",
+          "answer": "I cittadini sono uniti e condividono le risorse."
+        }
+      ]
+    }
+  ]
+}

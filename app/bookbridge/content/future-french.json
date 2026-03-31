@@ -1,0 +1,366 @@
+{
+  "category": "future",
+  "language": "french",
+  "languageCode": "fr",
+  "seriesTitle": "L'Avenir — The Future",
+  "chapters": [
+    {
+      "id": 1,
+      "title": {
+        "native": "L'Avenir de la Technologie",
+        "english": "The Future of Technology"
+      },
+      "introduction": {
+        "native": "Bienvenue dans le futur ! Imaginez un monde où votre réfrigérateur commande vos courses tout seul, où les voitures volent au-dessus des villes, et où votre meilleur ami est peut-être un robot. La technologie avance à une vitesse incroyable, et la France est au cœur de cette révolution. Préparez-vous à découvrir les mots et les idées qui façonneront le monde de demain !",
+        "english": "Welcome to the future! Imagine a world where your fridge orders your groceries by itself, where cars fly above cities, and where your best friend might be a robot. Technology is advancing at an incredible speed, and France is at the heart of this revolution. Get ready to discover the words and ideas that will shape the world of tomorrow!"
+      },
+      "vocabulary": [
+        { "word": "la technologie", "pronunciation": "lah tek-noh-loh-ZHEE", "translation": "technology" },
+        { "word": "l'avenir", "pronunciation": "lah-vuh-NEER", "translation": "the future" },
+        { "word": "un robot", "pronunciation": "uh roh-BOH", "translation": "a robot" },
+        { "word": "un écran tactile", "pronunciation": "uh ay-KRAHN tak-TEEL", "translation": "a touchscreen" },
+        { "word": "une invention", "pronunciation": "oon ah-vah-SYOHN", "translation": "an invention" },
+        { "word": "la réalité virtuelle", "pronunciation": "lah ray-ah-lee-TAY veer-too-ELL", "translation": "virtual reality" },
+        { "word": "un drone", "pronunciation": "uh DROHN", "translation": "a drone" },
+        { "word": "connecté(e)", "pronunciation": "koh-nek-TAY", "translation": "connected" },
+        { "word": "programmer", "pronunciation": "proh-grah-MAY", "translation": "to program" },
+        { "word": "télécharger", "pronunciation": "tay-lay-shar-ZHAY", "translation": "to download" },
+        { "word": "une application", "pronunciation": "oon ah-plee-kah-SYOHN", "translation": "an app/application" },
+        { "word": "les données", "pronunciation": "lay doh-NAY", "translation": "data" },
+        { "word": "un hologramme", "pronunciation": "uh oh-loh-GRAHM", "translation": "a hologram" },
+        { "word": "l'énergie solaire", "pronunciation": "lay-nair-ZHEE soh-LAIR", "translation": "solar energy" },
+        { "word": "une imprimante 3D", "pronunciation": "oon ah-pree-MAHNT trwah DAY", "translation": "a 3D printer" },
+        { "word": "le réseau", "pronunciation": "luh ray-ZOH", "translation": "the network" },
+        { "word": "sans fil", "pronunciation": "sah FEEL", "translation": "wireless" },
+        { "word": "révolutionnaire", "pronunciation": "ray-voh-loo-syoh-NAIR", "translation": "revolutionary" }
+      ],
+      "sentences": [
+        {
+          "native": "Mon père a acheté un drone connecté qui peut livrer des pizzas à la maison !",
+          "english": "My dad bought a connected drone that can deliver pizzas to the house!"
+        },
+        {
+          "native": "Dans le futur, on pourra télécharger nos devoirs directement dans notre cerveau grâce à la réalité virtuelle.",
+          "english": "In the future, we'll be able to download our homework directly into our brain thanks to virtual reality."
+        },
+        {
+          "native": "Ma sœur a utilisé une imprimante 3D pour créer un hologramme de notre chat — c'est révolutionnaire !",
+          "english": "My sister used a 3D printer to create a hologram of our cat — it's revolutionary!"
+        }
+      ],
+      "culturalNote": "La France est un pays de grands inventeurs ! Saviez-vous que le cinéma a été inventé par les frères Lumière à Lyon en 1895 ? Aujourd'hui, la France continue d'innover avec Station F à Paris, le plus grand campus de startups au monde. Des milliers de jeunes entrepreneurs français travaillent chaque jour sur les technologies du futur. 🇫🇷🚀",
+      "exercises": [
+        {
+          "type": "fill-blank",
+          "question": "Mon téléphone est _____ à Internet par le Wi-Fi. (My phone is _____ to the Internet via Wi-Fi.)",
+          "answer": "connecté"
+        },
+        {
+          "type": "fill-blank",
+          "question": "J'ai appris à _____ un jeu vidéo en cours d'informatique. (I learned to _____ a video game in computer class.)",
+          "answer": "programmer"
+        },
+        {
+          "type": "translate",
+          "question": "Translate to French: 'Virtual reality is a revolutionary invention.'",
+          "answer": "La réalité virtuelle est une invention révolutionnaire."
+        },
+        {
+          "type": "fill-blank",
+          "question": "Il faut _____ cette application sur ton écran tactile. (You need to _____ this app on your touchscreen.)",
+          "answer": "télécharger"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": {
+        "native": "Le Voyage Spatial",
+        "english": "Space Travel"
+      },
+      "introduction": {
+        "native": "Trois, deux, un… décollage ! Attachez vos ceintures, nous partons pour les étoiles ! Le voyage spatial n'est plus seulement un rêve de science-fiction. Des fusées réutilisables aux colonies sur Mars, l'humanité se prépare à explorer l'univers. Et devinez quoi ? Beaucoup de mots spatiaux en anglais viennent du français ! Embarquez avec nous dans cette aventure cosmique et apprenez à parler comme un vrai astronaute francophone.",
+        "english": "Three, two, one… liftoff! Fasten your seatbelts, we're heading for the stars! Space travel is no longer just a science fiction dream. From reusable rockets to colonies on Mars, humanity is getting ready to explore the universe. And guess what? Many space words in English come from French! Join us on this cosmic adventure and learn to speak like a true French-speaking astronaut."
+      },
+      "vocabulary": [
+        { "word": "une fusée", "pronunciation": "oon foo-ZAY", "translation": "a rocket" },
+        { "word": "un astronaute", "pronunciation": "uh as-troh-NOHT", "translation": "an astronaut" },
+        { "word": "l'espace", "pronunciation": "less-PASS", "translation": "space" },
+        { "word": "une étoile", "pronunciation": "oon ay-TWAHL", "translation": "a star" },
+        { "word": "la lune", "pronunciation": "lah LOON", "translation": "the moon" },
+        { "word": "une planète", "pronunciation": "oon plah-NET", "translation": "a planet" },
+        { "word": "le décollage", "pronunciation": "luh day-koh-LAHZH", "translation": "liftoff/takeoff" },
+        { "word": "atterrir", "pronunciation": "ah-teh-REER", "translation": "to land" },
+        { "word": "l'apesanteur", "pronunciation": "lah-puh-zahn-TUHR", "translation": "weightlessness/zero gravity" },
+        { "word": "une galaxie", "pronunciation": "oon gah-lak-SEE", "translation": "a galaxy" },
+        { "word": "un satellite", "pronunciation": "uh sah-teh-LEET", "translation": "a satellite" },
+        { "word": "une station spatiale", "pronunciation": "oon stah-SYOHN spah-SYAHL", "translation": "a space station" },
+        { "word": "un extraterrestre", "pronunciation": "uh ex-trah-teh-REST-ruh", "translation": "an alien/extraterrestrial" },
+        { "word": "l'univers", "pronunciation": "loo-nee-VAIR", "translation": "the universe" },
+        { "word": "une combinaison spatiale", "pronunciation": "oon kohm-bee-neh-ZOHN spah-SYAHL", "translation": "a spacesuit" },
+        { "word": "orbiter", "pronunciation": "or-bee-TAY", "translation": "to orbit" },
+        { "word": "la gravité", "pronunciation": "lah grah-vee-TAY", "translation": "gravity" },
+        { "word": "un trou noir", "pronunciation": "uh TROO NWAHR", "translation": "a black hole" },
+        { "word": "explorer", "pronunciation": "ex-ploh-RAY", "translation": "to explore" }
+      ],
+      "sentences": [
+        {
+          "native": "L'astronaute français a enfilé sa combinaison spatiale avant le décollage de la fusée vers Mars.",
+          "english": "The French astronaut put on his spacesuit before the rocket's liftoff toward Mars."
+        },
+        {
+          "native": "En apesanteur dans la station spatiale, les stylos flottent et le jus d'orange forme des bulles magiques !",
+          "english": "In weightlessness on the space station, pens float and orange juice forms magical bubbles!"
+        },
+        {
+          "native": "Les scientifiques ont découvert une nouvelle galaxie avec des milliards d'étoiles — peut-être qu'un extraterrestre nous observe en ce moment !",
+          "english": "Scientists discovered a new galaxy with billions of stars — maybe an alien is watching us right now!"
+        }
+      ],
+      "culturalNote": "La France joue un rôle majeur dans la conquête spatiale ! Thomas Pesquet est l'astronaute français le plus célèbre — il a passé des mois sur la Station Spatiale Internationale et a partagé des photos magnifiques de la Terre. La France est aussi un membre fondateur de l'ESA (Agence Spatiale Européenne) et lance ses fusées depuis Kourou, en Guyane française. C'est le port spatial de l'Europe ! 🛰️",
+      "exercises": [
+        {
+          "type": "fill-blank",
+          "question": "La _____ Ariane a décollé de Kourou ce matin. (The Ariane _____ took off from Kourou this morning.)",
+          "answer": "fusée"
+        },
+        {
+          "type": "fill-blank",
+          "question": "Thomas Pesquet est un _____ français très connu. (Thomas Pesquet is a very well-known French _____.)",
+          "answer": "astronaute"
+        },
+        {
+          "type": "translate",
+          "question": "Translate to French: 'The satellite orbits around the planet.'",
+          "answer": "Le satellite orbite autour de la planète."
+        },
+        {
+          "type": "fill-blank",
+          "question": "Dans l'espace, il n'y a pas de gravité — on flotte en _____. (In space, there is no gravity — you float in _____.)",
+          "answer": "apesanteur"
+        },
+        {
+          "type": "translate",
+          "question": "Translate to French: 'I want to explore the universe and discover new stars.'",
+          "answer": "Je veux explorer l'univers et découvrir de nouvelles étoiles."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": {
+        "native": "L'Intelligence Artificielle",
+        "english": "Artificial Intelligence"
+      },
+      "introduction": {
+        "native": "Est-ce qu'un ordinateur peut penser ? Est-ce qu'un robot peut ressentir des émotions ? L'intelligence artificielle est partout autour de nous : dans nos téléphones, nos jeux vidéo, et même dans nos réfrigérateurs intelligents ! Certains ont peur de l'IA, d'autres pensent qu'elle va nous aider à résoudre les plus grands problèmes du monde. Dans ce chapitre, vous allez apprendre à parler de cette technologie fascinante en français.",
+        "english": "Can a computer think? Can a robot feel emotions? Artificial intelligence is everywhere around us: in our phones, our video games, and even in our smart fridges! Some people are afraid of AI, others think it will help us solve the world's biggest problems. In this chapter, you'll learn to talk about this fascinating technology in French."
+      },
+      "vocabulary": [
+        { "word": "l'intelligence artificielle (l'IA)", "pronunciation": "lah-tell-ee-ZHANSS ar-tee-fee-SYELL (lee-AH)", "translation": "artificial intelligence (AI)" },
+        { "word": "un algorithme", "pronunciation": "uh al-goh-REETM", "translation": "an algorithm" },
+        { "word": "apprendre", "pronunciation": "ah-PRAHNDR", "translation": "to learn" },
+        { "word": "un réseau neuronal", "pronunciation": "uh ray-ZOH nuh-roh-NAHL", "translation": "a neural network" },
+        { "word": "les données", "pronunciation": "lay doh-NAY", "translation": "data" },
+        { "word": "une machine", "pronunciation": "oon mah-SHEEN", "translation": "a machine" },
+        { "word": "reconnaître", "pronunciation": "ruh-koh-NETR", "translation": "to recognize" },
+        { "word": "un assistant vocal", "pronunciation": "uh ah-sees-TAHN voh-KAHL", "translation": "a voice assistant" },
+        { "word": "la conscience", "pronunciation": "lah kohn-SYAHNSS", "translation": "consciousness/awareness" },
+        { "word": "autonome", "pronunciation": "oh-toh-NOHM", "translation": "autonomous/self-driving" },
+        { "word": "prédire", "pronunciation": "pray-DEER", "translation": "to predict" },
+        { "word": "un chatbot", "pronunciation": "uh CHAT-boht", "translation": "a chatbot" },
+        { "word": "la vie privée", "pronunciation": "lah vee pree-VAY", "translation": "privacy" },
+        { "word": "l'éthique", "pronunciation": "lay-TEEK", "translation": "ethics" },
+        { "word": "simuler", "pronunciation": "see-moo-LAY", "translation": "to simulate" },
+        { "word": "une voiture autonome", "pronunciation": "oon vwah-TOOR oh-toh-NOHM", "translation": "a self-driving car" },
+        { "word": "analyser", "pronunciation": "ah-nah-lee-ZAY", "translation": "to analyze" },
+        { "word": "intelligent(e)", "pronunciation": "ah-tell-ee-ZHAHN(T)", "translation": "smart/intelligent" }
+      ],
+      "sentences": [
+        {
+          "native": "Mon assistant vocal est tellement intelligent qu'il a appris à reconnaître ma voix même quand j'ai un rhume !",
+          "english": "My voice assistant is so smart that it learned to recognize my voice even when I have a cold!"
+        },
+        {
+          "native": "L'algorithme peut analyser des millions de données pour prédire quel film tu vas adorer ce soir.",
+          "english": "The algorithm can analyze millions of data points to predict which movie you'll love tonight."
+        },
+        {
+          "native": "La question d'éthique est importante : est-ce qu'une voiture autonome doit protéger ses passagers ou les piétons ?",
+          "english": "The ethics question is important: should a self-driving car protect its passengers or the pedestrians?"
+        }
+      ],
+      "culturalNote": "La France est un leader mondial en intelligence artificielle ! Le président Macron a lancé un grand plan national pour l'IA, et Paris abrite de nombreux laboratoires de recherche. Saviez-vous que le mot « algorithme » vient du nom du mathématicien perse Al-Khwârizmî, mais que la France a produit de grands mathématiciens comme Blaise Pascal, qui a inventé l'une des premières machines à calculer en 1642 ? Les Français adorent débattre de l'éthique de l'IA — c'est très français de philosopher sur les robots ! 🤖",
+      "exercises": [
+        {
+          "type": "fill-blank",
+          "question": "Siri et Alexa sont des _____ _____. (Siri and Alexa are _____ _____.)",
+          "answer": "assistants vocaux"
+        },
+        {
+          "type": "fill-blank",
+          "question": "Cette IA peut _____ les visages sur les photos. (This AI can _____ faces in photos.)",
+          "answer": "reconnaître"
+        },
+        {
+          "type": "translate",
+          "question": "Translate to French: 'The self-driving car analyzes data to predict danger.'",
+          "answer": "La voiture autonome analyse les données pour prédire le danger."
+        },
+        {
+          "type": "fill-blank",
+          "question": "Il faut respecter la _____ _____ des utilisateurs. (We must respect the users' _____.)",
+          "answer": "vie privée"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": {
+        "native": "Les Villes de Demain",
+        "english": "Cities of Tomorrow"
+      },
+      "introduction": {
+        "native": "Fermez les yeux et imaginez la ville du futur : des gratte-ciel couverts de jardins verticaux, des tramways silencieux qui glissent dans les airs, et zéro pollution ! Les villes de demain seront écologiques, intelligentes et pleines de surprises. En France, des architectes et des ingénieurs travaillent déjà pour transformer Paris, Lyon et Marseille en cités du futur. Découvrons ensemble le vocabulaire de ces villes extraordinaires !",
+        "english": "Close your eyes and imagine the city of the future: skyscrapers covered in vertical gardens, silent trams gliding through the air, and zero pollution! Tomorrow's cities will be eco-friendly, smart, and full of surprises. In France, architects and engineers are already working to transform Paris, Lyon, and Marseille into cities of the future. Let's discover together the vocabulary of these extraordinary cities!"
+      },
+      "vocabulary": [
+        { "word": "une ville intelligente", "pronunciation": "oon veel ah-tell-ee-ZHAHNT", "translation": "a smart city" },
+        { "word": "un gratte-ciel", "pronunciation": "uh graht-SYELL", "translation": "a skyscraper" },
+        { "word": "écologique", "pronunciation": "ay-koh-loh-ZHEEK", "translation": "eco-friendly/ecological" },
+        { "word": "les transports en commun", "pronunciation": "lay trahnss-POR ahn koh-MUHN", "translation": "public transportation" },
+        { "word": "un jardin vertical", "pronunciation": "uh zhar-DAH vair-tee-KAHL", "translation": "a vertical garden" },
+        { "word": "l'énergie renouvelable", "pronunciation": "lay-nair-ZHEE ruh-noo-VLAHBL", "translation": "renewable energy" },
+        { "word": "recycler", "pronunciation": "ruh-see-CLAY", "translation": "to recycle" },
+        { "word": "la pollution", "pronunciation": "lah poh-loo-SYOHN", "translation": "pollution" },
+        { "word": "un panneau solaire", "pronunciation": "uh pah-NOH soh-LAIR", "translation": "a solar panel" },
+        { "word": "une piste cyclable", "pronunciation": "oon peest see-KLAHBL", "translation": "a bike lane" },
+        { "word": "durable", "pronunciation": "doo-RAHBL", "translation": "sustainable" },
+        { "word": "un bâtiment", "pronunciation": "uh bah-tee-MAHN", "translation": "a building" },
+        { "word": "un espace vert", "pronunciation": "uh ess-PASS VAIR", "translation": "a green space/park" },
+        { "word": "la mobilité", "pronunciation": "lah moh-bee-lee-TAY", "translation": "mobility/transportation" },
+        { "word": "zéro déchet", "pronunciation": "zay-ROH day-SHAY", "translation": "zero waste" },
+        { "word": "un trottoir roulant", "pronunciation": "uh troh-TWAHR roo-LAHN", "translation": "a moving walkway" },
+        { "word": "souterrain(e)", "pronunciation": "soo-teh-RAHN", "translation": "underground" },
+        { "word": "une éolienne", "pronunciation": "oon ay-oh-LYENN", "translation": "a wind turbine" }
+      ],
+      "sentences": [
+        {
+          "native": "Dans la ville intelligente de demain, chaque gratte-ciel aura des jardins verticaux et des panneaux solaires sur le toit.",
+          "english": "In tomorrow's smart city, every skyscraper will have vertical gardens and solar panels on the roof."
+        },
+        {
+          "native": "Ma ville a installé des pistes cyclables partout — maintenant, c'est plus écologique de prendre son vélo que la voiture !",
+          "english": "My city installed bike lanes everywhere — now it's more eco-friendly to ride your bike than to drive!"
+        },
+        {
+          "native": "Le nouveau bâtiment souterrain utilise l'énergie renouvelable et fonctionne en mode zéro déchet.",
+          "english": "The new underground building uses renewable energy and operates in zero-waste mode."
+        }
+      ],
+      "culturalNote": "Paris se transforme déjà en ville du futur ! Le projet « Paris 2050 » imagine des tours recouvertes de végétation et des ponts habités. La ville a aussi interdit les voitures les plus polluantes et ajouté des centaines de kilomètres de pistes cyclables. Le métro de Paris, inauguré en 1900, est l'un des plus anciens au monde — et les nouvelles lignes automatiques du Grand Paris Express seront sans conducteur ! Les Français adorent aussi les marchés en plein air et veulent garder cette tradition même dans les villes hypermodernes. 🌿🏙️",
+      "exercises": [
+        {
+          "type": "fill-blank",
+          "question": "Les _____ _____ produisent de l'électricité grâce au vent. (_____ _____ produce electricity thanks to the wind.)",
+          "answer": "éoliennes"
+        },
+        {
+          "type": "fill-blank",
+          "question": "Il faut _____ le plastique pour protéger l'environnement. (We must _____ plastic to protect the environment.)",
+          "answer": "recycler"
+        },
+        {
+          "type": "translate",
+          "question": "Translate to French: 'The smart city has green spaces and bike lanes.'",
+          "answer": "La ville intelligente a des espaces verts et des pistes cyclables."
+        },
+        {
+          "type": "fill-blank",
+          "question": "Ce bâtiment est très _____ : il n'utilise que de l'énergie renouvelable. (This building is very _____: it only uses renewable energy.)",
+          "answer": "écologique"
+        },
+        {
+          "type": "translate",
+          "question": "Translate to French: 'Public transportation reduces pollution.'",
+          "answer": "Les transports en commun réduisent la pollution."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": {
+        "native": "Un Nouveau Monde",
+        "english": "A New World"
+      },
+      "introduction": {
+        "native": "Et si on recommençait tout à zéro ? Imaginez qu'on découvre une nouvelle planète habitable, un endroit parfait pour construire une nouvelle civilisation. Quelles règles choisiriez-vous ? Quelle langue parleriez-vous ? Dans ce dernier chapitre, nous rêvons ensemble d'un nouveau monde — un monde meilleur, plus juste et plus beau. Vous allez apprendre les mots pour exprimer vos espoirs, vos rêves et votre vision du futur. C'est à vous de créer le monde de demain !",
+        "english": "What if we started everything from scratch? Imagine we discover a new habitable planet, a perfect place to build a new civilization. What rules would you choose? What language would you speak? In this final chapter, we dream together of a new world — a better, fairer, and more beautiful world. You'll learn the words to express your hopes, your dreams, and your vision of the future. It's up to you to create the world of tomorrow!"
+      },
+      "vocabulary": [
+        { "word": "un nouveau monde", "pronunciation": "uh noo-VOH MOHND", "translation": "a new world" },
+        { "word": "l'espoir", "pronunciation": "less-PWAHR", "translation": "hope" },
+        { "word": "un rêve", "pronunciation": "uh REV", "translation": "a dream" },
+        { "word": "la paix", "pronunciation": "lah PAY", "translation": "peace" },
+        { "word": "l'égalité", "pronunciation": "lay-gah-lee-TAY", "translation": "equality" },
+        { "word": "la liberté", "pronunciation": "lah lee-bair-TAY", "translation": "freedom/liberty" },
+        { "word": "une utopie", "pronunciation": "oon oo-toh-PEE", "translation": "a utopia" },
+        { "word": "une dystopie", "pronunciation": "oon dees-toh-PEE", "translation": "a dystopia" },
+        { "word": "coloniser", "pronunciation": "koh-loh-nee-ZAY", "translation": "to colonize" },
+        { "word": "construire", "pronunciation": "kohn-STRWEER", "translation": "to build" },
+        { "word": "la solidarité", "pronunciation": "lah soh-lee-dah-ree-TAY", "translation": "solidarity/togetherness" },
+        { "word": "protéger", "pronunciation": "proh-tay-ZHAY", "translation": "to protect" },
+        { "word": "la diversité", "pronunciation": "lah dee-vair-see-TAY", "translation": "diversity" },
+        { "word": "une civilisation", "pronunciation": "oon see-vee-lee-zah-SYOHN", "translation": "a civilization" },
+        { "word": "inventer", "pronunciation": "ah-vahn-TAY", "translation": "to invent" },
+        { "word": "partager", "pronunciation": "par-tah-ZHAY", "translation": "to share" },
+        { "word": "l'humanité", "pronunciation": "loo-mah-nee-TAY", "translation": "humanity" },
+        { "word": "un citoyen / une citoyenne", "pronunciation": "uh see-twah-YAH / oon see-twah-YENN", "translation": "a citizen (m/f)" },
+        { "word": "durable", "pronunciation": "doo-RAHBL", "translation": "sustainable/lasting" },
+        { "word": "transformer", "pronunciation": "trahnss-for-MAY", "translation": "to transform" }
+      ],
+      "sentences": [
+        {
+          "native": "Les citoyens de cette nouvelle civilisation ont choisi la paix, l'égalité et la solidarité comme valeurs principales.",
+          "english": "The citizens of this new civilization chose peace, equality, and solidarity as their main values."
+        },
+        {
+          "native": "Mon rêve, c'est de construire un nouveau monde où l'humanité protège la nature et partage ses ressources.",
+          "english": "My dream is to build a new world where humanity protects nature and shares its resources."
+        },
+        {
+          "native": "Est-ce que notre futur sera une utopie merveilleuse ou une dystopie effrayante ? L'espoir, c'est que c'est nous qui décidons !",
+          "english": "Will our future be a wonderful utopia or a frightening dystopia? The hope is that we're the ones who decide!"
+        }
+      ],
+      "culturalNote": "« Liberté, Égalité, Fraternité » — vous reconnaissez cette devise ? C'est la devise nationale de la France depuis la Révolution française de 1789 ! Ces trois mots sont gravés sur tous les bâtiments publics en France. Les Français croient profondément que ces valeurs doivent guider toute société, présente ou future. Le mot « fraternité » signifie « brotherhood » ou « solidarity » en anglais. Jules Verne, le célèbre auteur français de science-fiction, a imaginé des sous-marins, des voyages sur la Lune et le tour du monde en 80 jours… bien avant que ces choses deviennent réalité ! Il est considéré comme le père de la science-fiction moderne. 📖✨",
+      "exercises": [
+        {
+          "type": "fill-blank",
+          "question": "La devise de la France est : Liberté, _____, Fraternité. (France's motto is: Liberty, _____, Fraternity.)",
+          "answer": "Égalité"
+        },
+        {
+          "type": "fill-blank",
+          "question": "Nous devons _____ la planète pour les générations futures. (We must _____ the planet for future generations.)",
+          "answer": "protéger"
+        },
+        {
+          "type": "translate",
+          "question": "Translate to French: 'Hope and solidarity can transform humanity.'",
+          "answer": "L'espoir et la solidarité peuvent transformer l'humanité."
+        },
+        {
+          "type": "fill-blank",
+          "question": "Jules Verne a écrit des livres sur une _____ parfaite sur la Lune. (Jules Verne wrote books about a perfect _____ on the Moon.)",
+          "answer": "utopie"
+        },
+        {
+          "type": "translate",
+          "question": "Translate to French: 'Every citizen must share and build a sustainable world.'",
+          "answer": "Chaque citoyen doit partager et construire un monde durable."
+        }
+      ]
+    }
+  ]
+}

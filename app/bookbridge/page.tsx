@@ -1,39 +1,84 @@
 import Link from "next/link";
+import { CATEGORIES } from "./data";
 
 export default function BookBridgePage() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center px-6 relative overflow-hidden">
-      {/* Ambient */}
-      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[500px] h-[500px] rounded-full blur-[100px] opacity-15 bg-purple-600 pointer-events-none" />
+    <div className="min-h-screen relative overflow-hidden">
+      {/* Ambient glow */}
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full blur-[120px] opacity-15 bg-purple-600 pointer-events-none" />
+      <div className="absolute bottom-0 right-0 w-[400px] h-[400px] rounded-full blur-[100px] opacity-10 bg-violet-500 pointer-events-none" />
 
-      <div className="text-center relative z-10 max-w-lg">
-        <div className="text-6xl mb-6">📖</div>
-        <h1 className="text-4xl sm:text-5xl font-black mb-3">
+      {/* Nav */}
+      <nav className="relative z-10 flex items-center justify-between px-6 py-5 max-w-6xl mx-auto">
+        <Link href="/" className="text-sm text-[var(--prysm-muted)] hover:text-white transition-colors">
+          ← Prysm
+        </Link>
+      </nav>
+
+      {/* Hero */}
+      <section className="relative z-10 flex flex-col items-center text-center px-6 pt-16 pb-20 max-w-3xl mx-auto">
+        <div className="text-7xl mb-6">📖</div>
+        <h1 className="text-5xl sm:text-6xl font-black mb-3">
           <span className="prism-text">BookBridge</span>
         </h1>
         <p className="text-xs tracking-[0.4em] text-purple-400/70 uppercase mb-6">
           Literature-Powered Learning
         </p>
-        <p className="text-lg text-[var(--prysm-muted)] mb-4">
-          Pick a book. Learn a language.
+        <p className="text-xl text-[var(--prysm-muted)] mb-4 max-w-lg">
+          Pick a book you love. We&apos;ll match you to a language learning series inspired by its themes.
         </p>
-        <p className="text-sm text-[var(--prysm-muted)] leading-relaxed mb-10">
-          BookBridge lets you learn a new language through the stories you already love.
-          Real literature, intelligent translation, and contextual learning — all woven together.
+        <p className="text-sm text-[var(--prysm-muted)] leading-relaxed mb-10 max-w-md">
+          Browse our library of popular books, choose one that excites you, and unlock curated language courses in Spanish, French, Italian, or Japanese — all themed around what you already enjoy reading.
         </p>
+        <Link
+          href="/bookbridge/library"
+          className="px-8 py-3.5 rounded-full bg-purple-600 hover:bg-purple-500 text-white font-semibold text-base transition-colors shadow-lg shadow-purple-600/25"
+        >
+          Browse Library →
+        </Link>
+      </section>
 
-        <div className="inline-block px-5 py-2.5 rounded-full border border-purple-500/30 bg-purple-500/10 text-purple-400 text-sm font-semibold tracking-wider">
-          COMING SOON
+      {/* How it works */}
+      <section className="relative z-10 max-w-4xl mx-auto px-6 pb-20">
+        <h2 className="text-center text-2xl font-bold mb-3">How It Works</h2>
+        <p className="text-center text-[var(--prysm-muted)] text-sm mb-12 max-w-md mx-auto">
+          Three simple steps from book lover to language learner.
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
+          {[
+            { step: "1", icon: "📚", title: "Pick a Book", desc: "Browse our curated library and choose a book you love." },
+            { step: "2", icon: "🔗", title: "Get Matched", desc: "We match your book's themes to a learning category." },
+            { step: "3", icon: "🌍", title: "Learn a Language", desc: "Dive into a themed series in your chosen language." },
+          ].map((s) => (
+            <div key={s.step} className="flex flex-col items-center">
+              <div className="text-4xl mb-3">{s.icon}</div>
+              <h3 className="font-semibold text-lg mb-1">{s.title}</h3>
+              <p className="text-sm text-[var(--prysm-muted)]">{s.desc}</p>
+            </div>
+          ))}
         </div>
+      </section>
 
-        <div className="mt-10">
-          <Link href="/" className="text-sm text-[var(--prysm-muted)] hover:text-white transition-colors">
-            ← Back to Prysm
-          </Link>
+      {/* Categories */}
+      <section className="relative z-10 max-w-4xl mx-auto px-6 pb-24">
+        <h2 className="text-center text-2xl font-bold mb-3">Categories</h2>
+        <p className="text-center text-[var(--prysm-muted)] text-sm mb-10 max-w-md mx-auto">
+          Every book maps to one or more learning categories.
+        </p>
+        <div className="grid grid-cols-2 sm:grid-cols-5 gap-4">
+          {CATEGORIES.map((cat) => (
+            <div
+              key={cat.id}
+              className="flex flex-col items-center gap-2 p-5 rounded-xl border border-purple-500/20 bg-purple-500/5 hover:bg-purple-500/10 transition-colors"
+            >
+              <span className="text-3xl">{cat.icon}</span>
+              <span className="text-sm font-medium">{cat.label}</span>
+            </div>
+          ))}
         </div>
-      </div>
+      </section>
 
-      <footer className="absolute bottom-6 text-center text-xs text-[var(--prysm-muted)]">
+      <footer className="relative z-10 pb-8 text-center text-xs text-[var(--prysm-muted)]">
         A subsidiary of <span className="text-white/60">OnlineMars LLC</span>
       </footer>
     </div>
