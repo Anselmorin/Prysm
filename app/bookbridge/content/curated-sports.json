@@ -1,0 +1,1070 @@
+[
+  {
+    "id": "shoe-dog",
+    "title": "Shoe Dog",
+    "author": "Phil Knight",
+    "isbn": "",
+    "coverId": 8858487,
+    "year": 2014,
+    "categories": [
+      "sports"
+    ],
+    "description": "Phil Knight's memoir about founding Nike from a scrappy startup to a global sportswear empire."
+  },
+  {
+    "id": "can-t-hurt-me",
+    "title": "Can't Hurt Me",
+    "author": "David Goggins",
+    "isbn": "",
+    "coverId": 8305903,
+    "year": 2018,
+    "categories": [
+      "sports"
+    ],
+    "description": "David Goggins shares his journey from poverty to becoming one of the world's toughest endurance athletes."
+  },
+  {
+    "id": "born-to-run",
+    "title": "Born to Run",
+    "author": "Christopher McDougall",
+    "isbn": "",
+    "coverId": 8473368,
+    "year": 2009,
+    "categories": [
+      "sports"
+    ],
+    "description": "An adventure exploring the secrets of the Tarahumara Indians, the greatest distance runners in the world."
+  },
+  {
+    "id": "the-mamba-mentality",
+    "title": "The Mamba Mentality",
+    "author": "Kobe Bryant",
+    "isbn": "",
+    "coverId": 9261036,
+    "year": 2005,
+    "categories": [
+      "sports"
+    ],
+    "description": "Kobe Bryant reveals the mindset and relentless work ethic behind his legendary basketball career."
+  },
+  {
+    "id": "unbroken",
+    "title": "Unbroken",
+    "author": "Laura Hillenbrand",
+    "isbn": "",
+    "coverId": 6668103,
+    "year": 2010,
+    "categories": [
+      "sports"
+    ],
+    "description": "The incredible true story of Olympic runner Louis Zamperini's survival as a WWII prisoner of war."
+  },
+  {
+    "id": "the-crossover",
+    "title": "The Crossover",
+    "author": "Kwame Alexander",
+    "isbn": "",
+    "coverId": 7336870,
+    "year": 2014,
+    "categories": [
+      "sports"
+    ],
+    "description": "A Newbery Medal-winning novel-in-verse about twin brothers whose lives revolve around basketball."
+  },
+  {
+    "id": "the-deal",
+    "title": "The Deal",
+    "author": "Elle Kennedy",
+    "isbn": "",
+    "coverId": 10201611,
+    "year": 2015,
+    "categories": [
+      "sports"
+    ],
+    "description": "A college hockey player and a studious girl strike an unlikely deal that leads to unexpected romance."
+  },
+  {
+    "id": "icebreaker",
+    "title": "Icebreaker",
+    "author": "Hannah Grace",
+    "isbn": "",
+    "coverId": 13180728,
+    "year": 2020,
+    "categories": [
+      "sports"
+    ],
+    "description": "A figure skater and hockey captain are forced to share ice time, sparking an enemies-to-lovers romance."
+  },
+  {
+    "id": "maniac-magee",
+    "title": "Maniac Magee",
+    "author": "Jerry Spinelli",
+    "isbn": "",
+    "coverId": 10134677,
+    "year": 1990,
+    "categories": [
+      "sports"
+    ],
+    "description": "A homeless boy becomes a legend in a racially divided town through his extraordinary athletic feats."
+  },
+  {
+    "id": "fever-pitch",
+    "title": "Fever Pitch",
+    "author": "Nick Hornby",
+    "isbn": "",
+    "coverId": 1011069,
+    "year": 1992,
+    "categories": [
+      "sports"
+    ],
+    "description": "Nick Hornby's autobiographical account of his lifelong obsession with Arsenal Football Club."
+  },
+  {
+    "id": "friday-night-lights",
+    "title": "Friday Night Lights",
+    "author": "Buzz Bissinger",
+    "isbn": "",
+    "coverId": 165032,
+    "year": 1990,
+    "categories": [
+      "sports"
+    ],
+    "description": "A gripping look at high school football in small-town Texas and its impact on the community."
+  },
+  {
+    "id": "ghost",
+    "title": "Ghost",
+    "author": "Jason Reynolds",
+    "isbn": "",
+    "coverId": 9257673,
+    "year": 2016,
+    "categories": [
+      "sports"
+    ],
+    "description": "A troubled kid discovers his talent for sprinting and finds purpose on an elite track team."
+  },
+  {
+    "id": "the-raven-king",
+    "title": "The Raven King",
+    "author": "Nora Sakavic",
+    "isbn": "",
+    "coverId": 10310406,
+    "year": 2013,
+    "categories": [
+      "sports"
+    ],
+    "description": "The thrilling conclusion of the All for the Game trilogy centered around a college Exy team."
+  },
+  {
+    "id": "moneyball",
+    "title": "Moneyball",
+    "author": "Michael Lewis",
+    "isbn": "",
+    "coverId": 467718,
+    "year": 2003,
+    "categories": [
+      "sports"
+    ],
+    "description": "How the Oakland A's used data analytics to revolutionize baseball and compete against wealthier teams."
+  },
+  {
+    "id": "the-boys-in-the-boat",
+    "title": "The Boys in the Boat",
+    "author": "Daniel James Brown",
+    "isbn": "",
+    "coverId": 12722394,
+    "year": 2013,
+    "categories": [
+      "sports"
+    ],
+    "description": "Nine working-class Americans rowing their way to gold at the 1936 Berlin Olympics."
+  },
+  {
+    "id": "the-long-walk",
+    "title": "The Long Walk",
+    "author": "Stephen King",
+    "isbn": "",
+    "coverId": 14653609,
+    "year": 1979,
+    "categories": [
+      "sports"
+    ],
+    "description": "A dystopian tale where 100 teenage boys compete in a grueling walking contest where stopping means death."
+  },
+  {
+    "id": "haikyuu",
+    "title": "Haikyuu!!",
+    "author": "Haruichi Furudate",
+    "isbn": "",
+    "coverId": 7370259,
+    "year": 2012,
+    "categories": [
+      "sports"
+    ],
+    "description": "A short but determined high schooler fights to prove himself on the volleyball court in this beloved manga."
+  },
+  {
+    "id": "the-front-runner",
+    "title": "The Front Runner",
+    "author": "Patricia Nell Warren",
+    "isbn": "",
+    "coverId": 1048572,
+    "year": 1974,
+    "categories": [
+      "sports"
+    ],
+    "description": "A groundbreaking novel about a track coach who falls in love with his Olympic-hopeful male runner."
+  },
+  {
+    "id": "indian-horse",
+    "title": "Indian Horse",
+    "author": "Richard Wagamese",
+    "isbn": "",
+    "coverId": 10474137,
+    "year": 2012,
+    "categories": [
+      "sports"
+    ],
+    "description": "A First Nations boy escapes the horrors of residential school through his extraordinary gift for hockey."
+  },
+  {
+    "id": "the-sports-gene",
+    "title": "The Sports Gene",
+    "author": "David J. Epstein",
+    "isbn": "",
+    "coverId": 9644054,
+    "year": 2013,
+    "categories": [
+      "sports"
+    ],
+    "description": "An investigation into the science of extraordinary athletic performance and the nature vs. nurture debate."
+  },
+  {
+    "id": "ultramarathon-man",
+    "title": "Ultramarathon Man",
+    "author": "Dean Karnazes",
+    "isbn": "",
+    "coverId": 850366,
+    "year": 2005,
+    "categories": [
+      "sports"
+    ],
+    "description": "Dean Karnazes recounts his transformation from a desk-bound worker to one of the greatest ultrarunners alive."
+  },
+  {
+    "id": "little-girls-in-pretty-boxes",
+    "title": "Little Girls in Pretty Boxes",
+    "author": "Joan Ryan",
+    "isbn": "",
+    "coverId": 3887513,
+    "year": 1995,
+    "categories": [
+      "sports"
+    ],
+    "description": "A searing exposé of the dark side of elite gymnastics and figure skating training."
+  },
+  {
+    "id": "summer-ball",
+    "title": "Summer Ball",
+    "author": "Mike Lupica",
+    "isbn": "",
+    "coverId": 260270,
+    "year": 2007,
+    "categories": [
+      "sports"
+    ],
+    "description": "A young basketball player attends an elite summer camp and faces challenges both on and off the court."
+  },
+  {
+    "id": "racing-through-the-dark",
+    "title": "Racing Through the Dark",
+    "author": "David Millar",
+    "isbn": "",
+    "coverId": 9448183,
+    "year": 2011,
+    "categories": [
+      "sports"
+    ],
+    "description": "Pro cyclist David Millar's memoir of doping, disgrace, and his fight to return to clean cycling."
+  },
+  {
+    "id": "it-s-not-about-the-bike",
+    "title": "It's Not About the Bike",
+    "author": "Lance Armstrong",
+    "isbn": "",
+    "coverId": 271924,
+    "year": 1999,
+    "categories": [
+      "sports"
+    ],
+    "description": "Lance Armstrong's memoir about surviving cancer and returning to win the Tour de France."
+  },
+  {
+    "id": "britt-marie-was-here",
+    "title": "Britt-Marie Was Here",
+    "author": "Fredrik Backman",
+    "isbn": "",
+    "coverId": 10172730,
+    "year": 2016,
+    "categories": [
+      "sports"
+    ],
+    "description": "A perfectionist woman restarts her life by coaching a ragtag youth soccer team in a small town."
+  },
+  {
+    "id": "the-perfect-mile",
+    "title": "The Perfect Mile",
+    "author": "Neal Bascomb",
+    "isbn": "",
+    "coverId": 1471969,
+    "year": 2004,
+    "categories": [
+      "sports"
+    ],
+    "description": "The thrilling true story of three runners racing to break the four-minute mile barrier."
+  },
+  {
+    "id": "my-sergei",
+    "title": "My Sergei",
+    "author": "Ekaterina Gordeeva",
+    "isbn": "",
+    "coverId": 3853692,
+    "year": 1996,
+    "categories": [
+      "sports"
+    ],
+    "description": "Olympic figure skater Ekaterina Gordeeva's love story with her partner and husband Sergei Grinkov."
+  },
+  {
+    "id": "match-me-if-you-can",
+    "title": "Match Me If You Can",
+    "author": "Susan Elizabeth Phillips",
+    "isbn": "",
+    "coverId": 6407855,
+    "year": 2005,
+    "categories": [
+      "sports"
+    ],
+    "description": "A struggling matchmaker takes on a famous sports agent client and finds more than she bargained for."
+  },
+  {
+    "id": "there-s-a-girl-in-my-hammerlock",
+    "title": "There's a Girl in My Hammerlock",
+    "author": "Jerry Spinelli",
+    "isbn": "",
+    "coverId": 14860057,
+    "year": 1991,
+    "categories": [
+      "sports"
+    ],
+    "description": "A 13-year-old girl joins the boys' wrestling team and battles stereotypes to prove herself."
+  },
+  {
+    "id": "natural-born-heroes",
+    "title": "Natural Born Heroes",
+    "author": "Christopher McDougall",
+    "isbn": "",
+    "coverId": 9138046,
+    "year": 2014,
+    "categories": [
+      "sports"
+    ],
+    "description": "Exploring ancient Greek fitness secrets through the lens of WWII Cretan resistance fighters."
+  },
+  {
+    "id": "applied-sport-psychology",
+    "title": "Applied Sport Psychology",
+    "author": "Jean M. Williams",
+    "isbn": "",
+    "coverId": 1085104,
+    "year": 2006,
+    "categories": [
+      "sports"
+    ],
+    "description": "A comprehensive guide to the mental skills and psychological techniques that drive peak athletic performance."
+  },
+  {
+    "id": "sports-nutrition-guidebook",
+    "title": "Sports Nutrition Guidebook",
+    "author": "Nancy Clark",
+    "isbn": "",
+    "coverId": 4084128,
+    "year": 1990,
+    "categories": [
+      "sports"
+    ],
+    "description": "The definitive guide to eating for sport, exercise, and optimal athletic performance."
+  },
+  {
+    "id": "lionel-messi",
+    "title": "Lionel Messi",
+    "author": "Kate Shoup",
+    "isbn": "",
+    "coverId": 14947197,
+    "year": 2019,
+    "categories": [
+      "sports"
+    ],
+    "description": "A biography of soccer legend Lionel Messi, tracing his rise from Argentina to global superstardom."
+  },
+  {
+    "id": "don-cherry-s-sports-heroes",
+    "title": "Don Cherry's Sports Heroes",
+    "author": "Don Cherry",
+    "isbn": "",
+    "coverId": 12515244,
+    "year": 2016,
+    "categories": [
+      "sports"
+    ],
+    "description": "Hockey icon Don Cherry shares stories about the athletes and characters who shaped the sports world."
+  },
+  {
+    "id": "swimming-studies",
+    "title": "Swimming Studies",
+    "author": "Leanne Shapton",
+    "isbn": "",
+    "coverId": 8751365,
+    "year": 2012,
+    "categories": [
+      "sports"
+    ],
+    "description": "A former Olympic trials swimmer reflects on how competitive swimming shaped her life and art."
+  },
+  {
+    "id": "the-captain-class",
+    "title": "The Captain Class",
+    "author": "Sam Walker",
+    "isbn": "",
+    "coverId": 13485737,
+    "year": 2017,
+    "categories": [
+      "sports"
+    ],
+    "description": "A study of the greatest sports teams in history reveals the surprising traits that make elite captains."
+  },
+  {
+    "id": "let-your-mind-run",
+    "title": "Let Your Mind Run",
+    "author": "Deena Kastor",
+    "isbn": "",
+    "coverId": 8807470,
+    "year": 2018,
+    "categories": [
+      "sports"
+    ],
+    "description": "American marathon record holder Deena Kastor shares how optimism transformed her running and life."
+  },
+  {
+    "id": "the-soul-of-baseball",
+    "title": "The Soul of Baseball",
+    "author": "Joe Posnanski",
+    "isbn": "",
+    "coverId": 38365,
+    "year": 2007,
+    "categories": [
+      "sports"
+    ],
+    "description": "A heartfelt road trip with Negro Leagues legend Buck O'Neil celebrating the spirit of America's pastime."
+  },
+  {
+    "id": "pumping-iron",
+    "title": "Pumping Iron",
+    "author": "Charles Gaines",
+    "isbn": "",
+    "coverId": 6965134,
+    "year": 1974,
+    "categories": [
+      "sports"
+    ],
+    "description": "The book that launched the bodybuilding craze, featuring Arnold Schwarzenegger's rise to fame."
+  },
+  {
+    "id": "one-day-in-september",
+    "title": "One Day in September",
+    "author": "Simon Reeve",
+    "isbn": "",
+    "coverId": 787742,
+    "year": 2000,
+    "categories": [
+      "sports"
+    ],
+    "description": "The definitive account of the 1972 Munich Olympics massacre and its aftermath."
+  },
+  {
+    "id": "the-man-who-walked-between-the-towers",
+    "title": "The Man Who Walked Between the Towers",
+    "author": "Mordicai Gerstein",
+    "isbn": "",
+    "coverId": 508153,
+    "year": 2003,
+    "categories": [
+      "sports"
+    ],
+    "description": "The Caldecott-winning picture book about Philippe Petit's daring tightrope walk between the Twin Towers."
+  },
+  {
+    "id": "don-t-call-me-goon",
+    "title": "Don't Call Me Goon",
+    "author": "Greg Oliver",
+    "isbn": "",
+    "coverId": 11621711,
+    "year": 2013,
+    "categories": [
+      "sports"
+    ],
+    "description": "The untold stories of hockey's toughest enforcers and the role of fighting in the sport."
+  },
+  {
+    "id": "the-boys-on-the-rock",
+    "title": "The Boys on the Rock",
+    "author": "John Fox",
+    "isbn": "",
+    "coverId": 4212901,
+    "year": 1984,
+    "categories": [
+      "sports"
+    ],
+    "description": "A coming-of-age novel about a teenage swimmer navigating identity and first love."
+  },
+  {
+    "id": "you-re-a-good-sport-miss-malarkey",
+    "title": "You're a Good Sport, Miss Malarkey",
+    "author": "Judy Finchler",
+    "isbn": "",
+    "coverId": 1512416,
+    "year": 2002,
+    "categories": [
+      "sports"
+    ],
+    "description": "A hilarious children's book about a teacher who becomes an unexpectedly competitive youth sports coach."
+  },
+  {
+    "id": "bully",
+    "title": "Bully",
+    "author": "Penelope Douglas",
+    "isbn": "",
+    "coverId": 8917954,
+    "year": 2013,
+    "categories": [
+      "sports"
+    ],
+    "description": "A dark romance between high school rivals entangled in the world of competitive sports."
+  },
+  {
+    "id": "what-i-talk-about-when-i-talk-about-running",
+    "title": "What I Talk About When I Talk About Running",
+    "author": "Haruki Murakami",
+    "isbn": "",
+    "coverId": 7167416,
+    "year": 2006,
+    "categories": [
+      "sports"
+    ],
+    "description": "Haruki Murakami reflects on how long-distance running shapes his writing and philosophy of life."
+  },
+  {
+    "id": "big-nate-strikes-again",
+    "title": "Big Nate Strikes Again",
+    "author": "Lincoln Peirce",
+    "isbn": "",
+    "coverId": 6626651,
+    "year": 2010,
+    "categories": [
+      "sports"
+    ],
+    "description": "Nate Wright faces his nemesis on the fleeceball field in this hilarious illustrated middle-grade novel."
+  },
+  {
+    "id": "big-nate-game-on",
+    "title": "Big Nate: Game On!",
+    "author": "Lincoln Peirce",
+    "isbn": "",
+    "coverId": 9378949,
+    "year": 2013,
+    "categories": [
+      "sports"
+    ],
+    "description": "A comic collection featuring Big Nate's misadventures in school sports and playground competitions."
+  },
+  {
+    "id": "big-nate-thunka-thunka-thunka",
+    "title": "Big Nate: Thunka Thunka Thunka",
+    "author": "Lincoln Peirce",
+    "isbn": "",
+    "coverId": 12577484,
+    "year": 2016,
+    "categories": [
+      "sports"
+    ],
+    "description": "More comic strips following Big Nate's athletic ambitions and school-day shenanigans."
+  },
+  {
+    "id": "geronimo-stilton-and-the-gold-medal-mystery",
+    "title": "Geronimo Stilton and the Gold Medal Mystery",
+    "author": "Elisabetta Dami",
+    "isbn": "",
+    "coverId": 2480296,
+    "year": 2004,
+    "categories": [
+      "sports"
+    ],
+    "description": "Geronimo Stilton heads to the Olympics in this fun adventure filled with sports and mystery."
+  },
+  {
+    "id": "watch-me-throw-the-ball",
+    "title": "Watch Me Throw the Ball!",
+    "author": "Mo Willems",
+    "isbn": "",
+    "coverId": 7347074,
+    "year": 2009,
+    "categories": [
+      "sports"
+    ],
+    "description": "Elephant and Piggie learn about sportsmanship in this charming early reader about throwing a ball."
+  },
+  {
+    "id": "good-for-me-and-you",
+    "title": "Good for Me and You",
+    "author": "Mercer Mayer",
+    "isbn": "",
+    "coverId": 2929519,
+    "year": 2004,
+    "categories": [
+      "sports"
+    ],
+    "description": "Little Critter explores healthy habits and sports activities in this beloved children's picture book."
+  },
+  {
+    "id": "why-i-quit-zombie-school",
+    "title": "Why I Quit Zombie School",
+    "author": "R.L. Stine",
+    "isbn": "",
+    "coverId": 7235617,
+    "year": 2011,
+    "categories": [
+      "sports"
+    ],
+    "description": "A sports-loving kid discovers his new school is full of zombies in this Goosebumps-style thriller."
+  },
+  {
+    "id": "grumpy-darling",
+    "title": "Grumpy Darling",
+    "author": "Alexandra Moody",
+    "isbn": "",
+    "coverId": 15101727,
+    "year": 2025,
+    "categories": [
+      "sports"
+    ],
+    "description": "A grumpy athlete and a sunshine optimist clash in this enemies-to-lovers sports romance."
+  },
+  {
+    "id": "beartown",
+    "title": "Beartown",
+    "author": "Fredrik Backman",
+    "isbn": "",
+    "coverId": 8114147,
+    "year": 2016,
+    "categories": [
+      "sports"
+    ],
+    "description": "A small town's hopes for revival rest on its junior hockey team, until a violent act threatens everything."
+  },
+  {
+    "id": "the-blind-side",
+    "title": "The Blind Side",
+    "author": "Michael Lewis",
+    "isbn": "",
+    "coverId": 397686,
+    "year": 2006,
+    "categories": [
+      "sports"
+    ],
+    "description": "The true story of Michael Oher's journey from homeless teen to NFL offensive lineman."
+  },
+  {
+    "id": "open",
+    "title": "Open",
+    "author": "Andre Agassi",
+    "isbn": "",
+    "coverId": 6343530,
+    "year": 2009,
+    "categories": [
+      "sports"
+    ],
+    "description": "Tennis legend Andre Agassi's brutally honest memoir about his love-hate relationship with the sport."
+  },
+  {
+    "id": "seabiscuit",
+    "title": "Seabiscuit",
+    "author": "Laura Hillenbrand",
+    "isbn": "",
+    "coverId": 240665,
+    "year": 2001,
+    "categories": [
+      "sports"
+    ],
+    "description": "The true story of the undersized Depression-era racehorse who became a national symbol of hope."
+  },
+  {
+    "id": "the-natural",
+    "title": "The Natural",
+    "author": "Bernard Malamud",
+    "isbn": "",
+    "coverId": 899834,
+    "year": 1952,
+    "categories": [
+      "sports"
+    ],
+    "description": "A mythic novel about a gifted baseball player's quest for greatness and the temptations that threaten it."
+  },
+  {
+    "id": "a-league-of-their-own",
+    "title": "A League of Their Own",
+    "author": "Sara Corbett",
+    "isbn": "",
+    "coverId": 6476521,
+    "year": 1993,
+    "categories": [
+      "sports"
+    ],
+    "description": "The inspiring story of the All-American Girls Professional Baseball League during World War II."
+  },
+  {
+    "id": "when-the-game-was-ours",
+    "title": "When the Game Was Ours",
+    "author": "Larry Bird",
+    "isbn": "",
+    "coverId": 6119755,
+    "year": 2009,
+    "categories": [
+      "sports"
+    ],
+    "description": "Larry Bird and Magic Johnson reveal the rivalry that saved the NBA and became a legendary friendship."
+  },
+  {
+    "id": "the-game",
+    "title": "The Game",
+    "author": "Ken Dryden",
+    "isbn": "",
+    "coverId": 396397,
+    "year": 1983,
+    "categories": [
+      "sports"
+    ],
+    "description": "Hockey Hall of Famer Ken Dryden's reflective masterpiece on life as a Montreal Canadiens goalie."
+  },
+  {
+    "id": "ball-four",
+    "title": "Ball Four",
+    "author": "Jim Bouton",
+    "isbn": "",
+    "coverId": 476218,
+    "year": 1970,
+    "categories": [
+      "sports"
+    ],
+    "description": "The controversial tell-all diary that forever changed how America views professional baseball."
+  },
+  {
+    "id": "endurance",
+    "title": "Endurance",
+    "author": "Alfred Lansing",
+    "isbn": "",
+    "coverId": 8232730,
+    "year": 1959,
+    "categories": [
+      "sports"
+    ],
+    "description": "The harrowing true account of Shackleton's legendary Antarctic expedition and miraculous survival."
+  },
+  {
+    "id": "into-thin-air",
+    "title": "Into Thin Air",
+    "author": "Jon Krakauer",
+    "isbn": "",
+    "coverId": 174988,
+    "year": 1997,
+    "categories": [
+      "sports"
+    ],
+    "description": "A firsthand account of the deadly 1996 Mount Everest disaster from a journalist who was there."
+  },
+  {
+    "id": "the-boys-of-summer",
+    "title": "The Boys of Summer",
+    "author": "Roger Kahn",
+    "isbn": "",
+    "coverId": 396517,
+    "year": 1972,
+    "categories": [
+      "sports"
+    ],
+    "description": "A timeless portrait of the Brooklyn Dodgers and the bittersweet passage of time in baseball."
+  },
+  {
+    "id": "paper-lion",
+    "title": "Paper Lion",
+    "author": "George Plimpton",
+    "isbn": "",
+    "coverId": 396508,
+    "year": 1966,
+    "categories": [
+      "sports"
+    ],
+    "description": "A journalist goes undercover as a Detroit Lions quarterback in this classic of participatory sports journalism."
+  },
+  {
+    "id": "a-river-runs-through-it",
+    "title": "A River Runs Through It",
+    "author": "Norman Maclean",
+    "isbn": "",
+    "coverId": 331285,
+    "year": 1976,
+    "categories": [
+      "sports"
+    ],
+    "description": "A lyrical novella about fly fishing, brotherhood, and the waters of Montana that bind them."
+  },
+  {
+    "id": "the-fight",
+    "title": "The Fight",
+    "author": "Norman Mailer",
+    "isbn": "",
+    "coverId": 5270506,
+    "year": 1975,
+    "categories": [
+      "sports"
+    ],
+    "description": "Norman Mailer's electrifying account of the Ali-Foreman 'Rumble in the Jungle' in Zaire."
+  },
+  {
+    "id": "outcasts-united",
+    "title": "Outcasts United",
+    "author": "Warren St. John",
+    "isbn": "",
+    "coverId": 6181685,
+    "year": 2009,
+    "categories": [
+      "sports"
+    ],
+    "description": "A refugee soccer team and their American coach transform a small Georgia town."
+  },
+  {
+    "id": "barbarian-days",
+    "title": "Barbarian Days",
+    "author": "William Finnegan",
+    "isbn": "",
+    "coverId": 8114859,
+    "year": 2015,
+    "categories": [
+      "sports"
+    ],
+    "description": "A Pulitzer Prize-winning memoir about a lifelong obsession with surfing around the world."
+  },
+  {
+    "id": "north-dallas-forty",
+    "title": "North Dallas Forty",
+    "author": "Peter Gent",
+    "isbn": "",
+    "coverId": 419419,
+    "year": 1973,
+    "categories": [
+      "sports"
+    ],
+    "description": "A brutally realistic novel about the pain, drugs, and corruption in professional football."
+  },
+  {
+    "id": "soccernomics",
+    "title": "Soccernomics",
+    "author": "Simon Kuper",
+    "isbn": "",
+    "coverId": 6558048,
+    "year": 2009,
+    "categories": [
+      "sports"
+    ],
+    "description": "An economics-meets-football analysis revealing why some countries and clubs dominate the beautiful game."
+  },
+  {
+    "id": "the-damned-utd",
+    "title": "The Damned Utd",
+    "author": "David Peace",
+    "isbn": "",
+    "coverId": 2564938,
+    "year": 2006,
+    "categories": [
+      "sports"
+    ],
+    "description": "A fictional account of Brian Clough's disastrous 44-day reign as manager of Leeds United."
+  },
+  {
+    "id": "shoeless-joe",
+    "title": "Shoeless Joe",
+    "author": "W. P. Kinsella",
+    "isbn": "",
+    "coverId": 396394,
+    "year": 1982,
+    "categories": [
+      "sports"
+    ],
+    "description": "The magical novel that inspired Field of Dreams, where a farmer builds a baseball diamond in his cornfield."
+  },
+  {
+    "id": "the-art-of-fielding",
+    "title": "The Art of Fielding",
+    "author": "Chad Harbach",
+    "isbn": "",
+    "coverId": 7108019,
+    "year": 2011,
+    "categories": [
+      "sports"
+    ],
+    "description": "A college baseball prodigy's crisis of confidence unravels the lives of five people at a small Wisconsin college."
+  },
+  {
+    "id": "running-with-the-kenyans",
+    "title": "Running with the Kenyans",
+    "author": "Adharanand Finn",
+    "isbn": "",
+    "coverId": 7106689,
+    "year": 2012,
+    "categories": [
+      "sports"
+    ],
+    "description": "A journalist moves his family to Kenya to train alongside the world's greatest distance runners."
+  },
+  {
+    "id": "inverting-the-pyramid",
+    "title": "Inverting the Pyramid",
+    "author": "Jonathan Wilson",
+    "isbn": "",
+    "coverId": 6558060,
+    "year": 2008,
+    "categories": [
+      "sports"
+    ],
+    "description": "The definitive history of soccer tactics, from the origins of the game to modern formations."
+  },
+  {
+    "id": "the-fix",
+    "title": "The Fix",
+    "author": "Declan Hill",
+    "isbn": "",
+    "coverId": 2564963,
+    "year": 2008,
+    "categories": [
+      "sports"
+    ],
+    "description": "An investigative journalist infiltrates the criminal underworld of international soccer match-fixing."
+  },
+  {
+    "id": "drive",
+    "title": "Drive",
+    "author": "Daniel H. Pink",
+    "isbn": "",
+    "coverId": 6279962,
+    "year": 2009,
+    "categories": [
+      "sports"
+    ],
+    "description": "A groundbreaking look at what truly motivates athletes and high performers beyond rewards and punishment."
+  },
+  {
+    "id": "bounce",
+    "title": "Bounce",
+    "author": "Matthew Syed",
+    "isbn": "",
+    "coverId": 6558072,
+    "year": 2010,
+    "categories": [
+      "sports"
+    ],
+    "description": "An Olympic table tennis player explores the myth of talent and the real science behind sporting success."
+  },
+  {
+    "id": "zlatan-ibrahimovi-i-am-zlatan",
+    "title": "Zlatan Ibrahimović: I Am Zlatan",
+    "author": "Zlatan Ibrahimović",
+    "isbn": "",
+    "coverId": 7241820,
+    "year": 2011,
+    "categories": [
+      "sports"
+    ],
+    "description": "The outrageous autobiography of one of soccer's most talented and controversial superstars."
+  },
+  {
+    "id": "quiet-strength",
+    "title": "Quiet Strength",
+    "author": "Tony Dungy",
+    "isbn": "",
+    "coverId": 2402281,
+    "year": 2007,
+    "categories": [
+      "sports"
+    ],
+    "description": "NFL coach Tony Dungy shares how faith and character guided his path to a Super Bowl championship."
+  },
+  {
+    "id": "the-miracle-of-castel-di-sangro",
+    "title": "The Miracle of Castel di Sangro",
+    "author": "Joe McGinniss",
+    "isbn": "",
+    "coverId": 396426,
+    "year": 1999,
+    "categories": [
+      "sports"
+    ],
+    "description": "An American journalist follows a tiny Italian soccer team's impossible rise to Serie B."
+  },
+  {
+    "id": "mind-gym",
+    "title": "Mind Gym",
+    "author": "Gary Mack",
+    "isbn": "",
+    "coverId": 2476756,
+    "year": 2001,
+    "categories": [
+      "sports"
+    ],
+    "description": "A sports psychologist's essential guide to the mental skills that separate good athletes from great ones."
+  },
+  {
+    "id": "semi-pro",
+    "title": "Semi-Pro",
+    "author": "Dan Wetzel",
+    "isbn": "",
+    "coverId": 7108002,
+    "year": 2010,
+    "categories": [
+      "sports"
+    ],
+    "description": "Phil Jackson reflects on his record 11 NBA championship rings and the zen philosophy behind them."
+  },
+  {
+    "id": "loose-balls",
+    "title": "Loose Balls",
+    "author": "Terry Pluto",
+    "isbn": "",
+    "coverId": 1498563,
+    "year": 1990,
+    "categories": [
+      "sports"
+    ],
+    "description": "The wild and crazy story of the American Basketball Association told through hilarious oral history."
+  },
+  {
+    "id": "personal-best",
+    "title": "Personal Best",
+    "author": "George Sheehan",
+    "isbn": "",
+    "coverId": 1556938,
+    "year": 1989,
+    "categories": [
+      "sports"
+    ],
+    "description": "Running philosopher George Sheehan's reflections on how distance running leads to self-discovery."
+  }
+]

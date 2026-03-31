@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useParams, useSearchParams } from "next/navigation";
-import { books, getBook, coverUrl, CATEGORIES, LANGUAGES, getCategoryIcon, getCategoryLabel, type Category } from "../../data";
+import { books, getBook, coverUrl, bookCoverUrl, CATEGORIES, LANGUAGES, getCategoryIcon, getCategoryLabel, type Category } from "../../data";
 
 export default function BookDetailPage() {
   const { id } = useParams<{ id: string }>();
@@ -40,7 +40,7 @@ export default function BookDetailPage() {
   const title = curatedBook ? curatedBook.title : olBook!.title;
   const author = curatedBook ? curatedBook.author : olBook!.author;
   const description = curatedBook?.description ?? (olBook?.subjects.length ? `Subjects: ${olBook.subjects.join(", ")}` : "No description available.");
-  const coverSrc = curatedBook ? coverUrl(curatedBook.isbn, "L") : olBook!.cover;
+  const coverSrc = curatedBook ? bookCoverUrl(curatedBook, "L") : olBook!.cover;
   const categories: Category[] = curatedBook ? curatedBook.categories : olBook!.categories.filter((c): c is Category => CATEGORIES.some((cat) => cat.id === c));
   const hasValidCategories = categories.length > 0 && categories[0] !== ("general" as Category);
 

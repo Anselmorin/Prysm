@@ -1,0 +1,1221 @@
+[
+  {
+    "id": "on-writing",
+    "title": "On Writing",
+    "author": "Stephen King",
+    "isbn": "",
+    "coverId": 9255939,
+    "year": 1999,
+    "categories": [
+      "creative",
+      "writing"
+    ],
+    "description": "Stephen King's memoir and masterclass on the craft of writing, blending personal story with practical advice."
+  },
+  {
+    "id": "creativity-inc",
+    "title": "Creativity, Inc.",
+    "author": "Ed Catmull",
+    "isbn": "",
+    "coverId": 13124793,
+    "year": 2001,
+    "categories": [
+      "creative",
+      "business"
+    ],
+    "description": "Pixar co-founder Ed Catmull reveals the management principles that foster creativity in organizations."
+  },
+  {
+    "id": "steal-like-an-artist",
+    "title": "Steal Like an Artist",
+    "author": "Austin Kleon",
+    "isbn": "",
+    "coverId": 7244512,
+    "year": 2012,
+    "categories": [
+      "creative",
+      "art"
+    ],
+    "description": "Ten transformative principles for unlocking your creativity by embracing influence and remixing ideas."
+  },
+  {
+    "id": "big-magic",
+    "title": "Big Magic",
+    "author": "Elizabeth Gilbert",
+    "isbn": "",
+    "coverId": 7434843,
+    "year": 2014,
+    "categories": [
+      "creative",
+      "inspiration"
+    ],
+    "description": "Elizabeth Gilbert explores the attitudes and habits needed for living a creative life beyond fear."
+  },
+  {
+    "id": "the-war-of-art",
+    "title": "The War of Art",
+    "author": "Steven Pressfield",
+    "isbn": "",
+    "coverId": 288439,
+    "year": 2002,
+    "categories": [
+      "creative",
+      "motivation"
+    ],
+    "description": "A battle plan for conquering creative resistance and unlocking your inner artistic potential."
+  },
+  {
+    "id": "writing-down-the-bones",
+    "title": "Writing Down the Bones",
+    "author": "Natalie Goldberg",
+    "isbn": "",
+    "coverId": 671242,
+    "year": 1986,
+    "categories": [
+      "creative",
+      "writing"
+    ],
+    "description": "A classic guide to freeing the writer within through mindfulness and spontaneous prose exercises."
+  },
+  {
+    "id": "bird-by-bird",
+    "title": "Bird by Bird",
+    "author": "Anne Lamott",
+    "isbn": "",
+    "coverId": 240973,
+    "year": 1994,
+    "categories": [
+      "creative",
+      "writing"
+    ],
+    "description": "Warm and witty instructions on writing and life, taking it one small step at a time."
+  },
+  {
+    "id": "the-elements-of-style",
+    "title": "The Elements of Style",
+    "author": "William Strunk Jr.",
+    "isbn": "",
+    "coverId": 10515358,
+    "year": 1920,
+    "categories": [
+      "creative",
+      "writing"
+    ],
+    "description": "The timeless guide to clear, concise English writing that has shaped generations of writers."
+  },
+  {
+    "id": "where-good-ideas-come-from",
+    "title": "Where Good Ideas Come From",
+    "author": "Steven Johnson",
+    "isbn": "",
+    "coverId": 6602963,
+    "year": 2010,
+    "categories": [
+      "creative",
+      "innovation"
+    ],
+    "description": "A natural history of innovation revealing the environments and patterns that spark breakthrough ideas."
+  },
+  {
+    "id": "the-new-drawing-on-the-right-side-of-the-brain",
+    "title": "The New Drawing on the Right Side of the Brain",
+    "author": "Betty Edwards",
+    "isbn": "",
+    "coverId": 6463772,
+    "year": 1999,
+    "categories": [
+      "art",
+      "drawing"
+    ],
+    "description": "A revolutionary approach to drawing that teaches you to see like an artist by engaging the right brain."
+  },
+  {
+    "id": "the-mind-map-book",
+    "title": "The Mind Map Book",
+    "author": "Tony Buzan",
+    "isbn": "",
+    "coverId": 3876254,
+    "year": 1993,
+    "categories": [
+      "creative",
+      "thinking"
+    ],
+    "description": "The definitive guide to mind mapping as a tool for creative thinking, planning, and problem-solving."
+  },
+  {
+    "id": "thinking-fast-and-slow",
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "isbn": "",
+    "coverId": 13290711,
+    "year": 2011,
+    "categories": [
+      "creative",
+      "psychology"
+    ],
+    "description": "Nobel laureate Daniel Kahneman reveals the two systems that drive the way we think and create."
+  },
+  {
+    "id": "metamagical-themas",
+    "title": "Metamagical Themas",
+    "author": "Douglas R. Hofstadter",
+    "isbn": "",
+    "coverId": 4961942,
+    "year": 1985,
+    "categories": [
+      "creative",
+      "thinking"
+    ],
+    "description": "A collection of essays exploring creativity, consciousness, and the patterns underlying thought."
+  },
+  {
+    "id": "solitude",
+    "title": "Solitude",
+    "author": "Anthony Storr",
+    "isbn": "",
+    "coverId": 475092,
+    "year": 1988,
+    "categories": [
+      "creative",
+      "psychology"
+    ],
+    "description": "A defense of solitude as essential to creativity, self-discovery, and the imaginative life."
+  },
+  {
+    "id": "every-tools-a-hammer",
+    "title": "Every Tool's a Hammer",
+    "author": "Adam Savage",
+    "isbn": "",
+    "coverId": 10161033,
+    "year": 2019,
+    "categories": [
+      "creative",
+      "making"
+    ],
+    "description": "MythBusters' Adam Savage shares life lessons from years of making, building, and creative problem-solving."
+  },
+  {
+    "id": "creative-selection",
+    "title": "Creative Selection",
+    "author": "Ken Kocienda",
+    "isbn": "",
+    "coverId": 10128109,
+    "year": 2018,
+    "categories": [
+      "creative",
+      "design",
+      "technology"
+    ],
+    "description": "An insider account of Apple's creative process and the making of the iPhone's revolutionary software."
+  },
+  {
+    "id": "steering-the-craft",
+    "title": "Steering the Craft",
+    "author": "Ursula K. Le Guin",
+    "isbn": "",
+    "coverId": 712565,
+    "year": 1998,
+    "categories": [
+      "creative",
+      "writing"
+    ],
+    "description": "Ursula K. Le Guin's practical guide to the art of narrative writing with exercises for writers."
+  },
+  {
+    "id": "the-innovators",
+    "title": "The Innovators",
+    "author": "Walter Isaacson",
+    "isbn": "",
+    "coverId": 7313659,
+    "year": 2014,
+    "categories": [
+      "creative",
+      "innovation",
+      "technology"
+    ],
+    "description": "The story of the hackers, geniuses, and geeks who created the digital revolution through collaborative creativity."
+  },
+  {
+    "id": "on-the-art-of-writing",
+    "title": "On the Art of Writing",
+    "author": "Arthur Quiller-Couch",
+    "isbn": "",
+    "coverId": 5919462,
+    "year": 1916,
+    "categories": [
+      "creative",
+      "writing"
+    ],
+    "description": "Classic lectures on the principles and practice of good writing from a Cambridge professor."
+  },
+  {
+    "id": "sprint",
+    "title": "Sprint",
+    "author": "Jake Knapp",
+    "isbn": "",
+    "coverId": 7431269,
+    "year": 2016,
+    "categories": [
+      "creative",
+      "design",
+      "business"
+    ],
+    "description": "Google Ventures' five-day process for solving big problems and testing new ideas through rapid prototyping."
+  },
+  {
+    "id": "the-idea-factory",
+    "title": "The Idea Factory",
+    "author": "Jon Gertner",
+    "isbn": "",
+    "coverId": 7272459,
+    "year": 2012,
+    "categories": [
+      "creative",
+      "innovation"
+    ],
+    "description": "The story of Bell Labs and how its culture of creative freedom produced world-changing innovations."
+  },
+  {
+    "id": "lateral-thinking",
+    "title": "Lateral Thinking",
+    "author": "Edward de Bono",
+    "isbn": "",
+    "coverId": 10660143,
+    "year": 1970,
+    "categories": [
+      "creative",
+      "thinking"
+    ],
+    "description": "The foundational text on lateral thinking as a deliberate creative process for generating new ideas."
+  },
+  {
+    "id": "the-anthropocene-reviewed",
+    "title": "The Anthropocene Reviewed",
+    "author": "John Green",
+    "isbn": "",
+    "coverId": 11426520,
+    "year": 2019,
+    "categories": [
+      "creative",
+      "essays"
+    ],
+    "description": "John Green reviews different facets of the human-centered planet on a five-star scale with wit and depth."
+  },
+  {
+    "id": "maus-i",
+    "title": "Maus I",
+    "author": "Art Spiegelman",
+    "isbn": "",
+    "coverId": 10210168,
+    "year": 1986,
+    "categories": [
+      "art",
+      "graphic novel"
+    ],
+    "description": "A groundbreaking graphic novel depicting the Holocaust through the eyes of the author's father."
+  },
+  {
+    "id": "maus-ii",
+    "title": "Maus II",
+    "author": "Art Spiegelman",
+    "isbn": "",
+    "coverId": 12606590,
+    "year": 1991,
+    "categories": [
+      "art",
+      "graphic novel"
+    ],
+    "description": "The Pulitzer Prize-winning continuation of the graphic memoir about surviving the Holocaust."
+  },
+  {
+    "id": "persepolis",
+    "title": "Persepolis",
+    "author": "Marjane Satrapi",
+    "isbn": "",
+    "coverId": 12648921,
+    "year": 2000,
+    "categories": [
+      "art",
+      "graphic novel"
+    ],
+    "description": "A graphic autobiography of growing up during the Iranian Revolution told with striking black-and-white art."
+  },
+  {
+    "id": "the-art-of-war",
+    "title": "The Art of War",
+    "author": "Sun Tzu",
+    "isbn": "",
+    "coverId": 4849549,
+    "year": 1900,
+    "categories": [
+      "art",
+      "strategy",
+      "philosophy"
+    ],
+    "description": "The ancient Chinese masterpiece on strategy, leadership, and the art of conflict resolution."
+  },
+  {
+    "id": "jansons-history-of-art",
+    "title": "Janson's History of Art",
+    "author": "H. W. Janson",
+    "isbn": "",
+    "coverId": 89101,
+    "year": 2006,
+    "categories": [
+      "art",
+      "history"
+    ],
+    "description": "The definitive survey of Western art history from ancient times to the contemporary world."
+  },
+  {
+    "id": "the-design-of-everyday-things",
+    "title": "The Design of Everyday Things",
+    "author": "Donald A. Norman",
+    "isbn": "",
+    "coverId": 10007224,
+    "year": 1988,
+    "categories": [
+      "design",
+      "psychology"
+    ],
+    "description": "A foundational text on human-centered design and how good design makes products intuitive and usable."
+  },
+  {
+    "id": "the-elements-of-typographic-style",
+    "title": "The Elements of Typographic Style",
+    "author": "Robert Bringhurst",
+    "isbn": "",
+    "coverId": 678861,
+    "year": 1992,
+    "categories": [
+      "design",
+      "typography"
+    ],
+    "description": "The typographer's bible—a comprehensive guide to the art and craft of beautiful, readable type."
+  },
+  {
+    "id": "the-visual-display-of-quantitative-information",
+    "title": "The Visual Display of Quantitative Information",
+    "author": "Edward R. Tufte",
+    "isbn": "",
+    "coverId": 725045,
+    "year": 1983,
+    "categories": [
+      "design",
+      "data visualization"
+    ],
+    "description": "The seminal work on how to display data beautifully, clearly, and with statistical integrity."
+  },
+  {
+    "id": "dont-make-me-think",
+    "title": "Don't Make Me Think",
+    "author": "Steve Krug",
+    "isbn": "",
+    "coverId": 554640,
+    "year": 2000,
+    "categories": [
+      "design",
+      "web",
+      "ux"
+    ],
+    "description": "The essential guide to web usability that teaches designers to create intuitive user experiences."
+  },
+  {
+    "id": "a-pattern-language",
+    "title": "A Pattern Language",
+    "author": "Christopher Alexander",
+    "isbn": "",
+    "coverId": 120825,
+    "year": 1977,
+    "categories": [
+      "design",
+      "architecture"
+    ],
+    "description": "A revolutionary architectural treatise presenting 253 patterns for creating humane, living spaces."
+  },
+  {
+    "id": "head-first-design-patterns",
+    "title": "Head First Design Patterns",
+    "author": "Eric Freeman",
+    "isbn": "",
+    "coverId": 388950,
+    "year": 2004,
+    "categories": [
+      "design",
+      "programming"
+    ],
+    "description": "A brain-friendly guide to software design patterns using visual storytelling and engaging examples."
+  },
+  {
+    "id": "the-artists-way",
+    "title": "The Artist's Way",
+    "author": "Julia Cameron",
+    "isbn": "",
+    "coverId": 8168169,
+    "year": 1992,
+    "categories": [
+      "creative",
+      "art",
+      "self-help"
+    ],
+    "description": "A twelve-week program to recover and discover your creative self through morning pages and artist dates."
+  },
+  {
+    "id": "flow",
+    "title": "Flow",
+    "author": "Mihaly Csikszentmihalyi",
+    "isbn": "",
+    "coverId": 6551406,
+    "year": 1990,
+    "categories": [
+      "creative",
+      "psychology"
+    ],
+    "description": "The psychology of optimal experience and how total immersion in creative work leads to happiness."
+  },
+  {
+    "id": "show-your-work",
+    "title": "Show Your Work!",
+    "author": "Austin Kleon",
+    "isbn": "",
+    "coverId": 7572684,
+    "year": 2014,
+    "categories": [
+      "creative",
+      "art"
+    ],
+    "description": "Ten ways to share your creativity and get discovered in the connected age."
+  },
+  {
+    "id": "keep-going",
+    "title": "Keep Going",
+    "author": "Austin Kleon",
+    "isbn": "",
+    "coverId": 9166764,
+    "year": 2019,
+    "categories": [
+      "creative",
+      "art"
+    ],
+    "description": "Ten ways to stay creative in good times and bad, from the bestselling author of Steal Like an Artist."
+  },
+  {
+    "id": "the-creative-habit",
+    "title": "The Creative Habit",
+    "author": "Twyla Tharp",
+    "isbn": "",
+    "coverId": 475287,
+    "year": 2003,
+    "categories": [
+      "creative",
+      "art",
+      "dance"
+    ],
+    "description": "Legendary choreographer Twyla Tharp reveals practical strategies for making creativity a daily habit."
+  },
+  {
+    "id": "wabisabi-for-artists-designers-poets-philosophers",
+    "title": "Wabi-Sabi for Artists, Designers, Poets & Philosophers",
+    "author": "Leonard Koren",
+    "isbn": "",
+    "coverId": 261441,
+    "year": 1994,
+    "categories": [
+      "art",
+      "design",
+      "philosophy"
+    ],
+    "description": "An exploration of the Japanese aesthetic of imperfection, impermanence, and incompleteness."
+  },
+  {
+    "id": "ways-of-seeing",
+    "title": "Ways of Seeing",
+    "author": "John Berger",
+    "isbn": "",
+    "coverId": 5753428,
+    "year": 1972,
+    "categories": [
+      "art",
+      "criticism"
+    ],
+    "description": "A revolutionary look at how we perceive art and images that changed the way we understand visual culture."
+  },
+  {
+    "id": "the-story-of-art",
+    "title": "The Story of Art",
+    "author": "E.H. Gombrich",
+    "isbn": "",
+    "coverId": 8283889,
+    "year": 1950,
+    "categories": [
+      "art",
+      "history"
+    ],
+    "description": "The most famous and popular book on art ever published, making art history accessible to everyone."
+  },
+  {
+    "id": "interaction-of-color",
+    "title": "Interaction of Color",
+    "author": "Josef Albers",
+    "isbn": "",
+    "coverId": 5455282,
+    "year": 1963,
+    "categories": [
+      "art",
+      "design",
+      "color"
+    ],
+    "description": "A masterwork on color theory and perception that revolutionized art education worldwide."
+  },
+  {
+    "id": "understanding-comics",
+    "title": "Understanding Comics",
+    "author": "Scott McCloud",
+    "isbn": "",
+    "coverId": 595335,
+    "year": 1993,
+    "categories": [
+      "art",
+      "comics",
+      "theory"
+    ],
+    "description": "A brilliant comic book about comic books that explores the art form's visual language and creative potential."
+  },
+  {
+    "id": "art-fear",
+    "title": "Art & Fear",
+    "author": "David Bayles",
+    "isbn": "",
+    "coverId": 475093,
+    "year": 1993,
+    "categories": [
+      "art",
+      "creative"
+    ],
+    "description": "An honest exploration of the challenges artists face and the fears that threaten to silence creative work."
+  },
+  {
+    "id": "the-art-spirit",
+    "title": "The Art Spirit",
+    "author": "Robert Henri",
+    "isbn": "",
+    "coverId": 3131697,
+    "year": 1923,
+    "categories": [
+      "art",
+      "philosophy"
+    ],
+    "description": "A collection of inspirational notes and teachings from one of America's most influential art teachers."
+  },
+  {
+    "id": "color-and-light",
+    "title": "Color and Light",
+    "author": "James Gurney",
+    "isbn": "",
+    "coverId": 6648741,
+    "year": 2010,
+    "categories": [
+      "art",
+      "painting",
+      "illustration"
+    ],
+    "description": "A comprehensive guide to color and light for artists, from the creator of Dinotopia."
+  },
+  {
+    "id": "imaginative-realism",
+    "title": "Imaginative Realism",
+    "author": "James Gurney",
+    "isbn": "",
+    "coverId": 6222780,
+    "year": 2009,
+    "categories": [
+      "art",
+      "illustration"
+    ],
+    "description": "How to paint what doesn't exist, from fantasy and sci-fi illustration to historical reconstruction."
+  },
+  {
+    "id": "drawing-on-the-right-side-of-the-brain",
+    "title": "Drawing on the Right Side of the Brain",
+    "author": "Betty Edwards",
+    "isbn": "",
+    "coverId": 241005,
+    "year": 1979,
+    "categories": [
+      "art",
+      "drawing"
+    ],
+    "description": "The classic guide that teaches anyone to draw by accessing the visual, perceptual right brain."
+  },
+  {
+    "id": "figure-drawing-for-all-its-worth",
+    "title": "Figure Drawing for All It's Worth",
+    "author": "Andrew Loomis",
+    "isbn": "",
+    "coverId": 3252277,
+    "year": 1943,
+    "categories": [
+      "art",
+      "drawing"
+    ],
+    "description": "The essential guide to drawing the human figure with anatomical accuracy and artistic expression."
+  },
+  {
+    "id": "creative-confidence",
+    "title": "Creative Confidence",
+    "author": "Tom Kelley",
+    "isbn": "",
+    "coverId": 7339553,
+    "year": 2013,
+    "categories": [
+      "creative",
+      "design",
+      "business"
+    ],
+    "description": "IDEO founders reveal how to unleash the creativity that lies within each of us."
+  },
+  {
+    "id": "daring-greatly",
+    "title": "Daring Greatly",
+    "author": "Brené Brown",
+    "isbn": "",
+    "coverId": 7253613,
+    "year": 2012,
+    "categories": [
+      "creative",
+      "psychology"
+    ],
+    "description": "How the courage to be vulnerable transforms the way we live, love, parent, and create."
+  },
+  {
+    "id": "the-courage-to-create",
+    "title": "The Courage to Create",
+    "author": "Rollo May",
+    "isbn": "",
+    "coverId": 391474,
+    "year": 1975,
+    "categories": [
+      "creative",
+      "psychology"
+    ],
+    "description": "A psychologist's exploration of the creative process and the courage required to bring new ideas into being."
+  },
+  {
+    "id": "originals",
+    "title": "Originals",
+    "author": "Adam Grant",
+    "isbn": "",
+    "coverId": 8297614,
+    "year": 2016,
+    "categories": [
+      "creative",
+      "business"
+    ],
+    "description": "How non-conformists move the world by championing new ideas and fighting groupthink."
+  },
+  {
+    "id": "a-whole-new-mind",
+    "title": "A Whole New Mind",
+    "author": "Daniel H. Pink",
+    "isbn": "",
+    "coverId": 240811,
+    "year": 2005,
+    "categories": [
+      "creative",
+      "business"
+    ],
+    "description": "Why right-brainers will rule the future in an age that demands creativity, empathy, and design thinking."
+  },
+  {
+    "id": "the-design-of-business",
+    "title": "The Design of Business",
+    "author": "Roger L. Martin",
+    "isbn": "",
+    "coverId": 6362362,
+    "year": 2009,
+    "categories": [
+      "design",
+      "business",
+      "creative"
+    ],
+    "description": "How design thinking transforms organizations by converting mysteries into actionable knowledge."
+  },
+  {
+    "id": "cradle-to-cradle",
+    "title": "Cradle to Cradle",
+    "author": "William McDonough",
+    "isbn": "",
+    "coverId": 244975,
+    "year": 2002,
+    "categories": [
+      "design",
+      "sustainability"
+    ],
+    "description": "A manifesto for a new approach to design that models human industry on nature's processes."
+  },
+  {
+    "id": "design-as-art",
+    "title": "Design as Art",
+    "author": "Bruno Munari",
+    "isbn": "",
+    "coverId": 8559393,
+    "year": 1966,
+    "categories": [
+      "design",
+      "art"
+    ],
+    "description": "An Italian design legend's playful yet profound reflections on visual communication and creative thinking."
+  },
+  {
+    "id": "thinking-with-type",
+    "title": "Thinking with Type",
+    "author": "Ellen Lupton",
+    "isbn": "",
+    "coverId": 600850,
+    "year": 2004,
+    "categories": [
+      "design",
+      "typography"
+    ],
+    "description": "A critical guide for designers, writers, and students exploring typography in all its expressive forms."
+  },
+  {
+    "id": "universal-principles-of-design",
+    "title": "Universal Principles of Design",
+    "author": "William Lidwell",
+    "isbn": "",
+    "coverId": 297982,
+    "year": 2003,
+    "categories": [
+      "design",
+      "art"
+    ],
+    "description": "125 design principles explained with beautiful examples spanning graphic design, architecture, and beyond."
+  },
+  {
+    "id": "the-nondesigners-design-book",
+    "title": "The Non-Designer's Design Book",
+    "author": "Robin Williams",
+    "isbn": "",
+    "coverId": 508846,
+    "year": 1994,
+    "categories": [
+      "design",
+      "typography"
+    ],
+    "description": "Four simple principles that make any design look professional, explained for non-designers."
+  },
+  {
+    "id": "grid-systems-in-graphic-design",
+    "title": "Grid Systems in Graphic Design",
+    "author": "Josef Müller-Brockmann",
+    "isbn": "",
+    "coverId": 446267,
+    "year": 1981,
+    "categories": [
+      "design",
+      "graphic design"
+    ],
+    "description": "The definitive guide to using grid systems for organizing visual communication in graphic design."
+  },
+  {
+    "id": "making-ideas-happen",
+    "title": "Making Ideas Happen",
+    "author": "Scott Belsky",
+    "isbn": "",
+    "coverId": 6313558,
+    "year": 2010,
+    "categories": [
+      "creative",
+      "business"
+    ],
+    "description": "Overcoming the obstacles between vision and reality to make creative ideas actually happen."
+  },
+  {
+    "id": "ignore-everybody",
+    "title": "Ignore Everybody",
+    "author": "Hugh MacLeod",
+    "isbn": "",
+    "coverId": 6131893,
+    "year": 2009,
+    "categories": [
+      "creative",
+      "business"
+    ],
+    "description": "Forty keys to creativity from a cartoonist who found artistic success by ignoring conventional wisdom."
+  },
+  {
+    "id": "the-art-of-innovation",
+    "title": "The Art of Innovation",
+    "author": "Tom Kelley",
+    "isbn": "",
+    "coverId": 240660,
+    "year": 2001,
+    "categories": [
+      "creative",
+      "design",
+      "business"
+    ],
+    "description": "IDEO's secrets for fostering creativity and innovation in any organization."
+  },
+  {
+    "id": "zen-and-the-art-of-motorcycle-maintenance",
+    "title": "Zen and the Art of Motorcycle Maintenance",
+    "author": "Robert M. Pirsig",
+    "isbn": "",
+    "coverId": 8251563,
+    "year": 1974,
+    "categories": [
+      "creative",
+      "philosophy"
+    ],
+    "description": "A philosophical novel exploring the concept of quality and the intersection of art and technology."
+  },
+  {
+    "id": "the-shape-of-design",
+    "title": "The Shape of Design",
+    "author": "Frank Chimero",
+    "isbn": "",
+    "coverId": 7315637,
+    "year": 2012,
+    "categories": [
+      "design",
+      "creative"
+    ],
+    "description": "A poetic exploration of why we design and how the creative process shapes our world."
+  },
+  {
+    "id": "change-by-design",
+    "title": "Change by Design",
+    "author": "Tim Brown",
+    "isbn": "",
+    "coverId": 6362361,
+    "year": 2009,
+    "categories": [
+      "design",
+      "business",
+      "creative"
+    ],
+    "description": "How design thinking transforms organizations and inspires innovation from IDEO's CEO."
+  },
+  {
+    "id": "designing-your-life",
+    "title": "Designing Your Life",
+    "author": "Bill Burnett",
+    "isbn": "",
+    "coverId": 8372234,
+    "year": 2016,
+    "categories": [
+      "design",
+      "self-help",
+      "creative"
+    ],
+    "description": "Stanford professors apply design thinking to building a joyful and fulfilling life."
+  },
+  {
+    "id": "the-laws-of-simplicity",
+    "title": "The Laws of Simplicity",
+    "author": "John Maeda",
+    "isbn": "",
+    "coverId": 2403429,
+    "year": 2006,
+    "categories": [
+      "design",
+      "technology"
+    ],
+    "description": "Ten laws for balancing simplicity and complexity in business, technology, and design."
+  },
+  {
+    "id": "emotional-design",
+    "title": "Emotional Design",
+    "author": "Donald A. Norman",
+    "isbn": "",
+    "coverId": 240827,
+    "year": 2004,
+    "categories": [
+      "design",
+      "psychology"
+    ],
+    "description": "Why we love or hate everyday things, and how emotions drive the success of design."
+  },
+  {
+    "id": "how-to-see",
+    "title": "How to See",
+    "author": "George Nelson",
+    "isbn": "",
+    "coverId": 5919316,
+    "year": 1977,
+    "categories": [
+      "design",
+      "art",
+      "perception"
+    ],
+    "description": "A visual primer on awareness and observation from one of the greatest American industrial designers."
+  },
+  {
+    "id": "graphic-design-the-new-basics",
+    "title": "Graphic Design: The New Basics",
+    "author": "Ellen Lupton",
+    "isbn": "",
+    "coverId": 6662067,
+    "year": 2008,
+    "categories": [
+      "design",
+      "graphic design"
+    ],
+    "description": "A Bauhaus-inspired guide to the fundamentals of graphic design for the digital age."
+  },
+  {
+    "id": "logo-design-love",
+    "title": "Logo Design Love",
+    "author": "David Airey",
+    "isbn": "",
+    "coverId": 6354684,
+    "year": 2009,
+    "categories": [
+      "design",
+      "branding"
+    ],
+    "description": "A guide to creating iconic brand identities with practical advice on the logo design process."
+  },
+  {
+    "id": "inspired",
+    "title": "Inspired",
+    "author": "Marty Cagan",
+    "isbn": "",
+    "coverId": 8281900,
+    "year": 2008,
+    "categories": [
+      "design",
+      "product",
+      "technology"
+    ],
+    "description": "How to create tech products customers love through product discovery and design thinking."
+  },
+  {
+    "id": "the-art-of-looking-sideways",
+    "title": "The Art of Looking Sideways",
+    "author": "Alan Fletcher",
+    "isbn": "",
+    "coverId": 1640804,
+    "year": 2001,
+    "categories": [
+      "design",
+      "creative",
+      "art"
+    ],
+    "description": "A visual feast of ideas, observations, and images exploring how creativity works."
+  },
+  {
+    "id": "envisioning-information",
+    "title": "Envisioning Information",
+    "author": "Edward R. Tufte",
+    "isbn": "",
+    "coverId": 240792,
+    "year": 1990,
+    "categories": [
+      "design",
+      "data visualization"
+    ],
+    "description": "Strategies for enhancing the display of complex information through elegant visual design."
+  },
+  {
+    "id": "about-face",
+    "title": "About Face",
+    "author": "Alan Cooper",
+    "isbn": "",
+    "coverId": 240687,
+    "year": 1995,
+    "categories": [
+      "design",
+      "interaction",
+      "ux"
+    ],
+    "description": "The definitive guide to interaction design and the creation of user-centered digital products."
+  },
+  {
+    "id": "daily-rituals",
+    "title": "Daily Rituals",
+    "author": "Mason Currey",
+    "isbn": "",
+    "coverId": 7315627,
+    "year": 2013,
+    "categories": [
+      "creative",
+      "biography"
+    ],
+    "description": "How great minds from Beethoven to Picasso organized their days to make time for creative work."
+  },
+  {
+    "id": "the-creative-act",
+    "title": "The Creative Act",
+    "author": "Rick Rubin",
+    "isbn": "",
+    "coverId": 13117654,
+    "year": 2023,
+    "categories": [
+      "creative",
+      "art",
+      "music"
+    ],
+    "description": "Legendary music producer Rick Rubin's meditation on creativity as a fundamental aspect of being."
+  },
+  {
+    "id": "steal-like-an-artist-journal",
+    "title": "Steal Like an Artist Journal",
+    "author": "Austin Kleon",
+    "isbn": "",
+    "coverId": 7812245,
+    "year": 2015,
+    "categories": [
+      "creative",
+      "art"
+    ],
+    "description": "A guided journal for capturing ideas and developing your creative practice."
+  },
+  {
+    "id": "the-gifts-of-imperfection",
+    "title": "The Gifts of Imperfection",
+    "author": "Brené Brown",
+    "isbn": "",
+    "coverId": 6607814,
+    "year": 2010,
+    "categories": [
+      "creative",
+      "self-help"
+    ],
+    "description": "Let go of who you think you should be and embrace your authentic creative self."
+  },
+  {
+    "id": "essentialism",
+    "title": "Essentialism",
+    "author": "Greg McKeown",
+    "isbn": "",
+    "coverId": 7518363,
+    "year": 2014,
+    "categories": [
+      "creative",
+      "productivity"
+    ],
+    "description": "The disciplined pursuit of less—doing only what is essential to make your highest creative contribution."
+  },
+  {
+    "id": "range",
+    "title": "Range",
+    "author": "David Epstein",
+    "isbn": "",
+    "coverId": 9261989,
+    "year": 2019,
+    "categories": [
+      "creative",
+      "science"
+    ],
+    "description": "Why generalists triumph in a specialized world and how broad experience fuels creative breakthroughs."
+  },
+  {
+    "id": "atomic-habits",
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "isbn": "",
+    "coverId": 10958382,
+    "year": 2018,
+    "categories": [
+      "creative",
+      "productivity"
+    ],
+    "description": "Tiny changes, remarkable results—a practical system for building creative habits that stick."
+  },
+  {
+    "id": "deep-work",
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "isbn": "",
+    "coverId": 8408788,
+    "year": 2016,
+    "categories": [
+      "creative",
+      "productivity"
+    ],
+    "description": "Rules for focused success in a distracted world, essential for sustained creative output."
+  },
+  {
+    "id": "the-obstacle-is-the-way",
+    "title": "The Obstacle Is the Way",
+    "author": "Ryan Holiday",
+    "isbn": "",
+    "coverId": 7315625,
+    "year": 2014,
+    "categories": [
+      "creative",
+      "philosophy"
+    ],
+    "description": "Ancient Stoic wisdom applied to turning creative blocks and obstacles into fuel for breakthrough work."
+  },
+  {
+    "id": "sapiens",
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "isbn": "",
+    "coverId": 8257932,
+    "year": 2011,
+    "categories": [
+      "creative",
+      "history"
+    ],
+    "description": "A brief history of humankind exploring how imagination and storytelling shaped human civilization."
+  },
+  {
+    "id": "mans-search-for-meaning",
+    "title": "Man's Search for Meaning",
+    "author": "Viktor E. Frankl",
+    "isbn": "",
+    "coverId": 9274722,
+    "year": 1946,
+    "categories": [
+      "creative",
+      "philosophy",
+      "psychology"
+    ],
+    "description": "A psychiatrist's memoir of finding meaning and purpose even in the darkest circumstances."
+  },
+  {
+    "id": "grit",
+    "title": "Grit",
+    "author": "Angela Duckworth",
+    "isbn": "",
+    "coverId": 8278162,
+    "year": 2016,
+    "categories": [
+      "creative",
+      "psychology"
+    ],
+    "description": "The power of passion and perseverance in achieving long-term creative and personal goals."
+  },
+  {
+    "id": "mindset",
+    "title": "Mindset",
+    "author": "Carol S. Dweck",
+    "isbn": "",
+    "coverId": 8219755,
+    "year": 2006,
+    "categories": [
+      "creative",
+      "psychology"
+    ],
+    "description": "How a growth mindset unlocks creative potential and transforms the way we approach challenges."
+  },
+  {
+    "id": "peak",
+    "title": "Peak",
+    "author": "Anders Ericsson",
+    "isbn": "",
+    "coverId": 8372100,
+    "year": 2016,
+    "categories": [
+      "creative",
+      "psychology",
+      "science"
+    ],
+    "description": "Secrets from the science of expertise revealing how deliberate practice builds creative mastery."
+  }
+]

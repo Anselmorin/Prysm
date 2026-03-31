@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState, useEffect, useRef, useCallback } from "react";
-import { books, CATEGORIES, coverUrl, getCategoryIcon, type Category } from "../data";
+import { books, CATEGORIES, bookCoverUrl, coverUrl, getCategoryIcon, type Category } from "../data";
 
 interface OLBook {
   key: string;
@@ -16,22 +16,100 @@ interface OLBook {
 }
 
 const CATEGORY_KEYWORDS: Record<Category, string[]> = {
-  "sci-fi": ["science fiction", "sci-fi", "space", "aliens", "dystopia"],
-  sports: ["sports", "athletics", "football", "basketball", "baseball", "soccer"],
-  tech: ["technology", "computers", "programming", "engineering", "invention"],
-  future: ["future", "dystopia", "utopia", "futurism", "cyberpunk"],
-  creative: ["art", "creativity", "design", "writing", "music"],
+  "sci-fi": [
+    "science fiction", "sci-fi", "space", "aliens", "dystopia", "robots", "cyberpunk",
+    "time travel", "extraterrestrial", "galactic", "starship", "android", "clone",
+    "mutation", "parallel universe", "post-apocalyptic", "space opera", "alien",
+    "interstellar", "futuristic", "fantasy", "supernatural", "magic", "wizards",
+    "dragons", "mythical", "paranormal",
+  ],
+  sports: [
+    "sports", "athletics", "football", "basketball", "baseball", "soccer", "tennis",
+    "swimming", "hockey", "rugby", "cricket", "golf", "boxing", "wrestling",
+    "martial arts", "olympics", "racing", "surfing", "skateboarding", "climbing",
+    "running", "marathon", "fitness", "gym", "training", "coach", "athlete",
+    "championship", "tournament",
+  ],
+  tech: [
+    "technology", "computers", "programming", "engineering", "invention", "software",
+    "hardware", "coding", "internet", "startup", "silicon valley", "hacking",
+    "artificial intelligence", "machine learning", "data", "innovation", "electronics",
+    "digital", "web", "app", "science", "physics", "chemistry", "biology", "math",
+    "mathematics", "robotics", "automation", "cryptocurrency", "blockchain",
+  ],
+  future: [
+    "future", "dystopia", "utopia", "futurism", "cyberpunk", "post-apocalyptic",
+    "2050", "2100", "tomorrow", "next generation", "singularity", "transhumanism",
+    "virtual reality", "augmented reality", "simulation", "apocalypse", "rebuild",
+    "new world", "civilization",
+  ],
+  creative: [
+    "art", "creativity", "design", "writing", "music", "painting", "drawing",
+    "sculpture", "photography", "film", "cinema", "animation", "graphic",
+    "illustration", "craft", "diy", "maker", "fashion", "architecture", "theater",
+    "poetry", "dance", "storytelling", "imagination", "inspiration",
+    "creative writing", "fiction writing",
+  ],
 };
 
-function detectCategories(subjects: string[]): Category[] {
-  const lower = subjects.map((s) => s.toLowerCase());
-  const matched: Category[] = [];
+const FICTION_INDICATORS = [
+  "fiction", "novel", "stories", "tale", "narrative", "literary fiction",
+  "juvenile fiction", "young adult fiction",
+];
+const NONFICTION_INDICATORS = [
+  "nonfiction", "non-fiction", "biography", "history", "reference", "textbook",
+  "self-help", "guide", "manual", "handbook", "essay", "memoir", "journalism",
+];
+
+function scoreCategories(texts: string[]): Record<Category, number> {
+  const lower = texts.map((s) => s.toLowerCase());
+  const scores: Record<Category, number> = {
+    "sci-fi": 0, sports: 0, tech: 0, future: 0, creative: 0,
+  };
+  const isYA = lower.some((s) => s.includes("juvenile fiction") || s.includes("young adult"));
+
   for (const [cat, keywords] of Object.entries(CATEGORY_KEYWORDS) as [Category, string[]][]) {
-    if (keywords.some((kw) => lower.some((s) => s.includes(kw)))) {
-      matched.push(cat);
+    for (const kw of keywords) {
+      for (const s of lower) {
+        if (s.includes(kw)) {
+          scores[cat] += isYA ? 2 : 1;
+        }
+      }
     }
   }
-  return matched;
+  return scores;
+}
+
+function detectCategories(subjects: string[], title?: string, author?: string): Category[] {
+  // Primary: match on subjects
+  let scores = scoreCategories(subjects);
+  let matched = (Object.entries(scores) as [Category, number][])
+    .filter(([, v]) => v > 0)
+    .sort((a, b) => b[1] - a[1])
+    .map(([c]) => c);
+
+  if (matched.length > 0) return matched;
+
+  // Secondary: try title + author
+  if (title || author) {
+    const fallbackTexts = [title ?? "", author ?? ""];
+    scores = scoreCategories(fallbackTexts);
+    matched = (Object.entries(scores) as [Category, number][])
+      .filter(([, v]) => v > 0)
+      .sort((a, b) => b[1] - a[1])
+      .map(([c]) => c);
+    if (matched.length > 0) return matched;
+  }
+
+  // Tertiary: fiction/nonfiction heuristic
+  const lower = subjects.map((s) => s.toLowerCase());
+  const isFiction = lower.some((s) => FICTION_INDICATORS.some((f) => s.includes(f)));
+  const isNonfiction = lower.some((s) => NONFICTION_INDICATORS.some((f) => s.includes(f)));
+
+  if (isFiction) return ["sci-fi"]; // fiction leans sci-fi/creative
+  if (isNonfiction) return ["tech"]; // nonfiction leans tech
+
+  return []; // truly unknown — caller defaults to "general"
 }
 
 function getCoverUrl(book: OLBook): string {
@@ -42,7 +120,7 @@ function getCoverUrl(book: OLBook): string {
 }
 
 function buildDetailUrl(book: OLBook): string {
-  const cats = detectCategories(book.subject ?? []);
+  const cats = detectCategories(book.subject ?? [], book.title, book.author_name?.[0]);
   const params = new URLSearchParams({
     title: book.title,
     author: book.author_name?.[0] ?? "Unknown",
@@ -97,6 +175,13 @@ export default function LibraryPage() {
     return () => { if (timerRef.current) clearTimeout(timerRef.current); };
   }, [search, doSearch]);
 
+  const [showCount, setShowCount] = useState(50);
+
+  const setFilterAndReset = (f: Category | "all") => {
+    setFilter(f);
+    setShowCount(50);
+  };
+
   const filtered = books.filter((b) => {
     const matchCat = filter === "all" || b.categories.includes(filter);
     return matchCat;
@@ -105,7 +190,7 @@ export default function LibraryPage() {
   const filteredResults = filter === "all"
     ? results
     : results.filter((r) => {
-        const cats = detectCategories(r.subject ?? []);
+        const cats = detectCategories(r.subject ?? [], r.title, r.author_name?.[0]);
         return cats.includes(filter);
       });
 
@@ -140,7 +225,7 @@ export default function LibraryPage() {
           </div>
           <div className="flex gap-2 flex-wrap">
             <button
-              onClick={() => setFilter("all")}
+              onClick={() => setFilterAndReset("all")}
               className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
                 filter === "all"
                   ? "bg-purple-600 text-white"
@@ -152,7 +237,7 @@ export default function LibraryPage() {
             {CATEGORIES.map((cat) => (
               <button
                 key={cat.id}
-                onClick={() => setFilter(cat.id)}
+                onClick={() => setFilterAndReset(cat.id)}
                 className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
                   filter === cat.id
                     ? "bg-purple-600 text-white"
@@ -178,7 +263,7 @@ export default function LibraryPage() {
             )}
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5">
               {filteredResults.map((book) => {
-                const cats = detectCategories(book.subject ?? []);
+                const cats = detectCategories(book.subject ?? [], book.title, book.author_name?.[0]);
                 const cover = getCoverUrl(book);
                 return (
                   <Link
@@ -224,36 +309,54 @@ export default function LibraryPage() {
         )}
 
         {/* Featured Books */}
-        <h2 className="text-xl font-bold mb-4">📚 Featured Books</h2>
+        <h2 className="text-xl font-bold mb-4">📚 Featured Books ({filtered.length})</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5">
-          {filtered.map((book) => (
-            <Link
-              key={book.id}
-              href={`/bookbridge/book/${book.id}`}
-              className="group flex flex-col rounded-xl border border-[var(--prysm-border)] bg-[var(--prysm-surface)] overflow-hidden hover:border-purple-500/40 transition-colors"
-            >
-              <div className="aspect-[2/3] bg-[var(--prysm-bg)] relative overflow-hidden">
-                <img
-                  src={coverUrl(book.isbn)}
-                  alt={book.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  loading="lazy"
-                />
-              </div>
-              <div className="p-3 flex flex-col gap-1.5 flex-1">
-                <h3 className="text-sm font-semibold leading-tight line-clamp-2">{book.title}</h3>
-                <p className="text-xs text-[var(--prysm-muted)]">{book.author}</p>
-                <div className="flex gap-1 flex-wrap mt-auto pt-2">
-                  {book.categories.map((c) => (
-                    <span key={c} className="text-xs px-1.5 py-0.5 rounded bg-purple-500/10 text-purple-400">
-                      {getCategoryIcon(c)} {c}
-                    </span>
-                  ))}
+          {filtered.slice(0, showCount).map((book) => {
+            const cover = bookCoverUrl(book, "M");
+            return (
+              <Link
+                key={book.id}
+                href={`/bookbridge/book/${book.id}`}
+                className="group flex flex-col rounded-xl border border-[var(--prysm-border)] bg-[var(--prysm-surface)] overflow-hidden hover:border-purple-500/40 transition-colors"
+              >
+                <div className="aspect-[2/3] bg-[var(--prysm-bg)] relative overflow-hidden">
+                  {cover ? (
+                    <img
+                      src={cover}
+                      alt={book.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                  ) : (
+                    <div className="w-full h-full flex items-center justify-center text-[var(--prysm-muted)] text-xs p-2 text-center">No Cover</div>
+                  )}
                 </div>
-              </div>
-            </Link>
-          ))}
+                <div className="p-3 flex flex-col gap-1.5 flex-1">
+                  <h3 className="text-sm font-semibold leading-tight line-clamp-2">{book.title}</h3>
+                  <p className="text-xs text-[var(--prysm-muted)]">{book.author}</p>
+                  <div className="flex gap-1 flex-wrap mt-auto pt-2">
+                    {book.categories.map((c) => (
+                      <span key={c} className="text-xs px-1.5 py-0.5 rounded bg-purple-500/10 text-purple-400">
+                        {getCategoryIcon(c)} {c}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </Link>
+            );
+          })}
         </div>
+
+        {showCount < filtered.length && (
+          <div className="flex justify-center mt-8">
+            <button
+              onClick={() => setShowCount((c) => c + 50)}
+              className="px-6 py-3 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-medium transition-colors"
+            >
+              Show More ({filtered.length - showCount} remaining)
+            </button>
+          </div>
+        )}
 
         {filtered.length === 0 && !searched && (
           <p className="text-center text-[var(--prysm-muted)] py-20">No books found.</p>

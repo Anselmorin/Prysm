@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "cryptonomicon",
+    "title": "Cryptonomicon",
+    "author": "Neal Stephenson",
+    "isbn": "",
+    "coverId": 6424001,
+    "year": 1999,
+    "categories": [
+      "tech"
+    ],
+    "description": "A sprawling novel interweaving WWII codebreaking with modern-day tech entrepreneurship and cryptography."
+  },
+  {
+    "id": "sapiens",
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "isbn": "",
+    "coverId": 8634250,
+    "year": 2011,
+    "categories": [
+      "tech"
+    ],
+    "description": "A sweeping exploration of how technology and culture shaped the course of human history."
+  },
+  {
+    "id": "steve-jobs",
+    "title": "Steve Jobs",
+    "author": "Walter Isaacson",
+    "isbn": "",
+    "coverId": 12374726,
+    "year": 2011,
+    "categories": [
+      "tech"
+    ],
+    "description": "The authorized biography of Apple's visionary co-founder who revolutionized personal computing and digital media."
+  },
+  {
+    "id": "bad-blood",
+    "title": "Bad Blood",
+    "author": "John Carreyrou",
+    "isbn": "",
+    "coverId": 12735651,
+    "year": 2018,
+    "categories": [
+      "tech"
+    ],
+    "description": "The shocking true story of Theranos and the massive fraud behind Silicon Valley's most celebrated health-tech startup."
+  },
+  {
+    "id": "the-phoenix-project",
+    "title": "The Phoenix Project",
+    "author": "Gene Kim",
+    "isbn": "",
+    "coverId": 9151976,
+    "year": 2013,
+    "categories": [
+      "tech"
+    ],
+    "description": "A novel about IT operations that illustrates DevOps principles through a fictional company's digital transformation."
+  },
+  {
+    "id": "elon-musk",
+    "title": "Elon Musk",
+    "author": "Ashlee Vance",
+    "isbn": "",
+    "coverId": 8463846,
+    "year": 2013,
+    "categories": [
+      "tech"
+    ],
+    "description": "A biography of the entrepreneur behind Tesla, SpaceX, and the quest to push technology's boundaries."
+  },
+  {
+    "id": "longitude",
+    "title": "Longitude",
+    "author": "Dava Sobel",
+    "isbn": "",
+    "coverId": 13654,
+    "year": 1995,
+    "categories": [
+      "tech"
+    ],
+    "description": "The story of how an 18th-century clockmaker solved the greatest technological challenge of his era: determining longitude at sea."
+  },
+  {
+    "id": "masters-of-doom",
+    "title": "Masters of Doom",
+    "author": "David Kushner",
+    "isbn": "",
+    "coverId": 606299,
+    "year": 2003,
+    "categories": [
+      "tech"
+    ],
+    "description": "The true story of how id Software's John Carmack and John Romero created Doom and transformed gaming culture."
+  },
+  {
+    "id": "small-is-beautiful",
+    "title": "Small Is Beautiful",
+    "author": "E. F. Schumacher",
+    "isbn": "",
+    "coverId": 6738557,
+    "year": 1973,
+    "categories": [
+      "tech"
+    ],
+    "description": "A groundbreaking critique of industrial technology arguing for sustainable, human-scale economic systems."
+  },
+  {
+    "id": "leviathan-falls",
+    "title": "Leviathan Falls",
+    "author": "James S. A. Corey",
+    "isbn": "",
+    "coverId": 14424717,
+    "year": 2021,
+    "categories": [
+      "tech"
+    ],
+    "description": "The epic conclusion to The Expanse series exploring humanity's relationship with alien technology."
+  },
+  {
+    "id": "recursion",
+    "title": "Recursion",
+    "author": "Blake Crouch",
+    "isbn": "",
+    "coverId": 8748478,
+    "year": 2019,
+    "categories": [
+      "tech"
+    ],
+    "description": "A mind-bending thriller about a neuroscientist's memory technology that begins rewriting reality itself."
+  },
+  {
+    "id": "dark-matter",
+    "title": "Dark Matter",
+    "author": "Blake Crouch",
+    "isbn": "",
+    "coverId": 7436634,
+    "year": 2016,
+    "categories": [
+      "tech"
+    ],
+    "description": "A sci-fi thriller exploring quantum mechanics and the terrifying implications of multiverse technology."
+  },
+  {
+    "id": "homo-deus",
+    "title": "Homo Deus",
+    "author": "Yuval Noah Harari",
+    "isbn": "",
+    "coverId": 7914168,
+    "year": 2015,
+    "categories": [
+      "tech"
+    ],
+    "description": "A provocative look at how technology, AI, and biotechnology may reshape humanity's future."
+  },
+  {
+    "id": "the-design-of-everyday-things",
+    "title": "The Design of Everyday Things",
+    "author": "Donald A. Norman",
+    "isbn": "",
+    "coverId": 10007224,
+    "year": 1988,
+    "categories": [
+      "tech"
+    ],
+    "description": "A foundational text on human-centered design that changed how we think about technology usability."
+  },
+  {
+    "id": "code-complete",
+    "title": "Code Complete",
+    "author": "Steve McConnell",
+    "isbn": "",
+    "coverId": 461500,
+    "year": 1993,
+    "categories": [
+      "tech"
+    ],
+    "description": "A comprehensive practical guide to software construction and writing better code."
+  },
+  {
+    "id": "the-gods-themselves",
+    "title": "The Gods Themselves",
+    "author": "Isaac Asimov",
+    "isbn": "",
+    "coverId": 15138118,
+    "year": 1972,
+    "categories": [
+      "tech"
+    ],
+    "description": "Asimov's Hugo-winning novel about an alien energy technology that threatens to destroy our universe."
+  },
+  {
+    "id": "einstein",
+    "title": "Einstein",
+    "author": "Walter Isaacson",
+    "isbn": "",
+    "coverId": 474440,
+    "year": 2007,
+    "categories": [
+      "tech"
+    ],
+    "description": "A biography exploring how Einstein's scientific genius and imagination revolutionized our understanding of physics."
+  },
+  {
+    "id": "the-human-condition",
+    "title": "The Human Condition",
+    "author": "Hannah Arendt",
+    "isbn": "",
+    "coverId": 5746840,
+    "year": 1958,
+    "categories": [
+      "tech"
+    ],
+    "description": "A philosophical examination of how technology and labor shape the modern human experience."
+  },
+  {
+    "id": "xkcd-volume-0",
+    "title": "xkcd Volume 0",
+    "author": "Randall Munroe",
+    "isbn": "",
+    "coverId": 8162143,
+    "year": 2009,
+    "categories": [
+      "tech"
+    ],
+    "description": "A collection of the beloved webcomic exploring science, technology, math, and nerd culture with humor."
+  },
+  {
+    "id": "21-lessons-for-the-21st-century",
+    "title": "21 Lessons for the 21st Century",
+    "author": "Yuval Noah Harari",
+    "isbn": "",
+    "coverId": 10108277,
+    "year": 2018,
+    "categories": [
+      "tech"
+    ],
+    "description": "A guide to navigating the technological, political, and existential challenges of the modern era."
+  },
+  {
+    "id": "inspired",
+    "title": "Inspired",
+    "author": "Marty Cagan",
+    "isbn": "",
+    "coverId": 9700654,
+    "year": 2008,
+    "categories": [
+      "tech"
+    ],
+    "description": "A handbook on how the best tech companies build products that customers love."
+  },
+  {
+    "id": "the-right-stuff",
+    "title": "The Right Stuff",
+    "author": "Tom Wolfe",
+    "isbn": "",
+    "coverId": 3326778,
+    "year": 1979,
+    "categories": [
+      "tech"
+    ],
+    "description": "The thrilling story of the test pilots and astronauts who pioneered America's space technology."
+  },
+  {
+    "id": "quicksilver",
+    "title": "Quicksilver",
+    "author": "Neal Stephenson",
+    "isbn": "",
+    "coverId": 8347528,
+    "year": 2003,
+    "categories": [
+      "tech"
+    ],
+    "description": "A historical novel blending science, cryptography, and the birth of modern computing in the Baroque era."
+  },
+  {
+    "id": "how-to-do-nothing",
+    "title": "How to Do Nothing",
+    "author": "Jenny Odell",
+    "isbn": "",
+    "coverId": 8750439,
+    "year": 2019,
+    "categories": [
+      "tech"
+    ],
+    "description": "A manifesto for reclaiming attention in an age of addictive technology and digital distraction."
+  },
+  {
+    "id": "the-utopia-of-rules",
+    "title": "The Utopia of Rules",
+    "author": "David Graeber",
+    "isbn": "",
+    "coverId": 8136676,
+    "year": 2015,
+    "categories": [
+      "tech"
+    ],
+    "description": "An exploration of how bureaucracy and technology intersect to shape modern institutional power."
+  },
+  {
+    "id": "i-robot",
+    "title": "I, Robot",
+    "author": "Isaac Asimov",
+    "isbn": "",
+    "coverId": 12385229,
+    "year": 1950,
+    "categories": [
+      "tech"
+    ],
+    "description": "The classic collection of stories that defined the laws of robotics and shaped AI fiction."
+  },
+  {
+    "id": "clean-code",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "isbn": "",
+    "coverId": 8065615,
+    "year": 2008,
+    "categories": [
+      "tech"
+    ],
+    "description": "A practical guide to writing readable, maintainable software that every developer should read."
+  },
+  {
+    "id": "network-effect",
+    "title": "Network Effect",
+    "author": "Martha Wells",
+    "isbn": "",
+    "coverId": 9426689,
+    "year": 2020,
+    "categories": [
+      "tech"
+    ],
+    "description": "A Murderbot novel about an AI security unit navigating corporate intrigue and alien technology."
+  },
+  {
+    "id": "artificial-condition",
+    "title": "Artificial Condition",
+    "author": "Martha Wells",
+    "isbn": "",
+    "coverId": 10537139,
+    "year": 2018,
+    "categories": [
+      "tech"
+    ],
+    "description": "A novella following a self-aware security robot as it investigates its own mysterious past."
+  },
+  {
+    "id": "2001-a-space-odyssey",
+    "title": "2001: A Space Odyssey",
+    "author": "Arthur C. Clarke",
+    "isbn": "",
+    "coverId": 11344400,
+    "year": 1968,
+    "categories": [
+      "tech"
+    ],
+    "description": "Clarke's landmark novel about humanity's encounter with alien technology and artificial intelligence."
+  },
+  {
+    "id": "the-pragmatic-programmer",
+    "title": "The Pragmatic Programmer",
+    "author": "Andy Hunt",
+    "isbn": "",
+    "coverId": 10143650,
+    "year": 1999,
+    "categories": [
+      "tech"
+    ],
+    "description": "A timeless guide to software development craft, full of practical tips for better coding."
+  },
+  {
+    "id": "the-player-of-games",
+    "title": "The Player of Games",
+    "author": "Iain Banks",
+    "isbn": "",
+    "coverId": 44077,
+    "year": 1988,
+    "categories": [
+      "tech"
+    ],
+    "description": "A Culture novel exploring a civilization where advanced AI technology has created a post-scarcity utopia."
+  },
+  {
+    "id": "the-girl-with-the-dragon-tattoo",
+    "title": "The Girl with the Dragon Tattoo",
+    "author": "Stieg Larsson",
+    "isbn": "",
+    "coverId": 9274740,
+    "year": 2005,
+    "categories": [
+      "tech"
+    ],
+    "description": "A tech-savvy hacker and journalist unravel a decades-old mystery using digital forensics."
+  },
+  {
+    "id": "snow-crash",
+    "title": "Snow Crash",
+    "author": "Neal Stephenson",
+    "isbn": "",
+    "coverId": 392508,
+    "year": 1992,
+    "categories": [
+      "tech"
+    ],
+    "description": "A cyberpunk classic that predicted virtual reality, avatars, and the metaverse decades before they existed."
+  },
+  {
+    "id": "gdel-escher-bach",
+    "title": "Gödel, Escher, Bach",
+    "author": "Douglas R. Hofstadter",
+    "isbn": "",
+    "coverId": 14368453,
+    "year": 1979,
+    "categories": [
+      "tech"
+    ],
+    "description": "A Pulitzer-winning exploration of consciousness, artificial intelligence, and the patterns underlying computation."
+  },
+  {
+    "id": "structure-and-interpretation-of-computer-programs",
+    "title": "Structure and Interpretation of Computer Programs",
+    "author": "Harold Abelson",
+    "isbn": "",
+    "coverId": 149338,
+    "year": 1985,
+    "categories": [
+      "tech"
+    ],
+    "description": "The legendary MIT textbook that teaches the fundamental principles of computer programming."
+  },
+  {
+    "id": "all-systems-red",
+    "title": "All Systems Red",
+    "author": "Martha Wells",
+    "isbn": "",
+    "coverId": 9157148,
+    "year": 2017,
+    "categories": [
+      "tech"
+    ],
+    "description": "A witty novella about a part-organic, part-mechanical security unit that hacks its own governing module."
+  },
+  {
+    "id": "ready-player-one",
+    "title": "Ready Player One",
+    "author": "Ernest Cline",
+    "isbn": "",
+    "coverId": 8737626,
+    "year": 2008,
+    "categories": [
+      "tech"
+    ],
+    "description": "A nostalgic adventure set in a virtual reality world where pop culture knowledge is the ultimate technology."
+  },
+  {
+    "id": "rogue-protocol",
+    "title": "Rogue Protocol",
+    "author": "Martha Wells",
+    "isbn": "",
+    "coverId": 12013488,
+    "year": 2018,
+    "categories": [
+      "tech"
+    ],
+    "description": "Murderbot investigates a decommissioned terraforming facility while trying to avoid human attachment."
+  },
+  {
+    "id": "the-c-programming-language",
+    "title": "The C Programming Language",
+    "author": "Brian W. Kernighan",
+    "isbn": "",
+    "coverId": 6684943,
+    "year": 1978,
+    "categories": [
+      "tech"
+    ],
+    "description": "The definitive guide to C by its creators, a foundational text for systems programming."
+  },
+  {
+    "id": "neuromancer",
+    "title": "Neuromancer",
+    "author": "William Gibson",
+    "isbn": "",
+    "coverId": 283860,
+    "year": 1984,
+    "categories": [
+      "tech"
+    ],
+    "description": "The genre-defining cyberpunk novel that coined 'cyberspace' and envisioned the networked digital future."
+  },
+  {
+    "id": "daemon",
+    "title": "Daemon",
+    "author": "Daniel Suarez",
+    "isbn": "",
+    "coverId": 6404884,
+    "year": 2009,
+    "categories": [
+      "tech"
+    ],
+    "description": "A techno-thriller about an AI daemon that begins reshaping society after its creator's death."
+  },
+  {
+    "id": "enders-shadow",
+    "title": "Ender's Shadow",
+    "author": "Orson Scott Card",
+    "isbn": "",
+    "coverId": 12009325,
+    "year": 1999,
+    "categories": [
+      "tech"
+    ],
+    "description": "A parallel novel to Ender's Game following the genius child Bean through military strategy and technology."
+  },
+  {
+    "id": "the-last-lecture",
+    "title": "The Last Lecture",
+    "author": "Jeffrey Zaslow",
+    "isbn": "",
+    "coverId": 2738005,
+    "year": 2008,
+    "categories": [
+      "tech"
+    ],
+    "description": "A computer science professor's inspiring final lecture on achieving childhood dreams through perseverance."
+  },
+  {
+    "id": "start-with-why",
+    "title": "Start with Why",
+    "author": "Simon Sinek",
+    "isbn": "",
+    "coverId": 6395237,
+    "year": 2009,
+    "categories": [
+      "tech"
+    ],
+    "description": "An exploration of how great tech leaders inspire action by communicating purpose before product."
+  },
+  {
+    "id": "freedom",
+    "title": "Freedom™",
+    "author": "Daniel Suarez",
+    "isbn": "",
+    "coverId": 8231871,
+    "year": 2010,
+    "categories": [
+      "tech"
+    ],
+    "description": "The sequel to Daemon exploring how distributed technology could restructure civilization from the ground up."
+  },
+  {
+    "id": "the-visual-display-of-quantitative-information",
+    "title": "The Visual Display of Quantitative Information",
+    "author": "Edward R. Tufte",
+    "isbn": "",
+    "coverId": 725045,
+    "year": 1983,
+    "categories": [
+      "tech"
+    ],
+    "description": "The seminal work on data visualization that defined how we present information graphically."
+  },
+  {
+    "id": "the-code-book",
+    "title": "The Code Book",
+    "author": "Simon Singh",
+    "isbn": "",
+    "coverId": 8231826,
+    "year": 1999,
+    "categories": [
+      "tech"
+    ],
+    "description": "A fascinating history of cryptography from ancient Egypt to quantum computing and digital encryption."
+  },
+  {
+    "id": "mona-lisa-overdrive",
+    "title": "Mona Lisa Overdrive",
+    "author": "William Gibson",
+    "isbn": "",
+    "coverId": 3327832,
+    "year": 1987,
+    "categories": [
+      "tech"
+    ],
+    "description": "The conclusion to Gibson's Sprawl trilogy exploring virtual reality and AI consciousness."
+  },
+  {
+    "id": "the-mythical-man-month",
+    "title": "The Mythical Man-Month",
+    "author": "Frederick P. Brooks",
+    "isbn": "",
+    "coverId": 6915361,
+    "year": 1975,
+    "categories": [
+      "tech"
+    ],
+    "description": "The classic essays on software engineering that proved adding people to late projects makes them later."
+  },
+  {
+    "id": "little-brother",
+    "title": "Little Brother",
+    "author": "Cory Doctorow",
+    "isbn": "",
+    "coverId": 5728633,
+    "year": 2008,
+    "categories": [
+      "tech"
+    ],
+    "description": "A young adult novel about teenage hackers fighting government surveillance in a post-attack San Francisco."
+  },
+  {
+    "id": "digital-literacy",
+    "title": "Digital Literacy",
+    "author": "Paul Gilster",
+    "isbn": "",
+    "coverId": 301485,
+    "year": 1997,
+    "categories": [
+      "tech"
+    ],
+    "description": "An early guide to navigating the internet age and understanding digital information critically."
+  },
+  {
+    "id": "algorithms-to-live-by",
+    "title": "Algorithms to Live By",
+    "author": "Brian Christian",
+    "isbn": "",
+    "coverId": 8042539,
+    "year": 2016,
+    "categories": [
+      "tech"
+    ],
+    "description": "A fascinating look at how computer science algorithms can solve everyday human decision-making problems."
+  },
+  {
+    "id": "fugitive-telemetry",
+    "title": "Fugitive Telemetry",
+    "author": "Martha Wells",
+    "isbn": "",
+    "coverId": 10104879,
+    "year": 2021,
+    "categories": [
+      "tech"
+    ],
+    "description": "Murderbot investigates a murder on Preservation Station while navigating human social protocols."
+  },
+  {
+    "id": "exit-strategy",
+    "title": "Exit Strategy",
+    "author": "Martha Wells",
+    "isbn": "",
+    "coverId": 10692785,
+    "year": 2018,
+    "categories": [
+      "tech"
+    ],
+    "description": "Murderbot races to save its former client while confronting the corporation that created it."
+  },
+  {
+    "id": "frankenstein",
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "isbn": "",
+    "coverId": 12356249,
+    "year": 1818,
+    "categories": [
+      "tech"
+    ],
+    "description": "The original science fiction novel exploring the consequences of technology used to create artificial life."
+  },
+  {
+    "id": "the-art-of-war",
+    "title": "The Art of War",
+    "author": "Sun Tzu",
+    "isbn": "",
+    "coverId": 4849549,
+    "year": 1900,
+    "categories": [
+      "tech"
+    ],
+    "description": "An ancient strategic treatise whose principles are widely applied in modern technology and business."
+  },
+  {
+    "id": "waking-gods",
+    "title": "Waking Gods",
+    "author": "Sylvain Neuvel",
+    "isbn": "",
+    "coverId": 8566435,
+    "year": 2017,
+    "categories": [
+      "tech"
+    ],
+    "description": "Giant alien robots appear worldwide, forcing humanity to confront technology far beyond its understanding."
+  },
+  {
+    "id": "salvation",
+    "title": "Salvation",
+    "author": "Peter F. Hamilton",
+    "isbn": "",
+    "coverId": 9159027,
+    "year": 2018,
+    "categories": [
+      "tech"
+    ],
+    "description": "A space opera exploring first contact and the technological implications of alien encounter."
+  },
+  {
+    "id": "engineering-mechanics",
+    "title": "Engineering Mechanics",
+    "author": "R. C. Hibbeler",
+    "isbn": "",
+    "coverId": 6601657,
+    "year": 1974,
+    "categories": [
+      "tech"
+    ],
+    "description": "A comprehensive textbook covering the fundamental principles of statics and dynamics in engineering."
+  },
+  {
+    "id": "the-innovators",
+    "title": "The Innovators",
+    "author": "Walter Isaacson",
+    "coverId": 7884735,
+    "year": 2014,
+    "description": "The story of the pioneers who created the computer and the internet, from Ada Lovelace to Google.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "zero-to-one",
+    "title": "Zero to One",
+    "author": "Peter Thiel",
+    "coverId": 7502215,
+    "year": 2014,
+    "description": "Contrarian notes on startups and how technology creates new value rather than copying what already works.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "the-lean-startup",
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "coverId": 7237482,
+    "year": 2011,
+    "description": "A methodology for developing businesses and products through validated learning and rapid iteration.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "hackers-and-painters",
+    "title": "Hackers and Painters",
+    "author": "Paul Graham",
+    "coverId": 390463,
+    "year": 2004,
+    "description": "Essays on programming, startups, and the creative parallels between hackers and fine artists.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "the-soul-of-a-new-machine",
+    "title": "The Soul of a New Machine",
+    "author": "Tracy Kidder",
+    "coverId": 503486,
+    "year": 1981,
+    "description": "The Pulitzer-winning account of engineers racing to build a next-generation minicomputer at Data General.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "where-wizards-stay-up-late",
+    "title": "Where Wizards Stay Up Late",
+    "author": "Katie Hafner",
+    "coverId": 400908,
+    "year": 1996,
+    "description": "The untold story of how the internet was born from a small group of researchers and ARPANET.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "the-information",
+    "title": "The Information",
+    "author": "James Gleick",
+    "coverId": 6393587,
+    "year": 2011,
+    "description": "A sweeping history of information theory from African drums to the digital age and beyond.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "creativity-inc",
+    "title": "Creativity, Inc.",
+    "author": "Ed Catmull",
+    "coverId": 7326474,
+    "year": 2009,
+    "description": "The co-founder of Pixar reveals how technology and creativity intersect to build a culture of innovation.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "the-second-machine-age",
+    "title": "The Second Machine Age",
+    "author": "Erik Brynjolfsson",
+    "coverId": 7447293,
+    "year": 2014,
+    "description": "An analysis of how digital technologies are transforming work, the economy, and society at an accelerating pace.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "ghost-in-the-wires",
+    "title": "Ghost in the Wires",
+    "author": "Kevin Mitnick",
+    "coverId": 6572723,
+    "year": 2011,
+    "description": "The autobiography of the world's most wanted hacker and his cat-and-mouse game with the FBI.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "the-master-switch",
+    "title": "The Master Switch",
+    "author": "Tim Wu",
+    "coverId": 6390946,
+    "year": 2010,
+    "description": "A history of information empires showing how open technologies inevitably consolidate into monopolies.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "thinking-fast-and-slow",
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "coverId": 7200964,
+    "year": 2011,
+    "description": "Nobel laureate Kahneman reveals the two systems that drive how we think and make decisions.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "the-shallows",
+    "title": "The Shallows",
+    "author": "Nicholas Carr",
+    "coverId": 6360673,
+    "year": 2010,
+    "description": "An exploration of how the internet is rewiring our brains and diminishing our capacity for deep thought.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "dealers-of-lightning",
+    "title": "Dealers of Lightning",
+    "author": "Michael Hiltzik",
+    "coverId": 247447,
+    "year": 1999,
+    "description": "The story of Xerox PARC and the brilliant engineers who invented the technology that powers modern computing.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "life-30",
+    "title": "Life 3.0",
+    "author": "Max Tegmark",
+    "coverId": 8566380,
+    "year": 2017,
+    "description": "A exploration of how artificial intelligence will transform the future of life on Earth and beyond.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "the-innovators-dilemma",
+    "title": "The Innovator's Dilemma",
+    "author": "Clayton M. Christensen",
+    "coverId": 498741,
+    "year": 1997,
+    "description": "The landmark book explaining why great companies fail when disruptive technologies emerge.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "hooked",
+    "title": "Hooked",
+    "author": "Nir Eyal",
+    "coverId": 7448671,
+    "year": 2014,
+    "description": "A guide to building habit-forming products using the psychological hooks behind successful technology.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "superintelligence",
+    "title": "Superintelligence",
+    "author": "Nick Bostrom",
+    "coverId": 7502213,
+    "year": 2014,
+    "description": "A rigorous analysis of the existential risks posed by artificial superintelligence.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "the-singularity-is-near",
+    "title": "The Singularity Is Near",
+    "author": "Ray Kurzweil",
+    "coverId": 388254,
+    "year": 2005,
+    "description": "Kurzweil's bold prediction that exponential technology growth will merge humans and machines by 2045.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "weapons-of-math-destruction",
+    "title": "Weapons of Math Destruction",
+    "author": "Cathy O'Neil",
+    "coverId": 8270375,
+    "year": 2016,
+    "description": "An exposé of how big data algorithms increase inequality and threaten democracy.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "the-everything-store",
+    "title": "The Everything Store",
+    "author": "Brad Stone",
+    "coverId": 7326433,
+    "year": 2013,
+    "description": "The definitive account of Jeff Bezos and the rise of Amazon as a technology and retail empire.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "coders",
+    "title": "Coders",
+    "author": "Clive Thompson",
+    "coverId": 9042175,
+    "year": 2019,
+    "description": "An exploration of who programmers are, how they think, and what drives the people building our digital world.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "permanent-record",
+    "title": "Permanent Record",
+    "author": "Edward Snowden",
+    "coverId": 10002076,
+    "year": 2019,
+    "description": "Snowden's memoir revealing how he helped build mass surveillance systems and why he exposed them.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "the-age-of-surveillance-capitalism",
+    "title": "The Age of Surveillance Capitalism",
+    "author": "Shoshana Zuboff",
+    "coverId": 9152023,
+    "year": 2019,
+    "description": "A groundbreaking analysis of how tech companies exploit personal data as a new form of capital.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "sandworm",
+    "title": "Sandworm",
+    "author": "Andy Greenberg",
+    "coverId": 10001990,
+    "year": 2019,
+    "description": "The true story of the most devastating cyberattacks in history and the Russian hackers behind them.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "dont-make-me-think",
+    "title": "Don't Make Me Think",
+    "author": "Steve Krug",
+    "coverId": 258137,
+    "year": 2000,
+    "description": "The classic guide to web usability that changed how designers approach user interface design.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "refactoring",
+    "title": "Refactoring",
+    "author": "Martin Fowler",
+    "coverId": 173775,
+    "year": 1999,
+    "description": "The definitive guide to improving the design of existing code without changing its behavior.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "design-patterns",
+    "title": "Design Patterns",
+    "author": "Erich Gamma",
+    "coverId": 219789,
+    "year": 1994,
+    "description": "The influential Gang of Four book that catalogued reusable solutions to common software design problems.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "cracking-the-coding-interview",
+    "title": "Cracking the Coding Interview",
+    "author": "Gayle Laakmann McDowell",
+    "coverId": 7883530,
+    "year": 2008,
+    "description": "The go-to preparation guide for technical interviews at top tech companies.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  },
+  {
+    "id": "you-dont-know-js",
+    "title": "You Don't Know JS",
+    "author": "Kyle Simpson",
+    "coverId": 8097384,
+    "year": 2014,
+    "description": "A deep dive into the core mechanisms of JavaScript that most developers take for granted.",
+    "isbn": "",
+    "categories": [
+      "tech"
+    ]
+  }
+]
