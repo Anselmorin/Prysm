@@ -55,6 +55,9 @@ export default function StoryReaderPage(props: PageProps) {
   const [showResult, setShowResult] = useState<Record<string, boolean>>({});
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [score, setScore] = useState(0);
+  const [peekCount, setPeekCount] = useState(0);
+  const [isPeeking, setIsPeeking] = useState(false);
+  const quizRef = useState<HTMLElement | null>(null);
 
   useEffect(() => {
     props.params.then(resolvedParams => {
@@ -63,6 +66,30 @@ export default function StoryReaderPage(props: PageProps) {
       setEpisode(foundEpisode || null);
     });
   }, [props.params]);
+
+  // Anti-peek: detect scrolling above quiz section during quiz
+  useEffect(() => {
+    if (!quizStarted || quizCompleted) return;
+
+    const quizEl = document.getElementById("quiz-section");
+    if (!quizEl) return;
+
+    const handleScroll = () => {
+      const quizTop = quizEl.getBoundingClientRect().top;
+      // If quiz section top is below viewport (user scrolled up past it)
+      if (quizTop > window.innerHeight * 0.8) {
+        if (!isPeeking) {
+          setIsPeeking(true);
+          setPeekCount(prev => prev + 1);
+        }
+      } else {
+        setIsPeeking(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [quizStarted, quizCompleted, isPeeking]);
 
   if (!params || !episode) {
     return (
@@ -101,7 +128,9 @@ export default function StoryReaderPage(props: PageProps) {
           return isCloseEnough(userAnswer, q.answer);
         }).length;
         
-        setScore(correctCount);
+        // Deduct points for peeking (1 point per peek, minimum 0)
+        const finalScore = Math.max(0, correctCount - peekCount);
+        setScore(finalScore);
         setQuizCompleted(true);
       }
     }, 1500);
@@ -360,8 +389,15 @@ export default function StoryReaderPage(props: PageProps) {
           )}
         </section>
 
+        {/* Peek Warning Banner */}
+        {isPeeking && quizStarted && !quizCompleted && (
+          <div className="fixed top-0 left-0 right-0 z-50 bg-red-500/90 text-white text-center py-3 px-6 font-semibold shadow-lg animate-pulse">
+            👀 Peeking detected! -1 point deducted. Scroll back to the quiz!
+          </div>
+        )}
+
         {/* Interactive Quiz */}
-        <section className="bg-[var(--prysm-surface)] border border-[var(--prysm-border)] rounded-xl overflow-hidden">
+        <section id="quiz-section" className="bg-[var(--prysm-surface)] border border-[var(--prysm-border)] rounded-xl overflow-hidden">
           <div className="px-6 py-4 border-b border-[var(--prysm-border)]">
             <h2 className="text-lg font-semibold">Quiz — ¿Cuánto Aprendiste?</h2>
             <p className="text-sm text-[var(--prysm-muted)]">Test your understanding with interactive questions</p>
@@ -386,14 +422,21 @@ export default function StoryReaderPage(props: PageProps) {
               <div className="text-center">
                 <div className="text-6xl mb-4">🎉</div>
                 <h3 className="text-2xl font-bold mb-2">¡Felicidades!</h3>
-                <p className="text-xl mb-4">
+                <p className="text-xl mb-2">
                   You scored <span className="text-purple-400 font-bold">{score}/{episode.quiz.length}</span>
                 </p>
+                {peekCount > 0 && (
+                  <p className="text-sm text-red-400 mb-2">
+                    👀 {peekCount} peek{peekCount > 1 ? "s" : ""} detected — {peekCount} point{peekCount > 1 ? "s" : ""} deducted
+                  </p>
+                )}
                 <p className="text-[var(--prysm-muted)] mb-6">
                   {score === episode.quiz.length 
                     ? "Perfect! You've mastered this episode."
                     : score >= episode.quiz.length * 0.7
                     ? "Great work! You're making excellent progress."
+                    : peekCount > 0
+                    ? "Try again without peeking! You'll learn more that way 😉"
                     : "Good effort! Try reviewing the story again to improve."}
                 </p>
                 <div className="flex gap-4 justify-center">
@@ -405,6 +448,8 @@ export default function StoryReaderPage(props: PageProps) {
                       setAnswers({});
                       setShowResult({});
                       setScore(0);
+                      setPeekCount(0);
+                      setIsPeeking(false);
                     }}
                     className="px-6 py-3 rounded-lg bg-purple-600 hover:bg-purple-500 text-white font-medium transition-colors"
                   >
