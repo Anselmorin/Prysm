@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { getEpisodeById } from "../../../stories/data";
-import type { Episode, QuizQuestion } from "../../../stories/data";
+import { getEpisodeById, getSeriesById } from "../../../stories/data";
+import type { Episode, QuizQuestion, Series } from "../../../stories/data";
 
 // Fuzzy answer checking — strips accents, ignores case, allows close spellings
 function normalize(s: string): string {
@@ -136,10 +136,10 @@ export default function StoryReaderPage(props: PageProps) {
     }, 1500);
   };
 
-  const renderWordWithTooltips = (text: string, spanishWords: Array<{ word: string; translation: string }>) => {
+  const renderWordWithTooltips = (text: string, translatedWords: Array<{ word: string; translation: string }>) => {
     let result = text;
     
-    spanishWords.forEach(({ word, translation }) => {
+    translatedWords.forEach(({ word, translation }) => {
       const regex = new RegExp(`\\*\\*${word}\\*\\*`, 'gi');
       result = result.replace(regex, `<span class="spanish-word" data-translation="${translation}">${word}</span>`);
     });
@@ -309,7 +309,7 @@ export default function StoryReaderPage(props: PageProps) {
                 {episode.vocab.map((word, index) => (
                   <div key={index} className="flex justify-between items-center py-2 border-b border-[var(--prysm-border)] last:border-b-0">
                     <div className="flex-1">
-                      <span className="text-purple-400 font-medium">{word.spanish}</span>
+                      <span className="text-purple-400 font-medium">{word.word}</span>
                       <span className="text-sm text-[var(--prysm-muted)] ml-2">({word.pronunciation})</span>
                     </div>
                     <span className="text-[var(--prysm-text)]">{word.english}</span>
@@ -328,7 +328,7 @@ export default function StoryReaderPage(props: PageProps) {
               <div 
                 className="prose prose-invert max-w-none leading-relaxed"
                 dangerouslySetInnerHTML={{
-                  __html: renderWordWithTooltips(section.content, section.spanishWords)
+                  __html: renderWordWithTooltips(section.content, section.translatedWords)
                     .replace(/\n\n/g, '</p><p class="mt-4">')
                     .replace(/^/, '<p>')
                     .replace(/$/, '</p>')
@@ -381,7 +381,7 @@ export default function StoryReaderPage(props: PageProps) {
           {fullStoryExpanded && (
             <div className="px-6 pb-6">
               <div className="prose prose-invert max-w-none leading-relaxed text-[var(--prysm-text)]">
-                {episode.fullSpanishStory.split('\n\n').map((paragraph, index) => (
+                {episode.fullTargetLanguageStory.split('\n\n').map((paragraph, index) => (
                   <p key={index} className="mb-4">{paragraph}</p>
                 ))}
               </div>
