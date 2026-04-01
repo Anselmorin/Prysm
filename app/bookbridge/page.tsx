@@ -59,6 +59,41 @@ export default function BookBridgePage() {
         </div>
       </section>
 
+      {/* Stories */}
+      <section className="relative z-10 max-w-4xl mx-auto px-6 pb-20">
+        <h2 className="text-center text-2xl font-bold mb-3">Stories</h2>
+        <p className="text-center text-[var(--prysm-muted)] text-sm mb-10 max-w-md mx-auto">
+          Interactive bilingual stories for immersive language learning.
+        </p>
+        <div className="grid gap-6 max-w-md mx-auto">
+          <Link 
+            href="/bookbridge/story/la-estacion/arrival"
+            className="group bg-[var(--prysm-surface)] border border-[var(--prysm-border)] rounded-xl p-6 hover:border-purple-400 transition-colors"
+          >
+            <div className="flex items-start gap-4">
+              <div className="text-3xl">🚀</div>
+              <div className="flex-1">
+                <h3 className="font-bold text-lg mb-2 group-hover:text-purple-400 transition-colors">
+                  La Estación
+                </h3>
+                <p className="text-[var(--prysm-muted)] text-sm mb-3 leading-relaxed">
+                  A thrilling sci-fi series about Captain Mara Chen's mysterious discovery on Station Orion-7. 
+                  Learn Spanish through gradually increasing bilingual text.
+                </p>
+                <div className="flex items-center gap-3 text-xs">
+                  <span className="px-2 py-1 bg-purple-500/20 text-purple-400 rounded">Sci-Fi</span>
+                  <span className="px-2 py-1 bg-purple-500/20 text-purple-400 rounded">Spanish</span>
+                  <span className="text-[var(--prysm-muted)]">Episode 1: Arrival</span>
+                </div>
+              </div>
+              <div className="text-[var(--prysm-muted)] group-hover:text-purple-400 transition-colors">
+                →
+              </div>
+            </div>
+          </Link>
+        </div>
+      </section>
+
       {/* Categories */}
       <section className="relative z-10 max-w-4xl mx-auto px-6 pb-24">
         <h2 className="text-center text-2xl font-bold mb-3">Categories</h2>
