@@ -47,6 +47,7 @@ interface PageProps {
 export default function StoryReaderPage(props: PageProps) {
   const [params, setParams] = useState<{ seriesId: string; episodeId: string } | null>(null);
   const [episode, setEpisode] = useState<Episode | null>(null);
+  const [series, setSeries] = useState<Series | null>(null);
   const [vocabExpanded, setVocabExpanded] = useState(false);
   const [fullStoryExpanded, setFullStoryExpanded] = useState(false);
   const [quizStarted, setQuizStarted] = useState(false);
@@ -59,10 +60,52 @@ export default function StoryReaderPage(props: PageProps) {
   const [isPeeking, setIsPeeking] = useState(false);
   const quizRef = useState<HTMLElement | null>(null);
 
+  // Language-specific text
+  const languageConfig = {
+    spanish: {
+      keyWords: "Palabras Clave — Key Words",
+      keyWordsDesc: "Preview the vocabulary you'll encounter",
+      fullStory: "La Historia Completa — En Español",
+      fullStoryDesc: "Read the complete story in Spanish",
+      quiz: "Quiz — ¿Cuánto Aprendiste?",
+      quizDesc: "Test your understanding with interactive questions",
+      testYourLanguage: "Ready to test your Spanish?",
+      translateTo: "Translate to Spanish...",
+      felicidades: "¡Felicidades!"
+    },
+    japanese: {
+      keyWords: "キーワード — Key Words",
+      keyWordsDesc: "Preview the vocabulary you'll encounter",
+      fullStory: "完全な物語 — 日本語で",
+      fullStoryDesc: "Read the complete story in Japanese",
+      quiz: "クイズ — How much did you learn?",
+      quizDesc: "Test your understanding with interactive questions", 
+      testYourLanguage: "Ready to test your Japanese?",
+      translateTo: "Translate to Japanese (romaji okay)...",
+      felicidades: "おめでとう！ (Omedetou!)"
+    },
+    french: {
+      keyWords: "Mots Clés — Key Words",
+      keyWordsDesc: "Preview the vocabulary you'll encounter",
+      fullStory: "L'Histoire Complète — En Français",
+      fullStoryDesc: "Read the complete story in French",
+      quiz: "Quiz — Combien Avez-Vous Appris ?",
+      quizDesc: "Test your understanding with interactive questions",
+      testYourLanguage: "Ready to test your French?",
+      translateTo: "Translate to French...",
+      felicidades: "Félicitations !"
+    }
+  };
+
+  const currentLang = series?.language || 'spanish';
+  const config = languageConfig[currentLang as keyof typeof languageConfig] || languageConfig.spanish;
+
   useEffect(() => {
     props.params.then(resolvedParams => {
       setParams(resolvedParams);
+      const foundSeries = getSeriesById(resolvedParams.seriesId);
       const foundEpisode = getEpisodeById(resolvedParams.seriesId, resolvedParams.episodeId);
+      setSeries(foundSeries || null);
       setEpisode(foundEpisode || null);
     });
   }, [props.params]);
@@ -280,7 +323,7 @@ export default function StoryReaderPage(props: PageProps) {
             ← Back to BookBridge
           </Link>
           <div className="text-center">
-            <h1 className="text-xl font-bold">La Estación</h1>
+            <h1 className="text-xl font-bold">{series?.title || "Loading..."}</h1>
             <p className="text-sm text-[var(--prysm-muted)]">{episode.title}</p>
           </div>
           <div className="w-24"></div> {/* Spacer for centering */}
@@ -295,8 +338,8 @@ export default function StoryReaderPage(props: PageProps) {
             className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-purple-500/10 transition-colors"
           >
             <div>
-              <h2 className="text-lg font-semibold">Palabras Clave — Key Words</h2>
-              <p className="text-sm text-[var(--prysm-muted)]">Preview the vocabulary you'll encounter</p>
+              <h2 className="text-lg font-semibold">{config.keyWords}</h2>
+              <p className="text-sm text-[var(--prysm-muted)]">{config.keyWordsDesc}</p>
             </div>
             <span className={`text-xl transition-transform ${vocabExpanded ? "rotate-180" : ""}`}>
               ▼
@@ -370,8 +413,8 @@ export default function StoryReaderPage(props: PageProps) {
             className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-purple-500/10 transition-colors"
           >
             <div>
-              <h2 className="text-lg font-semibold">La Historia Completa — En Español</h2>
-              <p className="text-sm text-[var(--prysm-muted)]">Read the complete story in Spanish</p>
+              <h2 className="text-lg font-semibold">{config.fullStory}</h2>
+              <p className="text-sm text-[var(--prysm-muted)]">{config.fullStoryDesc}</p>
             </div>
             <span className={`text-xl transition-transform ${fullStoryExpanded ? "rotate-180" : ""}`}>
               ▼
