@@ -442,15 +442,15 @@ export default function StoryReaderPage(props: PageProps) {
         {/* Interactive Quiz */}
         <section id="quiz-section" className="bg-[var(--prysm-surface)] border border-[var(--prysm-border)] rounded-xl overflow-hidden">
           <div className="px-6 py-4 border-b border-[var(--prysm-border)]">
-            <h2 className="text-lg font-semibold">Quiz — ¿Cuánto Aprendiste?</h2>
-            <p className="text-sm text-[var(--prysm-muted)]">Test your understanding with interactive questions</p>
+            <h2 className="text-lg font-semibold">{config.quiz}</h2>
+            <p className="text-sm text-[var(--prysm-muted)]">{config.quizDesc}</p>
           </div>
           
           <div className="p-6">
             {!quizStarted && !quizCompleted ? (
               <div className="text-center">
                 <div className="text-4xl mb-4">🧠</div>
-                <h3 className="text-xl font-bold mb-2">Ready to test your Spanish?</h3>
+                <h3 className="text-xl font-bold mb-2">{config.testYourLanguage}</h3>
                 <p className="text-[var(--prysm-muted)] mb-6">
                   {episode.quiz.length} questions covering vocabulary, comprehension, and translation.
                 </p>
