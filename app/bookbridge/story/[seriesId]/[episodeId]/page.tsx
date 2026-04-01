@@ -5,6 +5,41 @@ import Link from "next/link";
 import { getEpisodeById } from "../../../stories/data";
 import type { Episode, QuizQuestion } from "../../../stories/data";
 
+// Fuzzy answer checking — strips accents, ignores case, allows close spellings
+function normalize(s: string): string {
+  return s
+    .toLowerCase()
+    .trim()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "") // strip accents
+    .replace(/[^a-z0-9\s]/g, "");   // strip punctuation
+}
+
+function levenshtein(a: string, b: string): number {
+  const m = a.length, n = b.length;
+  const dp: number[][] = Array.from({ length: m + 1 }, () => Array(n + 1).fill(0));
+  for (let i = 0; i <= m; i++) dp[i][0] = i;
+  for (let j = 0; j <= n; j++) dp[0][j] = j;
+  for (let i = 1; i <= m; i++)
+    for (let j = 1; j <= n; j++)
+      dp[i][j] = Math.min(
+        dp[i - 1][j] + 1,
+        dp[i][j - 1] + 1,
+        dp[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1)
+      );
+  return dp[m][n];
+}
+
+function isCloseEnough(userAnswer: string, correctAnswer: string): boolean {
+  const normUser = normalize(userAnswer);
+  const normCorrect = normalize(correctAnswer);
+  // Exact match after normalization (handles accents, case)
+  if (normUser === normCorrect) return true;
+  // Allow edit distance based on word length
+  const maxDist = normCorrect.length <= 4 ? 1 : 2;
+  return levenshtein(normUser, normCorrect) <= maxDist;
+}
+
 interface PageProps {
   params: Promise<{ seriesId: string; episodeId: string }>;
 }
@@ -62,9 +97,8 @@ export default function StoryReaderPage(props: PageProps) {
         // Quiz completed - calculate final score
         const finalAnswers = { ...answers, [questionId]: answer };
         const correctCount = episode.quiz.filter(q => {
-          const userAnswer = finalAnswers[q.id]?.toLowerCase().trim();
-          const correctAnswer = q.answer.toLowerCase().trim();
-          return userAnswer === correctAnswer;
+          const userAnswer = finalAnswers[q.id] || "";
+          return isCloseEnough(userAnswer, q.answer);
         }).length;
         
         setScore(correctCount);
@@ -87,7 +121,7 @@ export default function StoryReaderPage(props: PageProps) {
   const renderQuestion = (question: QuizQuestion) => {
     const hasAnswered = showResult[question.id];
     const userAnswer = answers[question.id];
-    const isCorrect = userAnswer?.toLowerCase().trim() === question.answer.toLowerCase().trim();
+    const isCorrect = userAnswer ? isCloseEnough(userAnswer, question.answer) : false;
 
     return (
       <div className="bg-[var(--prysm-surface)] border border-[var(--prysm-border)] rounded-xl p-6">
@@ -182,9 +216,18 @@ export default function StoryReaderPage(props: PageProps) {
             <div className="flex items-center gap-2">
               <span className="text-lg">{isCorrect ? "✅" : "❌"}</span>
               <span className={`font-medium ${isCorrect ? "text-green-300" : "text-red-300"}`}>
-                {isCorrect ? "Correct!" : "Incorrect"}
+                {isCorrect
+                  ? normalize(userAnswer || "") === normalize(question.answer)
+                    ? "Correct!"
+                    : "Close enough! ✨"
+                  : "Incorrect"}
               </span>
             </div>
+            {isCorrect && normalize(userAnswer || "") !== normalize(question.answer) && (
+              <p className="mt-2 text-sm text-gray-300">
+                Exact spelling: <span className="font-semibold text-white">{question.answer}</span>
+              </p>
+            )}
             {!isCorrect && (
               <p className="mt-2 text-sm text-gray-300">
                 Correct answer: <span className="font-semibold text-white">{question.answer}</span>
