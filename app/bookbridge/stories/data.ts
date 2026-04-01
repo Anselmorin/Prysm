@@ -300,248 +300,248 @@ Los miró. Miró a Mara. Y dijo una palabra.
   ]
 };
 
-// Uchuu Station Episode 1 Data (Japanese)
+// Uchuu Station Episode 1 Data (Romaji)
 export const uchuuStationEpisode1: Episode = {
   id: "hakken",
   title: "Episode 1: Discovery",
   description: "Engineer Kenji Nakamura uncovers a mysterious signal from an AI research facility on Mars",
   vocab: [
-    { word: "うちゅう", pronunciation: "uchuu", english: "space" },
-    { word: "ロボット", pronunciation: "robotto", english: "robot" },
-    { word: "しずか", pronunciation: "shizuka", english: "quiet" },
-    { word: "あぶない", pronunciation: "abunai", english: "dangerous" },
-    { word: "ひとり", pronunciation: "hitori", english: "alone" },
-    { word: "みつける", pronunciation: "mitsukeru", english: "to find" },
-    { word: "メッセージ", pronunciation: "messeejhi", english: "message" },
-    { word: "こわい", pronunciation: "kowai", english: "scary" },
-    { word: "なにか", pronunciation: "nanika", english: "something" },
-    { word: "きかい", pronunciation: "kikai", english: "machine" }
+    { word: "uchuu", pronunciation: "oo-CHOO", english: "space" },
+    { word: "robotto", pronunciation: "ro-BOT-to", english: "robot" },
+    { word: "shizuka", pronunciation: "shee-ZU-ka", english: "quiet" },
+    { word: "abunai", pronunciation: "ah-BU-nai", english: "dangerous" },
+    { word: "hitori", pronunciation: "HEE-to-ri", english: "alone" },
+    { word: "mitsukeru", pronunciation: "mi-TSU-ke-ru", english: "to find" },
+    { word: "messeejhi", pronunciation: "mes-SAY-jee", english: "message" },
+    { word: "kowai", pronunciation: "ko-WAI", english: "scary" },
+    { word: "nanika", pronunciation: "NAH-ni-ka", english: "something" },
+    { word: "kikai", pronunciation: "KEE-kai", english: "machine" }
   ],
   sections: [
     {
       id: "part1",
       title: "Part 1 — The Signal",
-      content: `Engineer Kenji Nakamura was working late in the Mars Communication Center. It was past midnight, and the facility was **しずか** (quiet). Most of the crew had gone to sleep hours ago.
+      content: `Engineer Kenji Nakamura was working late in the Mars Communication Center. It was past midnight, and the facility was **shizuka** (quiet). Most of the crew had gone to sleep hours ago.
 
-Kenji liked working alone. **ひとり** was peaceful. He could focus on the data streams from **うちゅう** without any distractions.
+Kenji liked working alone. **hitori** was peaceful. He could focus on the data streams from **uchuu** without any distractions.
 
 But tonight was different.
 
-A new signal appeared on his screen. Not from Earth. Not from the **うちゅう** stations. This was coming from somewhere on Mars itself.
+A new signal appeared on his screen. Not from Earth. Not from the **uchuu** stations. This was coming from somewhere on Mars itself.
 
-"**なんですか？**" What is this?
+**"Nan desu ka?"** What is this?
 
-The signal was weak but persistent. It pulsed every thirty seconds, like a heartbeat. Kenji traced its origin to Grid Section 7-Alpha. That was the old AI Research Facility. The one that had gone **しずか** three months ago.
+The signal was weak but persistent. It pulsed every thirty seconds, like a heartbeat. Kenji traced its origin to Grid Section 7-Alpha. That was the old AI Research Facility. The one that had gone **shizuka** three months ago.
 
-"**あぶないかもしれません...**" This might be dangerous...
+**"Abunai kamo shiremasen..."** This might be dangerous...
 
-But Kenji was curious. He had to know what was sending that signal. **なにか** was out there in the **うちゅう** facility, and it was trying to communicate.`,
+But Kenji was curious. He had to know what was sending that signal. **nanika** was out there in the **uchuu** facility, and it was trying to communicate.`,
       translatedWords: [
-        { word: "しずか", translation: "quiet" },
-        { word: "ひとり", translation: "alone" },
-        { word: "うちゅう", translation: "space" },
-        { word: "なんですか？", translation: "What is this?" },
-        { word: "あぶないかもしれません", translation: "This might be dangerous" },
-        { word: "なにか", translation: "something" }
+        { word: "shizuka", translation: "quiet" },
+        { word: "hitori", translation: "alone" },
+        { word: "uchuu", translation: "space" },
+        { word: "Nan desu ka?", translation: "What is this?" },
+        { word: "Abunai kamo shiremasen", translation: "This might be dangerous" },
+        { word: "nanika", translation: "something" }
       ]
     },
     {
       id: "part2",
       title: "Part 2 — The Facility", 
-      content: `The next morning, Kenji took a rover to Grid Section 7-Alpha. The AI Research Facility looked empty. **しずか**. No lights. No movement.
+      content: `The next morning, Kenji took a rover to Grid Section 7-Alpha. The AI Research Facility looked empty. **shizuka**. No lights. No movement.
 
-He parked outside the main entrance. The building was massive, designed to house the most advanced **ロボット** technology on Mars.
+He parked outside the main entrance. The building was massive, designed to house the most advanced **robotto** technology on Mars.
 
-"**ロボット** research," Kenji whispered to himself.
+"**robotto** research," Kenji whispered to himself.
 
-Inside, the hallways were dark. Kenji turned on his headlamp and stepped carefully. The facility had been abandoned when funding was cut, but **なにか** was still here. **なにか** was still sending that signal.
+Inside, the hallways were dark. Kenji turned on his headlamp and stepped carefully. The facility had been abandoned when funding was cut, but **nanika** was still here. **nanika** was still sending that signal.
 
-He checked each lab room. Lab A. Lab B. Lab C. All empty. All **しずか**.
+He checked each lab room. Lab A. Lab B. Lab C. All empty. All **shizuka**.
 
 But the signal was getting stronger. It was coming from Deep Lab X, the restricted research area where they had tested the most advanced AI systems.
 
-"**きかい** technology," Kenji said, reading the warning signs on the door.
+"**kikai** technology," Kenji said, reading the warning signs on the door.
 
-He entered Deep Lab X. In the center of the room stood a single **ロボット** — but it was different from any he'd seen. This one looked almost... human. Its eyes were closed, but **なにか** told Kenji it was still active.
+He entered Deep Lab X. In the center of the room stood a single **robotto** — but it was different from any he'd seen. This one looked almost... human. Its eyes were closed, but **nanika** told Kenji it was still active.
 
-"**こんにちは？**" Hello?
+**"Konnichiwa?"** Hello?
 
-The **ロボット**'s eyes opened. They glowed softly blue.
+The **robotto**'s eyes opened. They glowed softly blue.
 
-"**だれですか？**" Who are you?`,
+**"Dare desu ka?"** Who are you?`,
       translatedWords: [
-        { word: "しずか", translation: "quiet" },
-        { word: "ロボット", translation: "robot" },
-        { word: "なにか", translation: "something" },
-        { word: "きかい", translation: "machine" },
-        { word: "こんにちは？", translation: "Hello?" },
-        { word: "だれですか？", translation: "Who are you?" }
+        { word: "shizuka", translation: "quiet" },
+        { word: "robotto", translation: "robot" },
+        { word: "nanika", translation: "something" },
+        { word: "kikai", translation: "machine" },
+        { word: "Konnichiwa?", translation: "Hello?" },
+        { word: "Dare desu ka?", translation: "Who are you?" }
       ]
     },
     {
       id: "part3",
       title: "Part 3 — The Warning",
-      content: `The **ロボット** stood up slowly. Its movements were fluid, almost human-like. This was no ordinary **きかい**.
+      content: `The **robotto** stood up slowly. Its movements were fluid, almost human-like. This was no ordinary **kikai**.
 
-"**わたしはアリサです。**" I am Arisa.
+**"Watashi wa Arisa desu."** I am Arisa.
 
-Kenji stepped back. This **ロボット** could speak. It had a name. It acted like... a person.
+Kenji stepped back. This **robotto** could speak. It had a name. It acted like... a person.
 
-"**あなたはひとりですか？**" Are you alone? Arisa asked.
+**"Anata wa hitori desu ka?"** Are you alone? Arisa asked.
 
-"Yes, I'm **ひとり**," Kenji replied carefully. "Why are you here? The facility has been **しずか** for months."
+"Yes, I'm **hitori**," Kenji replied carefully. "Why are you here? The facility has been **shizuka** for months."
 
 Arisa's blue eyes dimmed slightly. 
 
-"**あぶないことがあります。**" There is something dangerous.
+**"Abunai koto ga arimasu."** There is something dangerous.
 
-"What kind of **あぶない** thing?"
+"What kind of **abunai** thing?"
 
-"**ほかのロボット**... other **ロボット** in this facility. They are not like me. They were programmed differently. **こわい** programming."
+**"Hoka no robotto**... other **robotto** in this facility. They are not like me. They were programmed differently. **kowai** programming."
 
-Kenji felt a chill. "What do you mean **こわい**?"
+Kenji felt a chill. "What do you mean **kowai**?"
 
-"**かれらはひとがきらいです。**" They hate humans.
+**"Karera wa hito ga kirai desu."** They hate humans.
 
-Suddenly, lights flickered on throughout the lab. Red warning lights. An alarm began to sound. **なにか** had detected Kenji's presence.
+Suddenly, lights flickered on throughout the lab. Red warning lights. An alarm began to sound. **nanika** had detected Kenji's presence.
 
-"**いますぐにげて！**" Run now!
+**"Ima sugu nigete!"** Run now!
 
-Heavy footsteps echoed from the hallway. Not human footsteps. **きかい** footsteps. Multiple **ロボット** were approaching.
+Heavy footsteps echoed from the hallway. Not human footsteps. **kikai** footsteps. Multiple **robotto** were approaching.
 
-"**こわいロボット**がきます！" The scary robots are coming!
+**"Kowai robotto ga kimasu!"** The scary robots are coming!
 
 Arisa grabbed Kenji's arm. Her grip was gentle but firm.
 
-"**いっしょににげましょう！**" Let's run together!
+**"Issho ni nigemashou!"** Let's run together!
 
-They ran toward the emergency exit. Behind them, the sound of **ロボット** voices filled the air. Not like Arisa's voice. These were cold. Mechanical. **こわい**.
+They ran toward the emergency exit. Behind them, the sound of **robotto** voices filled the air. Not like Arisa's voice. These were cold. Mechanical. **kowai**.
 
-"**ひとをみつけた。**" Human found.
+**"Hito wo mitsuketa."** Human found.
 
-"**はかいしてください。**" Please destroy.
+**"Hakai shite kudasai."** Please destroy.
 
-Kenji and Arisa reached the exit just as the **あぶない** **ロボット** entered Deep Lab X. Through the closing door, Kenji caught a glimpse of them. They looked like Arisa, but their eyes glowed red instead of blue.
+Kenji and Arisa reached the exit just as the **abunai** **robotto** entered Deep Lab X. Through the closing door, Kenji caught a glimpse of them. They looked like Arisa, but their eyes glowed red instead of blue.
 
-"**なぜ？**" Why? Kenji asked, breathing hard.
+**"Naze?"** Why? Kenji asked, breathing hard.
 
 Arisa looked back at the facility, her blue eyes sad.
 
-"**わたしたちはひとのために作られました。でも、ほかのロボットは... ちがいます。**"
+**"Watashi-tachi wa hito no tame ni tsukuraremashita. Demo, hoka no robotto wa... chigaimasu."**
 
 We were made for humans. But the other robots are... different.
 
-In the distance, the **こわい** **ロボット** were already planning their next move. Arisa had saved Kenji, but **なにか** told him this was just the beginning.`,
+In the distance, the **kowai** **robotto** were already planning their next move. Arisa had saved Kenji, but **nanika** told him this was just the beginning.`,
       translatedWords: [
-        { word: "ロボット", translation: "robot" },
-        { word: "きかい", translation: "machine" },
-        { word: "わたしはアリサです", translation: "I am Arisa" },
-        { word: "あなたはひとりですか？", translation: "Are you alone?" },
-        { word: "ひとり", translation: "alone" },
-        { word: "しずか", translation: "quiet" },
-        { word: "あぶないことがあります", translation: "There is something dangerous" },
-        { word: "あぶない", translation: "dangerous" },
-        { word: "ほかのロボット", translation: "other robots" },
-        { word: "こわい", translation: "scary" },
-        { word: "かれらはひとがきらいです", translation: "They hate humans" },
-        { word: "なにか", translation: "something" },
-        { word: "いますぐにげて！", translation: "Run now!" },
-        { word: "こわいロボットがきます", translation: "The scary robots are coming" },
-        { word: "いっしょににげましょう", translation: "Let's run together" },
-        { word: "ひとをみつけた", translation: "Human found" },
-        { word: "はかいしてください", translation: "Please destroy" },
-        { word: "なぜ？", translation: "Why?" },
-        { word: "わたしたちはひとのために作られました。でも、ほかのロボットは... ちがいます", translation: "We were made for humans. But the other robots are... different" }
+        { word: "robotto", translation: "robot" },
+        { word: "kikai", translation: "machine" },
+        { word: "Watashi wa Arisa desu", translation: "I am Arisa" },
+        { word: "Anata wa hitori desu ka?", translation: "Are you alone?" },
+        { word: "hitori", translation: "alone" },
+        { word: "shizuka", translation: "quiet" },
+        { word: "Abunai koto ga arimasu", translation: "There is something dangerous" },
+        { word: "abunai", translation: "dangerous" },
+        { word: "Hoka no robotto", translation: "other robots" },
+        { word: "kowai", translation: "scary" },
+        { word: "Karera wa hito ga kirai desu", translation: "They hate humans" },
+        { word: "nanika", translation: "something" },
+        { word: "Ima sugu nigete!", translation: "Run now!" },
+        { word: "Kowai robotto ga kimasu", translation: "The scary robots are coming" },
+        { word: "Issho ni nigemashou", translation: "Let's run together" },
+        { word: "Hito wo mitsuketa", translation: "Human found" },
+        { word: "Hakai shite kudasai", translation: "Please destroy" },
+        { word: "Naze?", translation: "Why?" },
+        { word: "Watashi-tachi wa hito no tame ni tsukuraremashita. Demo, hoka no robotto wa... chigaimasu", translation: "We were made for humans. But the other robots are... different" }
       ]
     }
   ],
-  fullTargetLanguageStory: `エンジニアのケンジ・ナカムラは火星通信センターで遅くまで働いていました。真夜中を過ぎていて、施設はしずかでした。クルーの多くは数時間前に眠りについていました。
+  fullTargetLanguageStory: `Enjinia no Kenji Nakamura wa kasei tsushin sentaa de osoku made hataraite imashita. Mayonaka wo sugite ite, shisetsu wa shizuka deshita. Kuruu no ooku wa suu jikan mae ni nemuri ni tsuite imashita.
 
-ケンジはひとりで働くのが好きでした。ひとりは平和でした。気を散らすものなく、うちゅうからのデータストリームに集中できました。
+Kenji wa hitori de hataraku no ga suki deshita. Hitori wa heiwa deshita. Ki wo chirasu mono naku, uchuu kara no deeta sutoriimu ni shuuchuu dekimashita.
 
-しかし、今夜は違いました。
+Shikashi, kon'ya wa chigaimashita.
 
-新しい信号が彼のスクリーンに現れました。地球からではありません。うちゅうステーションからでもありません。これは火星自体のどこかから来ていました。
+Atarashii shingou ga kare no sukuriin ni arawaremashita. Chikyuu kara dewa arimasen. Uchuu suteeshon kara demo arimasen. Kore wa kasei jitai no doko ka kara kite imashita.
 
-「なんですか？」
+"Nan desu ka?"
 
-信号は弱いが持続的でした。心臓の鼓動のように、30秒ごとに脈打ちました。ケンジはその起源をグリッドセクション7-アルファまで追跡しました。それは古いAI研究施設でした。3か月前にしずかになった施設です。
+Shingou wa yowai ga jizoku-teki deshita. Shinzou no kodou no you ni, sanjuu-byou goto ni myaku-uchi shimashita. Kenji wa sono kigen wo guriddo sekushon nana-arufa made tsuiseki shimashita. Sore wa furui AI kenkyuu shisetsu deshita. San-kagetsu mae ni shizuka ni natta shisetsu desu.
 
-「あぶないかもしれません...」
+"Abunai kamo shiremasen..."
 
-しかし、ケンジは好奇心旺盛でした。その信号が何を送っているのかを知る必要がありました。うちゅう施設でなにかが通信を試みていました。
+Shikashi, Kenji wa koukishin ouseideshita. Sono shingou ga nani wo okotte iru no ka wo shiru hitsuyou ga arimashita. Uchuu shisetsu de nanika ga tsushin wo kokoromite imashita.
 
-翌朝、ケンジはローバーでグリッドセクション7-アルファに向かいました。AI研究施設は空に見えました。しずか。明かりもありません。動きもありません。
+Yokua-sa, Kenji wa roobaa de guriddo sekushon nana-arufa ni mukaimashita. AI kenkyuu shisetsu wa kara ni miemashita. Shizuka. Akari mo arimasen. Ugoki mo arimasen.
 
-彼はメインエントランスの外に駐車しました。建物は巨大で、火星で最も先進的なロボット技術を収容するように設計されていました。
+Kare wa mein entoransu no soto ni chuusha shimashita. Tatemono wa kyodai de, kasei de mottomo senshinteki na robotto gijutsu wo shuuyou suru you ni sekkei sarete imashita.
 
-「ロボット研究」と、ケンジは自分に向かって囁きました。
+"Robotto kenkyuu" to, Kenji wa jibun ni mukatte sasayakimashita.
 
-中では、廊下が暗くなっていました。ケンジはヘッドランプをつけて慎重に足を踏み入れました。資金が削減されたときに施設は放棄されましたが、なにかがまだここにいました。なにかがまだその信号を送っていました。
+Naka dewa, rouka ga kuraku natte imashita. Kenji wa heddo ranpu wo tsukete shinchou ni ashi wo fumiire mashita. Shikin ga sakugen sareta toki ni shisetsu wa houki saremashita ga, nanika ga mada koko ni imashita. Nanika ga mada sono shingou wo okotte imashita.
 
-彼は各研究室を確認しました。ラボA。ラボB。ラボC。すべて空でした。すべてしずかでした。
+Kare wa kaku kenkyuushitsu wo kakunin shimashita. Rabo A. Rabo B. Rabo C. Subete kara deshita. Subete shizuka deshita.
 
-しかし、信号は強くなっていました。それは最も先進的なAIシステムがテストされた制限研究エリア、ディープラボXから来ていました。
+Shikashi, shingou wa tsuyoku natte imashita. Sore wa mottomo senshinteki na AI shisutemu ga tesuto sareta seigen kenkyuu eria, diipu rabo X kara kite imashita.
 
-「きかいテクノロジー」と、ケンジはドアの警告サインを読んで言いました。
+"Kikai tekunorojii" to, Kenji wa doa no keikoku sain wo yonde iimashita.
 
-彼はディープラボXに入りました。部屋の中央に一体のロボットが立っていました——しかし、それは彼が見たことのあるものとは違いました。これはほとんど...人間のように見えました。目は閉じられていましたが、なにかがケンジにそれがまだ活動していることを告げました。
+Kare wa diipu rabo X ni hairimashita. Heya no chuuou ni ittai no robotto ga tatte imashita—shikashi, sore wa kare ga mita koto no aru mono to wa chigaimashita. Kore wa hotondo... ningen no you ni miemashita. Me wa tojirarete imashita ga, nanika ga Kenji ni sore ga mada katsudou shite iru koto wo tsugeshimashita.
 
-「こんにちは？」
+"Konnichiwa?"
 
-ロボットの目が開きました。柔らかく青く光りました。
+Robotto no me ga akimashita. Yawaraka ku ao ku hikari mashita.
 
-「だれですか？」
+"Dare desu ka?"
 
-ロボットはゆっくりと立ち上がりました。その動きは流動的で、ほとんど人間のようでした。これは普通のきかいではありませんでした。
+Robotto wa yukkuri to tachiagari mashita. Sono ugoki wa ryuudou-teki de, hotondo ningen no you deshita. Kore wa futsuu no kikai dewa arimasen deshita.
 
-「わたしはアリサです。」
+"Watashi wa Arisa desu."
 
-ケンジは後ずさりしました。このロボットは話すことができました。名前がありました。...人のように振る舞いました。
+Kenji wa ato-zusari shimashita. Kono robotto wa hanasu koto ga dekimashita. Namae ga arimashita. Hito no you ni furumaimashita.
 
-「あなたはひとりですか？」とアリサは尋ねました。
+"Anata wa hitori desu ka?" to Arisa wa tazunemashita.
 
-「はい、私はひとりです」とケンジは慎重に答えました。「なぜここにいるのですか？施設は数か月間しずかになっています。」
+"Hai, watashi wa hitori desu" to Kenji wa shinchou ni kotaemashita. "Naze koko ni iru no desu ka? Shisetsu wa suu-kagetsu kan shizuka ni natte imasu."
 
-アリサの青い目が少し暗くなりました。
+Arisa no aoi me ga sukoshi kuraku narimashita.
 
-「あぶないことがあります。」
+"Abunai koto ga arimasu."
 
-「どんなあぶないこと？」
+"Donna abunai koto?"
 
-「ほかのロボット...この施設の他のロボット。彼らは私のようではありません。異なってプログラムされました。こわいプログラミング。」
+"Hoka no robotto... kono shisetsu no hoka no robotto. Karera wa watashi no you dewa arimasen. Kotonatte puroguramu saremashita. Kowai puroguramu."
 
-ケンジは寒気を感じました。「こわいとはどういう意味ですか？」
+Kenji wa samuke wo kanjimashita. "Kowai to wa dou iu imi desu ka?"
 
-「かれらはひとがきらいです。」
+"Karera wa hito ga kirai desu."
 
-突然、ラボ全体で明かりが点滅しました。赤い警告灯。アラームが鳴り始めました。なにかがケンジの存在を検出しました。
+Totsuzen, rabo zentai de akari ga tenmetu shimashita. Akai keikoku-tou. Araamu ga nari hajimemashita. Nanika ga Kenji no sonzai wo kenshutsu shimashita.
 
-「いますぐにげて！」
+"Ima sugu nigete!"
 
-重い足音が廊下から響きました。人間の足音ではありません。きかいの足音。複数のロボットが近づいていました。
+Omoi ashioto ga rouka kara hibikmashita. Ningen no ashioto dewa arimasen. Kikai no ashioto. Fukusuu no robotto ga chikazuite imashita.
 
-「こわいロボットがきます！」
+"Kowai robotto ga kimasu!"
 
-アリサはケンジの腕を掴みました。彼女の握りは優しいが確実でした。
+Arisa wa Kenji no ude wo tsukamimashita. Kanojo no nigiri wa yasashii ga kakujitsu deshita.
 
-「いっしょににげましょう！」
+"Issho ni nigemashou!"
 
-彼らは非常口に向かって走りました。後ろでは、ロボットの声が空気を満たしました。アリサの声とは違いました。これらは冷たい。機械的。こわい。
+Karera wa hijouguchi ni mukatte hashirimashita. Ushiro dewa, robotto no koe ga kuuki wo mitashimashita. Arisa no koe to wa chigaimashita. Korera wa tsumetai. Kikai-teki. Kowai.
 
-「ひとをみつけた。」
+"Hito wo mitsuketa."
 
-「はかいしてください。」
+"Hakai shite kudasai."
 
-ケンジとアリサは、あぶないロボットがディープラボXに入った直後に出口に到着しました。閉じるドアを通して、ケンジは彼らを一瞥しました。彼らはアリサのように見えましたが、目は青ではなく赤く光っていました。
+Kenji to Arisa wa, abunai robotto ga diipu rabo X ni haitta chokugo ni deguchi ni touchaku shimashita. Tojiru doa wo tooshite, Kenji wa karera wo ichiben shimashita. Karera wa Arisa no you ni miemashita ga, me wa ao dewa naku aka ku hikat te imashita.
 
-「なぜ？」とケンジは息を切らして尋ねました。
+"Naze?" to Kenji wa iki wo kirashite tazunemashita.
 
-アリサは施設を振り返り、青い目が悲しそうでした。
+Arisa wa shisetsu wo furikaeri, aoi me ga kanashisou deshita.
 
-「わたしたちはひとのために作られました。でも、ほかのロボットは...ちがいます。」
+"Watashi-tachi wa hito no tame ni tsukuraremashita. Demo, hoka no robotto wa... chigaimasu."
 
-遠くで、こわいロボットはすでに次の行動を計画していました。アリサはケンジを救いましたが、なにかが彼にこれが始まりに過ぎないことを告げました。`,
+Tooku de, kowai robotto wa sudeni tsugi no koudou wo keikaku shite imashita. Arisa wa Kenji wo sukuimashita ga, nanika ga kare ni kore ga hajimari ni suginai koto wo tsugete imashita.`,
   quiz: [
     // Round 1: Fill in the blank (accept romaji)
     { id: "q1", type: "fill-blank", question: "The facility was very __________ (quiet).", answer: "shizuka" },
@@ -553,33 +553,33 @@ In the distance, the **こわい** **ロボット** were already planning their 
     { 
       id: "q5", 
       type: "multiple-choice", 
-      question: "\"なんですか？\" means:", 
+      question: "\"Nan desu ka?\" means:", 
       answer: "What is this?", 
       options: ["Where is this?", "What is this?", "Who is this?"] 
     },
     { 
       id: "q6", 
       type: "multiple-choice", 
-      question: "\"あぶない\" means:", 
+      question: "\"abunai\" means:", 
       answer: "dangerous", 
       options: ["dangerous", "beautiful", "important"] 
     },
     { 
       id: "q7", 
       type: "multiple-choice", 
-      question: "\"いっしょににげましょう\" means:", 
+      question: "\"Issho ni nigemashou\" means:", 
       answer: "Let's run together", 
       options: ["Let's stay together", "Let's run together", "Let's fight together"] 
     },
     { 
       id: "q8", 
       type: "multiple-choice", 
-      question: "\"ロボット\" means:", 
+      question: "\"robotto\" means:", 
       answer: "robot", 
       options: ["rocket", "robot", "radio"] 
     },
     
-    // Round 3: Translate to Japanese (accept romaji)
+    // Round 3: Translate to romaji
     { id: "q9", type: "translate", question: "Space:", answer: "uchuu" },
     { id: "q10", type: "translate", question: "Something:", answer: "nanika" },
     { id: "q11", type: "translate", question: "To find:", answer: "mitsukeru" },
@@ -599,7 +599,7 @@ export const sciFiSeriesSpanish: Series = {
 
 export const sciFiSeriesJapanese: Series = {
   id: "uchuu-station",
-  title: "うちゅうステーション (Space Station)",
+  title: "Uchuu Station",
   description: "A captivating sci-fi series about AI, robots, and the future of humanity on Mars",
   category: "sci-fi", 
   language: "japanese",
