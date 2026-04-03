@@ -606,8 +606,106 @@ export const sciFiSeriesJapanese: Series = {
   episodes: [uchuuStationEpisode1]
 };
 
-// All series (for future expansion)
-export const allSeries: Series[] = [sciFiSeriesSpanish, sciFiSeriesJapanese];
+// === NEW STORY IMPORTS ===
+import { sportsSeriesSpanish, techSeriesSpanish, futureSeriesSpanish, creativeSeriesSpanish } from './spanish-new';
+import { leMatchEpisode, leProgrammeEpisode, laVilleDeDemainEpisode, leChefDoeuvreEpisode } from './french-new';
+import { laPartitaEpisode, ilProgrammaEpisode, laCittaDelFuturoEpisode, ilCapolavoroEpisode } from './italian-new';
+
+// French series
+export const sportsSeriesFrench: Series = {
+  id: 'le-match',
+  title: 'Le Match',
+  description: 'A basketball championship story about courage and teamwork',
+  category: 'sports',
+  language: 'french' as any,
+  episodes: [leMatchEpisode]
+};
+
+export const techSeriesFrench: Series = {
+  id: 'le-programme',
+  title: 'Le Programme',
+  description: 'A hackathon adventure building a recycling robot',
+  category: 'tech',
+  language: 'french' as any,
+  episodes: [leProgrammeEpisode]
+};
+
+export const futureSeriesFrench: Series = {
+  id: 'la-ville-de-demain',
+  title: 'La Ville de Demain',
+  description: 'A futuristic adventure in Néo-Lyon, 2089',
+  category: 'future',
+  language: 'french' as any,
+  episodes: [laVilleDeDemainEpisode]
+};
+
+export const creativeSeriesFrench: Series = {
+  id: 'le-chef-doeuvre',
+  title: "Le Chef-d'œuvre",
+  description: 'A street artist finds their voice in Paris',
+  category: 'creative',
+  language: 'french' as any,
+  episodes: [leChefDoeuvreEpisode]
+};
+
+// Italian series
+export const sportsSeriesItalian: Series = {
+  id: 'la-partita',
+  title: 'La Partita',
+  description: 'A young soccer player tries out for AS Roma',
+  category: 'sports',
+  language: 'italian' as any,
+  episodes: [laPartitaEpisode]
+};
+
+export const techSeriesItalian: Series = {
+  id: 'il-programma',
+  title: 'Il Programma',
+  description: 'A kid builds a pizza delivery drone for a tech fair',
+  category: 'tech',
+  language: 'italian' as any,
+  episodes: [ilProgrammaEpisode]
+};
+
+export const futureSeriesItalian: Series = {
+  id: 'la-citta-del-futuro',
+  title: 'La Città del Futuro',
+  description: 'A mystery in 2087 Milano',
+  category: 'future',
+  language: 'italian' as any,
+  episodes: [laCittaDelFuturoEpisode]
+};
+
+export const creativeSeriesItalian: Series = {
+  id: 'il-capolavoro',
+  title: 'Il Capolavoro',
+  description: 'A young artist discovers her voice in Florence',
+  category: 'creative',
+  language: 'italian' as any,
+  episodes: [ilCapolavoroEpisode]
+};
+
+// All series
+export const allSeries: Series[] = [
+  // Sci-Fi (existing)
+  sciFiSeriesSpanish,
+  sciFiSeriesJapanese,
+  // Spanish (new)
+  sportsSeriesSpanish,
+  techSeriesSpanish,
+  futureSeriesSpanish,
+  creativeSeriesSpanish,
+  // French (new)
+  sportsSeriesFrench,
+  techSeriesFrench,
+  futureSeriesFrench,
+  creativeSeriesFrench,
+  // Italian (new)
+  sportsSeriesItalian,
+  techSeriesItalian,
+  futureSeriesItalian,
+  creativeSeriesItalian,
+];
 
 // Helper functions
 export function getSeriesById(id: string): Series | undefined {
@@ -617,4 +715,12 @@ export function getSeriesById(id: string): Series | undefined {
 export function getEpisodeById(seriesId: string, episodeId: string): Episode | undefined {
   const series = getSeriesById(seriesId);
   return series?.episodes.find(episode => episode.id === episodeId);
+}
+
+export function getSeriesByCategory(category: string): Series[] {
+  return allSeries.filter(series => series.category === category);
+}
+
+export function getSeriesByLanguage(language: string): Series[] {
+  return allSeries.filter(series => series.language === language);
 }
