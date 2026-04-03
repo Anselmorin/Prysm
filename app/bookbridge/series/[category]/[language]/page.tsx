@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { CATEGORIES, LANGUAGES, futureSeries, type Category, type Language } from "../../../data";
+import { allSeries as storySeriesList } from "../../../stories/data";
 
 export function generateStaticParams() {
   const params: { category: string; language: string }[] = [];
@@ -27,6 +28,11 @@ export default async function SeriesPage({ params }: { params: Promise<{ categor
   const isFuture = category === "future";
   const series = isFuture ? futureSeries[language as Language] : null;
 
+  // Find bilingual story series for this category + language
+  const storySeries = storySeriesList.filter(
+    (s) => s.category === category && s.language === language
+  );
+
   return (
     <div className="min-h-screen relative overflow-hidden">
       <div className="absolute top-0 left-0 w-[400px] h-[400px] rounded-full blur-[120px] opacity-10 bg-purple-600 pointer-events-none" />
@@ -53,8 +59,46 @@ export default async function SeriesPage({ params }: { params: Promise<{ categor
           </p>
         </div>
 
+        {/* Bilingual story series */}
+        {storySeries.length > 0 && (
+          <div className="mb-8">
+            <h2 className="text-xl font-bold mb-4">📖 Interactive Stories</h2>
+            <div className="grid gap-4">
+              {storySeries.map((s) =>
+                s.episodes.map((ep) => (
+                  <Link
+                    key={`${s.id}-${ep.id}`}
+                    href={`/bookbridge/story/${s.id}/${ep.id}`}
+                    className="rounded-xl border border-[var(--prysm-border)] bg-[var(--prysm-surface)] p-5 hover:border-purple-500/50 transition-colors block"
+                  >
+                    <h3 className="font-semibold text-lg mb-1">{ep.title}</h3>
+                    <p className="text-sm text-[var(--prysm-muted)] mb-3">{ep.description}</p>
+                    <div className="flex flex-wrap gap-2">
+                      {ep.vocab.slice(0, 5).map((v) => (
+                        <span
+                          key={v.word}
+                          className="text-xs px-2 py-1 rounded-full bg-purple-500/10 text-purple-400 border border-purple-500/20"
+                        >
+                          {v.word}
+                        </span>
+                      ))}
+                      {ep.vocab.length > 5 && (
+                        <span className="text-xs px-2 py-1 rounded-full bg-purple-500/10 text-purple-400">
+                          +{ep.vocab.length - 5} more
+                        </span>
+                      )}
+                    </div>
+                  </Link>
+                ))
+              )}
+            </div>
+          </div>
+        )}
+
+        {/* Chapter-based series (Future category) */}
         {series ? (
           <div className="grid gap-6">
+            <h2 className="text-xl font-bold">📚 Structured Lessons</h2>
             {series.chapters.map((ch) => (
               <div
                 key={ch.number}
@@ -80,7 +124,7 @@ export default async function SeriesPage({ params }: { params: Promise<{ categor
               </div>
             ))}
           </div>
-        ) : (
+        ) : storySeries.length === 0 ? (
           <div className="rounded-xl border border-purple-500/20 bg-purple-500/5 p-12 text-center">
             <div className="text-5xl mb-4">🚧</div>
             <h2 className="text-xl font-bold mb-2">Coming Soon</h2>
@@ -88,7 +132,7 @@ export default async function SeriesPage({ params }: { params: Promise<{ categor
               This series is currently being developed. Check back soon for content!
             </p>
           </div>
-        )}
+        ) : null}
       </section>
     </div>
   );
