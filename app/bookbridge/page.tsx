@@ -25,10 +25,10 @@ export default function BookBridgePage() {
           Literature-Powered Learning
         </p>
         <p className="text-xl text-[var(--prysm-muted)] mb-4 max-w-lg">
-          Pick a book you love. We&apos;ll match you to a language learning series inspired by its themes.
+          Choose your favorite book from our library.
         </p>
         <p className="text-sm text-[var(--prysm-muted)] leading-relaxed mb-10 max-w-md">
-          Browse our library of popular books, choose one that excites you, and unlock curated language courses in Spanish, French, Italian, or Japanese — all themed around what you already enjoy reading.
+          We&apos;ll match it to a category, then drop you into interactive bilingual stories themed around what you already love reading — in Spanish, French, Italian, or Japanese.
         </p>
         <Link
           href="/bookbridge/library"
