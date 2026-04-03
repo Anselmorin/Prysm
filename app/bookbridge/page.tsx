@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { CATEGORIES } from "./data";
+import { CATEGORIES, LANGUAGES } from "./data";
+import { allSeries } from "./stories/data";
 
 export default function BookBridgePage() {
   return (
@@ -62,86 +63,38 @@ export default function BookBridgePage() {
       {/* Stories */}
       <section className="relative z-10 max-w-4xl mx-auto px-6 pb-20">
         <h2 className="text-center text-2xl font-bold mb-3">Stories</h2>
-        <p className="text-center text-[var(--prysm-muted)] text-sm mb-10 max-w-md mx-auto">
-          Interactive bilingual stories for immersive language learning.
+        <p className="text-center text-[var(--prysm-muted)] text-sm mb-3 max-w-md mx-auto">
+          {allSeries.length} interactive bilingual stories across {CATEGORIES.length} categories and {LANGUAGES.length} languages.
         </p>
-        <div className="grid gap-6 max-w-2xl mx-auto">
-          <Link 
-            href="/bookbridge/story/la-estacion/arrival"
-            className="group bg-[var(--prysm-surface)] border border-[var(--prysm-border)] rounded-xl p-6 hover:border-purple-400 transition-colors"
-          >
-            <div className="flex items-start gap-4">
-              <div className="text-3xl">🚀</div>
-              <div className="flex-1">
-                <h3 className="font-bold text-lg mb-2 group-hover:text-purple-400 transition-colors">
-                  La Estación
-                </h3>
-                <p className="text-[var(--prysm-muted)] text-sm mb-3 leading-relaxed">
-                  A thrilling sci-fi series about Captain Mara Chen's mysterious discovery on Station Orion-7. 
-                  Learn Spanish through gradually increasing bilingual text.
-                </p>
-                <div className="flex items-center gap-3 text-xs">
-                  <span className="px-2 py-1 bg-purple-500/20 text-purple-400 rounded">Sci-Fi</span>
-                  <span className="px-2 py-1 bg-purple-500/20 text-purple-400 rounded">Spanish</span>
-                  <span className="text-[var(--prysm-muted)]">Episode 1: Arrival</span>
+        <p className="text-center text-[var(--prysm-muted)] text-xs mb-10 max-w-md mx-auto">
+          Pick a category below to start learning.
+        </p>
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-2xl mx-auto">
+          {CATEGORIES.map((cat) => {
+            const count = allSeries.filter(s => s.category === cat.id).length;
+            return (
+              <div key={cat.id} className="rounded-xl border border-[var(--prysm-border)] bg-[var(--prysm-surface)] p-4 text-center">
+                <div className="text-3xl mb-2">{cat.icon}</div>
+                <h3 className="font-semibold text-sm mb-1">{cat.label}</h3>
+                <p className="text-xs text-[var(--prysm-muted)] mb-3">{count} stories</p>
+                <div className="flex flex-wrap justify-center gap-1">
+                  {LANGUAGES.map((lang) => {
+                    const has = allSeries.some(s => s.category === cat.id && s.language === lang.id);
+                    return has ? (
+                      <Link
+                        key={lang.id}
+                        href={`/bookbridge/series/${cat.id}/${lang.id}`}
+                        className="text-lg hover:scale-110 transition-transform"
+                        title={lang.label}
+                      >
+                        {lang.flag}
+                      </Link>
+                    ) : null;
+                  })}
                 </div>
               </div>
-              <div className="text-[var(--prysm-muted)] group-hover:text-purple-400 transition-colors">
-                →
-              </div>
-            </div>
-          </Link>
-          <Link 
-            href="/bookbridge/story/uchuu-station/hakken"
-            className="group bg-[var(--prysm-surface)] border border-[var(--prysm-border)] rounded-xl p-6 hover:border-purple-400 transition-colors"
-          >
-            <div className="flex items-start gap-4">
-              <div className="text-3xl">🤖</div>
-              <div className="flex-1">
-                <h3 className="font-bold text-lg mb-2 group-hover:text-purple-400 transition-colors">
-                  うちゅうステーション (Space Station)
-                </h3>
-                <p className="text-[var(--prysm-muted)] text-sm mb-3 leading-relaxed">
-                  Engineer Kenji Nakamura discovers a mysterious AI signal on Mars that leads to dangerous robots and a friendly AI named Arisa. 
-                  Learn Japanese through hiragana, katakana, and engaging sci-fi adventure.
-                </p>
-                <div className="flex items-center gap-3 text-xs">
-                  <span className="px-2 py-1 bg-red-500/20 text-red-400 rounded">Sci-Fi</span>
-                  <span className="px-2 py-1 bg-red-500/20 text-red-400 rounded">Japanese</span>
-                  <span className="text-[var(--prysm-muted)]">Episode 1: Discovery</span>
-                </div>
-              </div>
-              <div className="text-[var(--prysm-muted)] group-hover:text-purple-400 transition-colors">
-                →
-              </div>
-            </div>
-          </Link>
-          
-          <Link 
-            href="/bookbridge/story/la-stazione/underground"
-            className="group bg-[var(--prysm-surface)] border border-[var(--prysm-border)] rounded-xl p-6 hover:border-purple-400 transition-colors"
-          >
-            <div className="flex items-start gap-4">
-              <div className="text-3xl">🔬</div>
-              <div className="flex-1">
-                <h3 className="font-bold text-lg mb-2 group-hover:text-purple-400 transition-colors">
-                  La Stazione
-                </h3>
-                <p className="text-[var(--prysm-muted)] text-sm mb-3 leading-relaxed">
-                  A haunting sci-fi mystery about Dr. Elena Rossi's disturbing discovery beneath Mars' surface.
-                  Learn Italian through an engaging bilingual narrative.
-                </p>
-                <div className="flex items-center gap-3 text-xs">
-                  <span className="px-2 py-1 bg-green-500/20 text-green-400 rounded">Sci-Fi</span>
-                  <span className="px-2 py-1 bg-green-500/20 text-green-400 rounded">Italian</span>
-                  <span className="text-[var(--prysm-muted)]">Episode 1: Underground</span>
-                </div>
-              </div>
-              <div className="text-[var(--prysm-muted)] group-hover:text-purple-400 transition-colors">
-                →
-              </div>
-            </div>
-          </Link>
+            );
+          })}
         </div>
       </section>
 

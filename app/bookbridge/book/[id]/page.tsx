@@ -97,28 +97,24 @@ export default function BookDetailPage() {
           {hasValidCategories ? categories.map((cat) => {
             const catInfo = CATEGORIES.find((c) => c.id === cat);
             if (!catInfo) return null;
-            const hasSeries = cat === "future" || curatedBook;
             return (
               <div key={cat} className="rounded-xl border border-[var(--prysm-border)] bg-[var(--prysm-surface)] p-6">
                 <h3 className="text-lg font-semibold mb-4">
                   {catInfo.icon} {catInfo.label} Series
                 </h3>
-                {hasSeries ? (
-                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-                    {LANGUAGES.map((lang) => (
-                      <Link
-                        key={lang.id}
-                        href={`/bookbridge/series/${cat}/${lang.id}`}
-                        className="flex items-center gap-2 px-4 py-3 rounded-lg border border-purple-500/20 bg-purple-500/5 hover:bg-purple-500/15 transition-colors"
-                      >
-                        <span className="text-xl">{lang.flag}</span>
-                        <span className="text-sm font-medium">{lang.label}</span>
-                      </Link>
-                    ))}
-                  </div>
-                ) : (
-                  <p className="text-sm text-[var(--prysm-muted)]">🚧 Coming Soon — Series for this category are in development.</p>
-                )}
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                  {LANGUAGES.map((lang) => (
+                    <Link
+                      key={lang.id}
+                      href={`/bookbridge/series/${cat}/${lang.id}`}
+                      className="flex items-center gap-2 px-4 py-3 rounded-lg border border-purple-500/20 bg-purple-500/5 hover:bg-purple-500/15 transition-colors"
+                    >
+                      <span className="text-xl">{lang.flag}</span>
+                      <span className="text-sm font-medium">{lang.label}</span>
+                    </Link>
+                  ))}
+                </div>
+              )
               </div>
             );
           }) : (
