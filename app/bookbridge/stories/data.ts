@@ -610,6 +610,7 @@ export const sciFiSeriesJapanese: Series = {
 import { sportsSeriesSpanish, techSeriesSpanish, futureSeriesSpanish, creativeSeriesSpanish } from './spanish-new';
 import { leMatchEpisode, leProgrammeEpisode, laVilleDeDemainEpisode, leChefDoeuvreEpisode } from './french-new';
 import { laPartitaEpisode, ilProgrammaEpisode, laCittaDelFuturoEpisode, ilCapolavoroEpisode } from './italian-new';
+import { sportsSeries as sportsSeriesJapanese, techSeries as techSeriesJapanese, futureSeries as futureSeriesJapaneseNew, creativeSeries as creativeSeriesJapanese } from './japanese-new';
 
 // French series
 export const sportsSeriesFrench: Series = {
@@ -705,6 +706,11 @@ export const allSeries: Series[] = [
   techSeriesItalian,
   futureSeriesItalian,
   creativeSeriesItalian,
+  // Japanese (new)
+  sportsSeriesJapanese,
+  techSeriesJapanese,
+  futureSeriesJapaneseNew,
+  creativeSeriesJapanese,
 ];
 
 // Helper functions
